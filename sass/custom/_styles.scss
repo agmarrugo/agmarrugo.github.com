@@ -1,2 +1,13 @@
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
+/*// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much*/
+
+/* ----- main layout ----- */
+
+
+html { background: #262C33 url("/images/asfalt.png"); }
+
+body { font-size: 1em; }
+
+body > div { background-image: none; }
+
+body > div > div { background-image: none; }
