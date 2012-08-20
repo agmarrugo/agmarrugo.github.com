@@ -6,8 +6,4 @@ comments: true
 categories: general
 ---
 
-This is my first post on my [octopress](http://octopress.org/) powered blog. This is some code
-
-	git add .
-	git commit -m 'your message'
-	git push origin source
+This is my first post on my [octopress](http://octopress.org/) powered blog.
