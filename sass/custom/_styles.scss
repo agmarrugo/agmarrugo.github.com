@@ -184,3 +184,52 @@ body > footer{
       border-radius: 6px;
   }
 }
+
+/*For unordered lists*/
+ul {
+	padding-left: $pad-min
+}
+
+/*For footnotes ref*/
+sup{
+  vertical-align: super;
+  font-size: 0.7em;
+}
+
+/*#content sup, sub { 
+  vertical-align: 0ex;
+  position: relative; }
+#content sup { bottom: 1ex; }
+#content sub { top: 0.8ex; }*/
+
+div.footnotes {
+	font-size: 0.7em;
+/*   padding-left: $pad-min;*/
+	hr {
+/*	padding-left: 0px;*/
+    	border: none;
+    	background-color: #ccc;
+    	color: #ccc;
+    	height: 1px;
+	}
+	ol {
+		padding: 0px 5px 5px 50px;
+	}
+}
+
+/*Foonotify styling*/
+#footnotify_targets_holder,
+#footnotify_holder,
+#footnotify_arrow{
+  background-image: none;
+}
+
+#footnotify_arrow,
+#footnotify_holder{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
