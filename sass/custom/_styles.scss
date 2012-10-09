@@ -189,8 +189,12 @@ body > footer{
   }
 }
 
-/*For unordered lists*/
+/*For unordered and ordered lists*/
 ul {
+	padding-left: $pad-min
+}
+
+ol {
 	padding-left: $pad-min
 }
 
