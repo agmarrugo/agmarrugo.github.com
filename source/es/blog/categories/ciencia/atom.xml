@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ciencia | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/ciencia/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/es//"/>
+  <updated>2012-10-18T22:56:18+02:00</updated>
+  <id>http://andresmarrugo.net/es//</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[La tortura de esperar]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/09/23/la-tortura-de-esperar/"/>
+    <updated>2012-09-23T11:18:00+02:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/09/23/la-tortura-de-esperar</id>
+    <content type="html"><![CDATA[<p>Hace unos días leí un articulo en el New York Times acerca de la <a href="http://www.nytimes.com/2012/08/19/opinion/sunday/why-waiting-in-line-is-torture.html?_r=1">tortura de esperar</a>, en particular cómo se nos hace eterno el tiempo si no estamos haciendo algo en concreto. De manera contraria, cuando estamos entretenidos la sensación es que el tiempo transcurre mucho más rápido.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<!--more-->
+
+<p>El ejemplo que pusieron en el artículo me  llamó mucho la atención en cuanto revela cosas propias del comportamiento  humano. En el aeropuerto de Houston solían  recibir demasiadas quejas por la larga espera al recoger el equipaje. Como respuesta, los directivos contrataron a más personas y el tiempo promedio de espera se redujo a 8 minutos, un tiempo excelente de acuerdo a los estándares internacionales. Pero las quejas continuaron. </p>
+
+<p>En definitiva, resolvieron el problema trasladando las puertas de llegada al terminal de tal manera que los pasajeros debían caminar mucho más (de hecho, seis veces más) y tardaban unos 15 minutos hasta llegar a las cintas para recoger su equipaje. Por supuesto, al llegar a las cintas las maletas ya estaban esperándoles y como dato curioso cesaron las quejas. </p>
+
+<p>El articulo continua al incluir resultados de investigaciones en este área del comportamiento humano y revela cuestiones interesantes como la percepción que tenemos del tiempo cuando estamos en una cola. Si la cola es larguísima, y muy a pesar de estar avanzando rápido, nos haremos a la idea que tardaremos mucho. Por eso en los parques de atracciones esconden las colas en forma de espirales, para darnos la sensación que es más corta de lo que parece. La verdad recomiendo que lean el articulo, pues revela cuestiones curiosas del comportamiento humano. Cuestiones que aunque sabiéndolas a ciencia cierta seguiremos repitiendo porque hacen parte de nuestra percepción y de lo que somos. Para nosotros el mundo <em>es</em> lo que parece y nunca al contrario.  </p>
+<div class="footnotes"><hr>
+  <ol>
+    <li id="fn:1">
+      <p>Algunos hasta asegurarían que de esto se trata la relatividad. Pero no, esto es un puro efecto psicológico que parece estar incrustado en nosotros.  <a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hay que ser pobres para innovar]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar/"/>
+    <updated>2012-09-19T00:04:00+02:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar</id>
+    <content type="html"><![CDATA[<p>Hace unos días en la reunión nacional de óptica asistí a una charla interesantísima sobre sensores 3D presentada por el profesor <a href="http://www.optik.uni-erlangen.de/osmin/team/team.php?sid=3">Gerd Häusler</a> de la universidad Friedrich-Alexander en Erlangen (Alemania). Al comenzar la charla hizo algo curioso. Dedicó los primero minutos de la charla a enviar un mensaje especialmente dirigido a los políticos y de manera seguida lanzó unos consejos para los jóvenes investigadores. Por su puesto en el evento no había la mas mínima representación política y estoy seguro que todos los presentes estuvimos de acuerdo con su llamado de atención. De todas maneras comparto aquí el mensaje con el afán de darle algo de divulgación. Para los dirigentes políticos lanzó la siguiente frase </p>
+
+<blockquote>
+  <p>Si la educación es costosa, prueba la ignorancia. </p>
+
+  <p>– <strong>Gerd Häusler</strong>, XRNO Zaragoza, 2012</p>
+</blockquote>
+
+<!--more-->
+
+<p>Me parece que el mensaje es lo suficientemente claro, aunque pareciera que a muchos políticos les costara de entender. En esta línea de criticas mostró una gráfica  al referirse sobre el desarrollo de un país y la relación entre el éxito versus el tiempo invertido en la formación académica. Como tal, el éxito sólo se consigue tras la dedicación de mucho tiempo y esfuerzo. ¿Qué crees que pasaría si cortásemos el proceso de formación? Pues tendríamos el mercado laboral repleto de profesionales a medio hacer, cuyo curriculum además de la falta de experiencia también deberían agregarle la falta de formación. A dicho corte le llaman el “Bologna cut-off” en relación al controvertido <a href="http://es.wikipedia.org/wiki/Proceso_de_Bolonia">proceso de Bolonia</a> y el Espacio Europeo de educación superior.</p>
+
+<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8001074285/" title="Success vs time by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8453/8001074285_d3ed7ea9d2_m.jpg" width="240" height="97" alt="Success vs time" /></a><br />
+Éxito vs. tiempo.</div>
+
+<p>Después de las criticas correspondientes para la clase dirigente, enfatizó en que no debemos obstinarnos por conseguir dinero, sino intentar mantenernos activos y curiosos para poder disfrutar de lo que hacemos. Según él, al estar siempre tras el dinero perdemos la perspectiva de por qué nos metimos inicialmente en la ciencia y en esto estoy completamente de acuerdo. No hay que perder la perspectiva, ni la esencia de lo que somos. Hay que mantenerse fieles a nuestros principios, pero con la mente abierta para enderezarlos cuando sea oportuno.</p>
+
+<p>Por último y para el deleite de los asistentes insistió en que la formula para ser innovadores pasa por <em>ser pobres</em>. Vaya frase y vaya momento para insistir en ello. Aunque no sea tan evidente esta última anotación, resulta por lo menos llamativa en cuanto hace alusión a una de las cualidades más sorprendentes del ser humano<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, nuestra capacidad para inventar e innovar. Parece ser que cuando nos encontramos ante verdaderas adversidades, nuestra capacidad para innovar y producir soluciones óptimas es lo que nos conduce a superarnos y solventar las dificultades. Con tanto recorte en Europa, parece que no hubo antes mejor momento para dedicarse a innovar y pensar en hacer las cosas de una manera diferente. ¿Qué piensas tu?</p>
+
+<div class="footnotes"><hr>
+  <ol>
+    <li id="fn:1">
+      <p>Tan sólo hace unos cuantos días escribí al respecto, sobre <a href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/">lo que somos y como admiro el intelecto humano</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
