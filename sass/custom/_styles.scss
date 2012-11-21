@@ -143,10 +143,11 @@ body > footer{
 @media only screen and (min-width: 992px) {
   body { font-size: 1em; }
   h1 { font-size: 1.8em; line-height: 1.2em; }
+  
 }
 
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 640px) {
 
   body > header h1{
 /*      background: url("/favicon.png") no-repeat 0 8px;*/
@@ -156,6 +157,14 @@ body > footer{
   body > header h2 { padding-left: 30px; }
 
   body > footer { margin-bottom: 3em; }
+
+/* For the post page*/
+  body #content > div > article.hentry {
+	width: 600px;
+	margin:0px auto;
+  }
+
+
 }
 
 @media only screen and (min-width: 1040px) {
@@ -194,6 +203,7 @@ body > footer{
       border-radius: 6px;
   }
 }
+
 
 /*For unordered and ordered lists*/
 ul {
