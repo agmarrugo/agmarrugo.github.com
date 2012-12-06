@@ -5,7 +5,7 @@ date: 2012-11-16 07:02
 author: Andres Marrugo
 comments: true
 published: true
-sidebar: false
+sidebar: true
 categories: writing
 ---
 
