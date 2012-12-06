@@ -147,7 +147,7 @@ body > footer{
 }
 
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 550px) {
 
   body > header h1{
 /*      background: url("/favicon.png") no-repeat 0 8px;*/
@@ -159,10 +159,10 @@ body > footer{
   body > footer { margin-bottom: 3em; }
 
 /* For the post page*/
-  body #content > div > article.hentry {
+/*  body #content > div > article.hentry {
 	width: 600px;
 	margin:0px auto;
-  }
+  }*/
 
 
 }
@@ -330,3 +330,34 @@ blockquote {
 }
 
 
+/*RSS icon sidebar*/
+div#thumbs {   
+    width: 240px;
+	height: 35px;
+    margin-top:10px;
+/*    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;*/
+}
+/*#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}*/
+/*.stretch {
+    width: 40%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}*/
+
+div.smallsection{
+	float:left;
+	width:35px;
+	height:30px;
+	margin-left:20px;
+}
