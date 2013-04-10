@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Who Needs the CAPS Lock Key"
+date: 2012-10-28 00:36
+author: Andres Marrugo
+comments: true
+published: false
+categories: [mac, computing]
+---
+
+> The Capslock key on modern keyboard has become the punchline of many a joke, and for good reason: there’s no reason to dedicate such an important key to a function like capslock. Many people rebind it to a more useful key like Control, Option, Escape, or Backspace. I rebound it to Control for a while and then realized that with KeyRemap4MacBook I could get even more mileage out of it.
+> 
+> **-- Steve Losh**, [A Modern Space Cadet][1]
+
+
+Zealous net newbies have also subjected the Caps Lock key to overuse, composing e-mails and newsgroup posts entirely in capital letters, an ugly and inelegant style of communication [akin to screaming][2]. 
+
+uncomfortable finger combos
+
+Well, now we're ready for the next step. Linus McCabe, founder of anticAPSLOCK, and myself are launching the [Million Dollar Keyboard competition][3]. The goal is simple: to raise a million bucks and give it to the person who designs the best new keyboard layout to replace the old ISO9995 standard. 
+
+
+It makes great remapping to `Ctrl` so that you don't have to strain your pinkies by trying to get all the way to the corners.
+
+
+> YOU MAY FIND THE CAPS LOCK USEFUL IF YOU WANT TO ANNOY LOTS OF PEOPLE BY WRITING A WHOLE SENTENCE IN CAPITAL LETTERS, PARTICULARLY IF YOU WANT TO WRITE A LONG SENTENCE IN SUCH A MANNER, ALTHOUGH I BELIEVE THAT SHORT SENTENCES WRITTEN IN CAPITALS ARE ALSO ANNOYING TO LOOK AT.
+> 
+> **-- Neal**, from the [superuser.com forum](http://superuser.com/a/165587)
+
+[1]: http://stevelosh.com/blog/2012/10/a-modern-space-cadet/ "A Modern Space Cadet / Steve Losh"
+[2]: http://www.wired.com/science/discoveries/news/2006/08/71606 "Death to Caps Lock"
+[3]: http://capsoff.org/ "Welcome! - CAPSoff"
