@@ -361,3 +361,16 @@ div.smallsection{
 	height:30px;
 	margin-left:20px;
 }
+
+/*Definition*/
+dt, th {
+font-weight: 700;
+}
+dt {
+display: block;
+}
+dd{margin-bottom:1em}
+dd {
+display: block;
+-webkit-margin-start: 40px;
+}
