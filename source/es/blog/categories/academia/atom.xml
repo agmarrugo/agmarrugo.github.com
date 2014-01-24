@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2013-03-10T09:06:35+01:00</updated>
+  <updated>2014-01-23T22:18:05-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -14,9 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Acceso privilegiado al futuro]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2013/05/27/acceso-privilegiado-al-futuro/"/>
+    <updated>2013-05-27T11:58:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2013/05/27/acceso-privilegiado-al-futuro</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“La enseñanza y la investigación son las dos funciones básicas y complementarias de la universidad y es muy difícil enseñar en el nivel universitario sin las ideas y hallazgos proporcionados por la investigación.”
+<strong>– Julián Casanova</strong> in <a href="http://elpais.com/elpais/2013/05/20/opinion/1369064931_665007.html">El peso de la mediocridad | Opinión | EL PAÍS</a></p>
+</blockquote>
+
+<p>La idea de la enseñanza y la investigación como dos actividades complementarias no es nueva y en realidad es algo que tengo muy asumido desde hace tiempo. Desde que comencé a tener más contacto con la academia empecé a entender el gran valor agregado que le aporta un profesor investigador al proceso educativo que lidera. </p>
+
+<p>Un profesor que no investiga difícilmente encuentra razones para mantenerse al día con su área del conocimiento. Incluso la metodología y las herramientas cambian, así el contenido sea aparentemente inmutable como puede ser un curso de matemáticas. Sin embargo, yo iría un poco más allá e insistiría en que no tiene sentido impartir cursos de, por ejemplo matemáticas, sin tener la certeza para qué utilizarán eso los estudiantes en el futuro. </p>
+
+<p>Hacer investigación es, en ocasiones, como tener un acceso privilegiado al futuro, en el sentido en que se tiene idea de hacia adonde se dirige un campo del conocimiento. Cuando se tiene ese poder, resulta más fácil <a href="https://math.temple.edu/~siagla/articles/Strang2001.pdf" title="Too Much Calculus">trazar el rumbo de la educación</a> y organizar mejor las herramientas que se necesitan. Por ello lo de los cursos básicos y aparentemente inmutables, son sólo eso <em>inmutables en apariencia.</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Paper Tips]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/11/07/paper-tips/"/>
-    <updated>2012-11-07T14:37:00+01:00</updated>
+    <updated>2012-11-07T14:37:00-05:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/11/07/paper-tips</id>
     <content type="html"><![CDATA[<p>Pronto comenzaré a escribir una serie de artículos cortos con sugerencias para mejorar la escritura de un artículo científico en inglés. Como primera medida hago esto con la finalidad de tener mejor organizado el material de referencia del que dispongo, al hacerlo público me condiciono a mi mismo a hacerlo mejor. Lo comparto porque también sé que le puede ser útil a otros.</p>
 
@@ -32,7 +51,7 @@
   <entry>
     <title type="html"><![CDATA[Después del Ph.D.]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd/"/>
-    <updated>2012-09-27T17:48:00+02:00</updated>
+    <updated>2012-09-27T17:48:00-05:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd</id>
     <content type="html"><![CDATA[<p>El camino más común después de un doctorado suele ser continuar con un postdoc y permanecer en la academia. De tal manera que se <em>intenta</em> sobrevivir con proyectos y contratos de investigación hasta que se <em>pueda</em> obtener alguna plaza de investigación o docencia. Sin embargo, una de los caminos menos recorridos y que parece más arriesgado es el de los negocios. En un artículo reciente en <a href="http://blogs.nature.com/soapboxscience/">Soapbox Science</a> Jerry Nguyen, Doctor en neurociencia, escribe </p>
 
@@ -49,7 +68,7 @@
   <entry>
     <title type="html"><![CDATA[Hay que ser pobres para innovar]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar/"/>
-    <updated>2012-09-19T00:04:00+02:00</updated>
+    <updated>2012-09-19T00:04:00-05:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar</id>
     <content type="html"><![CDATA[<p>Hace unos días en la reunión nacional de óptica asistí a una charla interesantísima sobre sensores 3D presentada por el profesor <a href="http://www.optik.uni-erlangen.de/osmin/team/team.php?sid=3">Gerd Häusler</a> de la universidad Friedrich-Alexander en Erlangen (Alemania). Al comenzar la charla hizo algo curioso. Dedicó los primero minutos de la charla a enviar un mensaje especialmente dirigido a los políticos y de manera seguida lanzó unos consejos para los jóvenes investigadores. Por su puesto en el evento no había la mas mínima representación política y estoy seguro que todos los presentes estuvimos de acuerdo con su llamado de atención. De todas maneras comparto aquí el mensaje con el afán de darle algo de divulgación. Para los dirigentes políticos lanzó la siguiente frase </p>
 
@@ -70,7 +89,7 @@
 
 <p>Por último y para el deleite de los asistentes insistió en que la formula para ser innovadores pasa por <em>ser pobres</em>. Vaya frase y vaya momento para insistir en ello. Aunque no sea tan evidente esta última anotación, resulta por lo menos llamativa en cuanto hace alusión a una de las cualidades más sorprendentes del ser humano<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, nuestra capacidad para inventar e innovar. Parece ser que cuando nos encontramos ante verdaderas adversidades, nuestra capacidad para innovar y producir soluciones óptimas es lo que nos conduce a superarnos y solventar las dificultades. Con tanto recorte en Europa, parece que no hubo antes mejor momento para dedicarse a innovar y pensar en hacer las cosas de una manera diferente. ¿Qué piensas tu?</p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:1">
       <p>Tan sólo hace unos cuantos días escribí al respecto, sobre <a href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/">lo que somos y como admiro el intelecto humano</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
@@ -83,7 +102,7 @@
   <entry>
     <title type="html"><![CDATA[Rompiendo el hielo]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/09/03/rompiendo-el-hielo/"/>
-    <updated>2012-09-03T23:47:00+02:00</updated>
+    <updated>2012-09-03T23:47:00-05:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/09/03/rompiendo-el-hielo</id>
     <content type="html"><![CDATA[<p>Hace unos meses estuve en un congreso en Bruselas presentando un trabajo. No era la primera vez que hacía una presentación oral, pero esta vez era en calidad de charla invitada, así que algo de tensión sí que sentía. Mi intención era que la charla quedase bien y se entendiera a pesar de no poder entrar en mayores detalles, pues debía tratar varios temas relacionados con mi proyecto de doctorado. </p>
 
@@ -105,7 +124,7 @@
 
 <p>Sin lugar a dudas, puedo recomendar esta estrategia, aunque cueste algo de práctica y confianza en sí mismo. Mañana tengo otra presentación esta vez en Zaragoza en la Reunión Nacional de Óptica, pero aún no me he decidido por mi frase <em>rompe hielos</em>. Ya se me ocurrirá algo. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:foo">
       <p>Para mas tips como este recomiendo: <a href="http://www.cs.berkeley.edu/~jrs/speaking.html" title="Giving an Academic Talk">Giving an Academic Talk</a>.<a href="#fnref:foo" rel="reference">&#8617;</a></p>
