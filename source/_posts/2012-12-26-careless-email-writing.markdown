@@ -8,7 +8,7 @@ published: true
 categories: [email, writing]
 ---
 
-<div class="aic" style="width:500px"><img src="http://d.pr/i/OWNK+" alt="Text editing."><br>
+<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2756494307.jpg" alt="Text editing."><br>
 photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhindered by Talent</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a></div>
 
 I read the other day an email that desperately needed some editing. Writing without editing is pretty much the same as speaking with little attention to what we are saying. The great advantage of the *written form* over the spoken one is that you *can* go back an edit. Not editing what you write is both a poor use of the written form and a sign that you don't care much for the person that will read your message. 

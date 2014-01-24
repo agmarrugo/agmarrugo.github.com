@@ -8,7 +8,7 @@ published: true
 categories: [writing, thoughts, life]
 ---
 
-<div class="aic" style="width:500px"><img src="http://d.pr/i/7MzF+" alt="iPod touch"><br>
+<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_3989921751.jpg" alt="iPod touch"><br>
 photo credit: <a href="http://www.flickr.com/photos/chiarashine/3989921751/">chiarashine</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></div>
 
 As is often the case, ideas come about in the most unexpected moments. Lately, I've found myself taking notes while walking to work, while waiting for a coffee in front of a bending machine, or like now while getting dressed for work. 

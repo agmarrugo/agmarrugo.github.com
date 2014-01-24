@@ -8,7 +8,7 @@ published: true
 categories: [life]
 ---
 
-<div class="aic" style="width:500px"><img src="http://d.pr/i/cB34+" alt=""><br>
+<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2911020311.jpg" alt=""><br>
 photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pablo Moroe</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>.</div>
 
 Before Darwin it certainly was [very difficult to be an atheist][1] or a nonbeliever – that is, an intellectually fulfilled one.[^fn1] At least that's how [Richard Dawkins][4] usually puts it and I quite agree with him. It was not that the scientific method[^fn2] didn't exist at the time, it was that the mystery of life was too big a mystery to even consider tackling through the ways of science. Yet that was what Darwin did. 

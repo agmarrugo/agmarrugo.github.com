@@ -13,7 +13,7 @@ categories: [life,inspiration]
 
 <!--more-->
 
-*Occasionally I like to share and entry with my wife, which now Day One makes it so easy by offering the export to PDF option ([click here](http://d.pr/i/nmPc) to see what the pdf looks like). Day One is an awesome app which inevitably has made me write more, reflect upon my thoughts and experiences both personal and with the people close to me. It has enabled something which I had lost, having conversations with myself, past and present, which I believe is part of being and feeling alive.*
+*Occasionally I like to share and entry with my wife, which now Day One makes it so easy by offering the export to PDF option ([click here](https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot%202013-03-10%20at%2008.49.51.png) to see what the pdf looks like). Day One is an awesome app which inevitably has made me write more, reflect upon my thoughts and experiences both personal and with the people close to me. It has enabled something which I had lost, having conversations with myself, past and present, which I believe is part of being and feeling alive.*
 
 ***
 
