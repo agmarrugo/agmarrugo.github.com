@@ -15,6 +15,7 @@ The ["Links of Interest"](http://andresmarrugo.net/blog/categories/bookmarks/) i
 
 To find out more about the details and the ruby script for automatically generating the post [go to his website][1]. The links posted here, I've gathered in the past couple of weeks using [pinboard](http://pinboard.in/) an incredibly useful bookmarking service. Enjoy.
 
+<!-- more -->
 
 ## The links
 
