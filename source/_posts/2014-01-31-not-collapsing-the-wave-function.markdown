@@ -4,7 +4,7 @@ title: "Not Collapsing the Wave Function"
 date: 2014-01-31 09:32
 author: Andres Marrugo
 comments: true
-published: false
+published: true
 categories: [life,thoughts]
 ---
 
