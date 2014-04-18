@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2014-01-24T09:35:38-05:00</updated>
+  <updated>2014-04-18T00:21:11-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Un cv moderno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno/"/>
+    <updated>2014-02-17T23:04:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno</id>
+    <content type="html"><![CDATA[<p>Hace ya mucho tiempo que preparo mi <em>curriculum vitæ</em> en LaTeX. Durante gran parte de ese tiempo lo he hecho con el <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/cv">paquete CV</a> que ayuda a producir un cv sobrio, bien estructurado y elegante. La gran ventaja de LaTeX es que no tienes que preocuparte por el formato, sólo tienes que introducir la información y LaTeX hace su magia al compilar. A continuación muestro un ejemplo</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2011.13.35.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete CV.</div>
+
+<p>Indudablemente esto es <em>mucho mejor</em> que cualquier cv producido en MS Word o procesadores similares. Sin embargo, hace poco más de un año al estar culminando el doctorado, comencé a buscar trabajo y me parecía que era hora de cambiar un poco el estilo del cv. Entre los distintos paquetes disponibles para LaTeX hubo uno que me pareció muy bueno. Era capaz de producir un cv académico, elegante, pero a la vez mucho más estético y divertido. El paquete se llama <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/moderncv">moderncv</a>, he aquí un ejemplo de mi cv (ahora actualizado)</p>
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2013.37.05.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete moderncv.</div>
+
+<h2 id="personalizacin-del-cv">Personalización del cv</h2>
+
+<p>Por supuesto que el paquete permite personalizar muchos aspectos del cv. He aquí algunas opciones o configuraciones que he escogido.</p>
+
+<ul>
+  <li>En mi caso me gusta el estilo azul clásico <code>\moderncvtheme[blue]{classic}</code>.</li>
+  <li>La versión en español tiene que ir precedida del paquete <code>\usepackage[spanish]{babel}</code>. </li>
+  <li>
+    <p>Para separar las distintas publicaciones de artículos en revistas, proceedings de congresos, etc. Utilizo </p>
+
+    <pre><code>  \usepackage{multibib}
+  \newcites{jour,proc,jourdiv}{{Art\'iculos en Revistas},{Actas en Congresos Revisadas por Pares},{Art\'iculos t\'ecnicos por Invitaci\'on}}
+</code></pre>
+  </li>
+  <li>Esto significa que después de compilar el archivo <code>.tex</code>, debo ejecutar el commando <code>bibtex</code> independientemente para cada bibliografía (<code>jour.bbl, proc.bbl, jourdiv.bbl</code>).</li>
+  <li>N.B.1 Sólo hay un archivo <code>.bib</code>, el paquete <code>multibib</code> me permite producir varias bibliografías o referencias al final de un documento.</li>
+  <li>N.B.2 A veces edito manualmente los archivos <code>.bbl</code> si una referencia no sale exactamente como quiero. Esto es util para cuando un artículo que ha sido aceptado, pero todavía no tiene número o año (bibtex no maneja bien referencias sin año). </li>
+</ul>
+
+<p>El repositorio de mi cv <a href="https://github.com/agmarrugo/cv" title="agmarrugo/cv">está disponible en github</a> con todos los archivos necesarios para compilar y producir el cv. Espero que les resulte útil. </p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Acceso privilegiado al futuro]]></title>
@@ -93,41 +134,6 @@
   <ol>
     <li id="fn:1">
       <p>Tan sólo hace unos cuantos días escribí al respecto, sobre <a href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/">lo que somos y como admiro el intelecto humano</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rompiendo el hielo]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/09/03/rompiendo-el-hielo/"/>
-    <updated>2012-09-03T23:47:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/09/03/rompiendo-el-hielo</id>
-    <content type="html"><![CDATA[<p>Hace unos meses estuve en un congreso en Bruselas presentando un trabajo. No era la primera vez que hacía una presentación oral, pero esta vez era en calidad de charla invitada, así que algo de tensión sí que sentía. Mi intención era que la charla quedase bien y se entendiera a pesar de no poder entrar en mayores detalles, pues debía tratar varios temas relacionados con mi proyecto de doctorado. </p>
-
-<!--more-->
-
-<p>Desde hace ya cierto tiempo vengo haciendo mis presentaciones cada vez mas sencillas y concisas. He seguido algunas recomendaciones y lineamientos para mejorarlas. Reglas simples que me permiten sacar lo mejor de mí y de mi trabajo. Por ejemplo <strong>no mas de 12 palabras por diapositiva</strong><sup id="fnref:foo"><a href="#fn:foo" rel="footnote">1</a></sup>. Esta es una de las que más cuesta cumplir, pero si se intenta se consigue una presentación mas amena y agradable. Al público no le gusta que el presentador lea las diapositivas o que hable sin mirarle. De esta manera se fuerza uno mismo a preparar mejor la presentación. </p>
-
-<p>Por otra parte, hay una recomendación, que aunque parece poca cosa, hace una gran diferencia. Hay que evitar a toda costa las introducciones monótonas y aburridas a las que nadie presta atención porque ya lo han visto en el programa y el chairman lo ha dicho también. <em>No ponerse a leer el titulo de la presentación, ni nuestro nombre nuevamente</em>. Ya el público sabe estas cosas y además están puestas en la diapositiva inicial. En cambio, hay que lograr <strong>romper el hielo</strong> con una introducción interesante, sea personal o del tema. <em>Esos primeros minutos son preciados</em>. Si en los primeros cinco minutos no hemos dicho lo mas importante de nuestro trabajo, nadie nos prestará atención por lo que queda de presentación.  </p>
-
-<p>En mi presentación en Bruselas me propuse hacer lo de la introducción de una manera interesante y ya que debía hablar de tele-medicina, oftalmología y asistencia por computador, decidí hacer lo siguiente.  Les pediría a los asistentes mayores de 50 años que levantaran la mano, de manera seguida les diría que deberían revisarse los ojos por lo menos una vez al año y que el tema de mi presentación les interesaría. </p>
-
-<p>En el papel parecía un plan espectacular. Se salía del guión típico de presentación académica, pragmática y aburrida. Lo practique varias veces en el hotel la noche anterior y me acosté a dormir confiado en mi plan.</p>
-
-<p>Antes de seguir, quisiera mencionar que mi presentación era la primera después del receso por almuerzo y esto hizo que la cuestión se pusiera interesante y se voltearan las probabilidades en mi contra. En la sesiones anteriores yo había visto a los asistentes, así que ya tenía idea del publico. Y estaba seguro que había personas mayores con las cuales hacer lo de la introducción. </p>
-
-<p>Al regresar del receso tan sólo habían unas cinco o seis personas en el auditorio. Pero eso no fue lo peor, todos (excepto la chair) eran jóvenes. Esperamos unos minutos y evidentemente llegó mas gente, pero al comenzar mi charla no veía sino a una sola persona que tenía aspecto de mayor de 50. Había preparado mi introducción y las circunstancias me impedían hacer uso de ella. Pero bueno, lo que terminé haciendo fue contarles la introducción que tenía planeada y por qué no pude hacerla. Inmediatamente les seguí comentando la segunda parte de la introducción que había preparado. </p>
-
-<p>Al final creo que no quedó tan mal y se logró el objetivo de captar a la audiencia desde el comienzo. De la situación hasta surgió alguna risa y hubo un ambiente agradable durante mi presentación. Se veía a la gente más atenta que en otras presentaciones y al finalizar hubo una cantidad considerable de preguntas. </p>
-
-<p>Sin lugar a dudas, puedo recomendar esta estrategia, aunque cueste algo de práctica y confianza en sí mismo. Mañana tengo otra presentación esta vez en Zaragoza en la Reunión Nacional de Óptica, pero aún no me he decidido por mi frase <em>rompe hielos</em>. Ya se me ocurrirá algo. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:foo">
-      <p>Para mas tips como este recomiendo: <a href="http://www.cs.berkeley.edu/~jrs/speaking.html" title="Giving an Academic Talk">Giving an Academic Talk</a>.<a href="#fnref:foo" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
