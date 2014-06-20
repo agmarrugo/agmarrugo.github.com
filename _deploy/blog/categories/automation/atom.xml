@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: automation | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/blog/categories/automation/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/"/>
+  <updated>2014-06-19T21:25:54-05:00</updated>
+  <id>http://andresmarrugo.net/</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
+    <link href="http://andresmarrugo.net/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
+    <updated>2012-10-18T22:30:00-05:00</updated>
+    <id>http://andresmarrugo.net/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
+    <content type="html"><![CDATA[<p>I often use <a href="http://www.imagemagick.org/script/index.php">Imagemagick</a> for image manipulation<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">1</a></sup>. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following</p>
+
+<pre><code>convert somefile.png somefile.pdf
+</code></pre>
+
+<p>Which is quite simple, and much better than opening preview -&gt; export<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">2</a></sup>-&gt;select pdf-&gt; and hit save. But typing that for more than one image is <em>also</em> tedious. So, I decided I’d better create a service that would essentially do the following.</p>
+
+<p>It would take the selected finder items, mainly images in <code>png</code>, <code>jpeg</code>, or whatever, and convert all of them to <code>pdf</code>. Simple. <!--more-->  The automator service is shown in the following image. It does exactly what I’ve described.</p>
+
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/8099954950/" title="to-pdf-automator-script by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8045/8099954950_8d97fab95f.jpg" width="500" height="252" alt="to-pdf-automator-script" /></a><br />
+Automator service.</div>
+
+<p>The shell script is quite simple. Because the <code>convert</code> command from Imagemagick is not a command in bash, I have to call it with the whole path. The rest of that one-liner is a <a href="http://en.wikipedia.org/wiki/Sed"><code>sed</code></a> call to substitute  whatever extension the input file has (with the <a href="http://en.wikipedia.org/wiki/Regular_expression" title="Regular expression - Wikipedia, the free encyclopedia">regex</a> <code>\..*</code>) to <code>.pdf</code>, and that’s it. Here’s the script.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>convert-to-pdf   </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">for </span>f in “<span class="nv">$@</span>”
+</span><span class='line'><span class="k">do</span>
+</span><span class='line'>  /opt/local/bin/convert “<span class="nv">$f</span>” &lt;code&gt;echo <span class="s2">&quot;$f&quot;</span>|sed <span class="s2">&quot;s/\..*/.pdf/&quot;</span>&lt;/code&gt;
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<div class="footnotes"><hr>
+  <ol>
+    <li id="fn:fn2">
+      <p>As a matter of fact, now that I’ve finally upgraded to Mountain Lion, Imagemagick stopped working. Had to reinstall with macports.<a href="#fnref:fn2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:fn1">
+      <p>“Save as” in the old days, prior to OS X 10.7.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

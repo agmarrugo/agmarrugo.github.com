@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: academia | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/es//"/>
+  <updated>2014-04-18T00:21:11-05:00</updated>
+  <id>http://andresmarrugo.net/es//</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Un cv moderno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno/"/>
+    <updated>2014-02-17T23:04:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno</id>
+    <content type="html"><![CDATA[<p>Hace ya mucho tiempo que preparo mi <em>curriculum vitæ</em> en LaTeX. Durante gran parte de ese tiempo lo he hecho con el <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/cv">paquete CV</a> que ayuda a producir un cv sobrio, bien estructurado y elegante. La gran ventaja de LaTeX es que no tienes que preocuparte por el formato, sólo tienes que introducir la información y LaTeX hace su magia al compilar. A continuación muestro un ejemplo</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2011.13.35.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete CV.</div>
+
+<p>Indudablemente esto es <em>mucho mejor</em> que cualquier cv producido en MS Word o procesadores similares. Sin embargo, hace poco más de un año al estar culminando el doctorado, comencé a buscar trabajo y me parecía que era hora de cambiar un poco el estilo del cv. Entre los distintos paquetes disponibles para LaTeX hubo uno que me pareció muy bueno. Era capaz de producir un cv académico, elegante, pero a la vez mucho más estético y divertido. El paquete se llama <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/moderncv">moderncv</a>, he aquí un ejemplo de mi cv (ahora actualizado)</p>
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2013.37.05.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete moderncv.</div>
+
+<h2 id="personalizacin-del-cv">Personalización del cv</h2>
+
+<p>Por supuesto que el paquete permite personalizar muchos aspectos del cv. He aquí algunas opciones o configuraciones que he escogido.</p>
+
+<ul>
+  <li>En mi caso me gusta el estilo azul clásico <code>\moderncvtheme[blue]{classic}</code>.</li>
+  <li>La versión en español tiene que ir precedida del paquete <code>\usepackage[spanish]{babel}</code>. </li>
+  <li>
+    <p>Para separar las distintas publicaciones de artículos en revistas, proceedings de congresos, etc. Utilizo </p>
+
+    <pre><code>  \usepackage{multibib}
+  \newcites{jour,proc,jourdiv}{{Art\'iculos en Revistas},{Actas en Congresos Revisadas por Pares},{Art\'iculos t\'ecnicos por Invitaci\'on}}
+</code></pre>
+  </li>
+  <li>Esto significa que después de compilar el archivo <code>.tex</code>, debo ejecutar el commando <code>bibtex</code> independientemente para cada bibliografía (<code>jour.bbl, proc.bbl, jourdiv.bbl</code>).</li>
+  <li>N.B.1 Sólo hay un archivo <code>.bib</code>, el paquete <code>multibib</code> me permite producir varias bibliografías o referencias al final de un documento.</li>
+  <li>N.B.2 A veces edito manualmente los archivos <code>.bbl</code> si una referencia no sale exactamente como quiero. Esto es util para cuando un artículo que ha sido aceptado, pero todavía no tiene número o año (bibtex no maneja bien referencias sin año). </li>
+</ul>
+
+<p>El repositorio de mi cv <a href="https://github.com/agmarrugo/cv" title="agmarrugo/cv">está disponible en github</a> con todos los archivos necesarios para compilar y producir el cv. Espero que les resulte útil. </p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Acceso privilegiado al futuro]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2013/05/27/acceso-privilegiado-al-futuro/"/>
+    <updated>2013-05-27T11:58:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2013/05/27/acceso-privilegiado-al-futuro</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“La enseñanza y la investigación son las dos funciones básicas y complementarias de la universidad y es muy difícil enseñar en el nivel universitario sin las ideas y hallazgos proporcionados por la investigación.”
+<strong>– Julián Casanova</strong> in <a href="http://elpais.com/elpais/2013/05/20/opinion/1369064931_665007.html">El peso de la mediocridad | Opinión | EL PAÍS</a></p>
+</blockquote>
+
+<p>La idea de la enseñanza y la investigación como dos actividades complementarias no es nueva y en realidad es algo que tengo muy asumido desde hace tiempo. Desde que comencé a tener más contacto con la academia empecé a entender el gran valor agregado que le aporta un profesor investigador al proceso educativo que lidera. </p>
+
+<p>Un profesor que no investiga difícilmente encuentra razones para mantenerse al día con su área del conocimiento. Incluso la metodología y las herramientas cambian, así el contenido sea aparentemente inmutable como puede ser un curso de matemáticas. Sin embargo, yo iría un poco más allá e insistiría en que no tiene sentido impartir cursos de, por ejemplo matemáticas, sin tener la certeza para qué utilizarán eso los estudiantes en el futuro. </p>
+
+<p>Hacer investigación es, en ocasiones, como tener un acceso privilegiado al futuro, en el sentido en que se tiene idea de hacia adonde se dirige un campo del conocimiento. Cuando se tiene ese poder, resulta más fácil <a href="https://math.temple.edu/~siagla/articles/Strang2001.pdf" title="Too Much Calculus">trazar el rumbo de la educación</a> y organizar mejor las herramientas que se necesitan. Por ello lo de los cursos básicos y aparentemente inmutables, son sólo eso <em>inmutables en apariencia.</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paper Tips]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/11/07/paper-tips/"/>
+    <updated>2012-11-07T14:37:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/11/07/paper-tips</id>
+    <content type="html"><![CDATA[<p>Pronto comenzaré a escribir una serie de artículos cortos con sugerencias para mejorar la escritura de un artículo científico en inglés. Como primera medida hago esto con la finalidad de tener mejor organizado el material de referencia del que dispongo, al hacerlo público me condiciono a mi mismo a hacerlo mejor. Lo comparto porque también sé que le puede ser útil a otros.</p>
+
+<p>Antes que todo quiero decir que <em>no soy un experto</em> en el tema. Estos—pequeños—artículos no son más que anotaciones sobre dudas o inconvenientes que he superado durante mi trayectoria académica en lo que respecta a la escritura de artículos científicos en inglés. </p>
+
+<p>Aunque el objetivo principal es abarcar la escritura de artículos, también puede ser útil para las tesis, reportes científicos o informes de laboratorio. </p>
+
+<p>Vuelve dentro de poco para que veas el primero de la serie. </p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Después del Ph.D.]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd/"/>
+    <updated>2012-09-27T17:48:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd</id>
+    <content type="html"><![CDATA[<p>El camino más común después de un doctorado suele ser continuar con un postdoc y permanecer en la academia. De tal manera que se <em>intenta</em> sobrevivir con proyectos y contratos de investigación hasta que se <em>pueda</em> obtener alguna plaza de investigación o docencia. Sin embargo, una de los caminos menos recorridos y que parece más arriesgado es el de los negocios. En un artículo reciente en <a href="http://blogs.nature.com/soapboxscience/">Soapbox Science</a> Jerry Nguyen, Doctor en neurociencia, escribe </p>
+
+<blockquote>
+  <p>When I first considered leaving academia, I anxiously wondered, “Who would want to hire a systems neuroscientist who specializes in 3-dimensional vision?” Seven years later, with a career that has spanned healthcare management consulting, window decorating at Pottery Barn, finance,  and global health consulting, I think I have a pretty good answer. </p>
+
+  <p>– <strong>Jerry Nguyen</strong>, <a href="http://blogs.nature.com/soapboxscience/2012/08/17/phdelta-phd-what-is-it-good-for-leavingacademia">PhDelta: PhD what is it good for? #leavingacademia</a> </p>
+</blockquote>
+
+<p>Su ansiedad partía del hecho en considerar que se había especializado tanto en un área en particular, que creía que nadie lo contrataría por ese hecho. La verdad es que el doctorado no se trata solo de especializarse en un área del conocimiento, sino también de obtener un entrenamiento que moldea tu forma de trabajar y pensar. El Dr. Nguyen continua resaltando cosas que aprendió durante su doctorado que <em>a priori</em> no hubiese considerado, como <strong>gestión de projectos</strong>, <strong>la capacidad de hacer buenas preguntas</strong>, y <strong>ser un autodidacta profesional</strong>. Es ésta última habilidad la que en mi opinión se ejercita más durante el doctorado. Gran parte del doctorado se trata de <em>estar solo</em> y sacar los resultados adelante con  esfuerzo, dedicación y una gran dosis de auto-confianza. El artículo es corto pero resume bien alguna de las ventajas de la formación doctoral y las falencias también a la hora de embarcarse en la aventura del <strong>doctor/business man</strong>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hay que ser pobres para innovar]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar/"/>
+    <updated>2012-09-19T00:04:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar</id>
+    <content type="html"><![CDATA[<p>Hace unos días en la reunión nacional de óptica asistí a una charla interesantísima sobre sensores 3D presentada por el profesor <a href="http://www.optik.uni-erlangen.de/osmin/team/team.php?sid=3">Gerd Häusler</a> de la universidad Friedrich-Alexander en Erlangen (Alemania). Al comenzar la charla hizo algo curioso. Dedicó los primero minutos de la charla a enviar un mensaje especialmente dirigido a los políticos y de manera seguida lanzó unos consejos para los jóvenes investigadores. Por su puesto en el evento no había la mas mínima representación política y estoy seguro que todos los presentes estuvimos de acuerdo con su llamado de atención. De todas maneras comparto aquí el mensaje con el afán de darle algo de divulgación. Para los dirigentes políticos lanzó la siguiente frase </p>
+
+<blockquote>
+  <p>Si la educación es costosa, prueba la ignorancia. </p>
+
+  <p>– <strong>Gerd Häusler</strong>, XRNO Zaragoza, 2012</p>
+</blockquote>
+
+<!--more-->
+
+<p>Me parece que el mensaje es lo suficientemente claro, aunque pareciera que a muchos políticos les costara de entender. En esta línea de criticas mostró una gráfica  al referirse sobre el desarrollo de un país y la relación entre el éxito versus el tiempo invertido en la formación académica. Como tal, el éxito sólo se consigue tras la dedicación de mucho tiempo y esfuerzo. ¿Qué crees que pasaría si cortásemos el proceso de formación? Pues tendríamos el mercado laboral repleto de profesionales a medio hacer, cuyo curriculum además de la falta de experiencia también deberían agregarle la falta de formación. A dicho corte le llaman el “Bologna cut-off” en relación al controvertido <a href="http://es.wikipedia.org/wiki/Proceso_de_Bolonia">proceso de Bolonia</a> y el Espacio Europeo de educación superior.</p>
+
+<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8001074285/" title="Success vs time by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8453/8001074285_d3ed7ea9d2_m.jpg" width="240" height="97" alt="Success vs time" /></a><br />
+Éxito vs. tiempo.</div>
+
+<p>Después de las criticas correspondientes para la clase dirigente, enfatizó en que no debemos obstinarnos por conseguir dinero, sino intentar mantenernos activos y curiosos para poder disfrutar de lo que hacemos. Según él, al estar siempre tras el dinero perdemos la perspectiva de por qué nos metimos inicialmente en la ciencia y en esto estoy completamente de acuerdo. No hay que perder la perspectiva, ni la esencia de lo que somos. Hay que mantenerse fieles a nuestros principios, pero con la mente abierta para enderezarlos cuando sea oportuno.</p>
+
+<p>Por último y para el deleite de los asistentes insistió en que la formula para ser innovadores pasa por <em>ser pobres</em>. Vaya frase y vaya momento para insistir en ello. Aunque no sea tan evidente esta última anotación, resulta por lo menos llamativa en cuanto hace alusión a una de las cualidades más sorprendentes del ser humano<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, nuestra capacidad para inventar e innovar. Parece ser que cuando nos encontramos ante verdaderas adversidades, nuestra capacidad para innovar y producir soluciones óptimas es lo que nos conduce a superarnos y solventar las dificultades. Con tanto recorte en Europa, parece que no hubo antes mejor momento para dedicarse a innovar y pensar en hacer las cosas de una manera diferente. ¿Qué piensas tu?</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Tan sólo hace unos cuantos días escribí al respecto, sobre <a href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/">lo que somos y como admiro el intelecto humano</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
