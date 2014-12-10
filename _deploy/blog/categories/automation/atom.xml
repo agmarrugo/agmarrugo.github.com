@@ -4,7 +4,7 @@
   <title><![CDATA[Category: automation | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/blog/categories/automation/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/"/>
-  <updated>2014-06-19T21:25:54-05:00</updated>
+  <updated>2014-12-09T23:02:32-05:00</updated>
   <id>http://andresmarrugo.net/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Date Commands]]></title>
+    <link href="http://andresmarrugo.net/blog/2014/12/07/date-commands/"/>
+    <updated>2014-12-07T22:49:00-05:00</updated>
+    <id>http://andresmarrugo.net/blog/2014/12/07/date-commands</id>
+    <content type="html"><![CDATA[<p><a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang recently shared</a> two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. </p>
+
+<p>I was mainly interested in the first one because I often have to do that calculation.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> Because the script can also compute the days remaining until a future date, you can imagine how handy it can be. For instance, if I’d like to know how many days until the day I start my vacations, I just run the script with a future date and it’ll return a negative result in days. Or if I’d like to know how old I am in days.</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br />
+This is how old I am in days.</div>
+
+<p>I thought it would be something useful to have on my iPhone so I turned it into a <a href="http://omz-software.com/pythonista/" title="Pythonista">Pythonista</a> script that I run from <a href="http://agiletortoise.com/drafts/" title="Drafts - Agile Tortoise">Drafts</a>. If you want to know exactly what the script does go to <a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang’s post</a>, I just modified it a bit so that it runs from Drafts when you enter a date in the following format <code>DD MM YY</code> where <code>YY</code> is optional, it assumes current year. </p>
+
+<p>You can download the <code>ago.py</code> script from <a href="https://gist.github.com/agmarrugo/e74853dd3914513af1d2">this gist.</a> The Drafts action is available <a href="http://drafts4-actions.agiletortoise.com/a/1PP">here.</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>My solution is typically to google for a date calculator. Then I have to go through the links, and find the one I need. A bit cumbersome, but since I don’t do this everyday I don’t complain much. It just seems simpler to have it as a Drafts action.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
@@ -44,7 +72,7 @@ Automator service.</div>
 </span><span class='line'><span class="k">done</span>
 </span><span class='line'>
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn2">
       <p>As a matter of fact, now that I’ve finally upgraded to Mountain Lion, Imagemagick stopped working. Had to reinstall with macports.<a href="#fnref:fn2" rel="reference">&#8617;</a></p>

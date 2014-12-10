@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://andresmarrugo.net/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/"/>
-  <updated>2014-06-19T21:25:54-05:00</updated>
+  <updated>2014-12-09T23:02:32-05:00</updated>
   <id>http://andresmarrugo.net/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Date Commands]]></title>
+    <link href="http://andresmarrugo.net/blog/2014/12/07/date-commands/"/>
+    <updated>2014-12-07T22:49:00-05:00</updated>
+    <id>http://andresmarrugo.net/blog/2014/12/07/date-commands</id>
+    <content type="html"><![CDATA[<p><a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang recently shared</a> two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. </p>
+
+<p>I was mainly interested in the first one because I often have to do that calculation.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> Because the script can also compute the days remaining until a future date, you can imagine how handy it can be. For instance, if I’d like to know how many days until the day I start my vacations, I just run the script with a future date and it’ll return a negative result in days. Or if I’d like to know how old I am in days.</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br />
+This is how old I am in days.</div>
+
+<p>I thought it would be something useful to have on my iPhone so I turned it into a <a href="http://omz-software.com/pythonista/" title="Pythonista">Pythonista</a> script that I run from <a href="http://agiletortoise.com/drafts/" title="Drafts - Agile Tortoise">Drafts</a>. If you want to know exactly what the script does go to <a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang’s post</a>, I just modified it a bit so that it runs from Drafts when you enter a date in the following format <code>DD MM YY</code> where <code>YY</code> is optional, it assumes current year. </p>
+
+<p>You can download the <code>ago.py</code> script from <a href="https://gist.github.com/agmarrugo/e74853dd3914513af1d2">this gist.</a> The Drafts action is available <a href="http://drafts4-actions.agiletortoise.com/a/1PP">here.</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>My solution is typically to google for a date calculator. Then I have to go through the links, and find the one I need. A bit cumbersome, but since I don’t do this everyday I don’t complain much. It just seems simpler to have it as a Drafts action.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A CV for my Thesis]]></title>
@@ -60,7 +88,7 @@ photo credit: <a href="http://www.flickr.com/photos/mkorsakov/5731336614/">mkors
 
 <p>It is no surprise that by talking too much we may alienate our loved ones and friends from our lives. They’ll avoid us and our utterances at all times. It is this kind of behavior that we have to be  careful about.</p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>I used to be one of those, I know better now. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -98,7 +126,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
 
 <p>To conclude I would like to say that we shouldn’t really attack religion for what it is or for being wrong, we should instead try to show the way with the best tools we have. Resolving conflict without invoking god. Discussing real life issues with the best evidence we can find. Addressing our questions knowing wholeheartedly our limits. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>Yes, before Darwin we had <a href="http://en.wikipedia.org/wiki/David_Hume">David Hume</a>, but his reasoning was solely based on the fact that <a href="http://choiceindying.com/2011/03/02/could-you-be-an-intellectually-fulfilled-atheist-before-darwin/" title="Could you be an intellectually fulfilled atheist before Darwin? | Choice in Dying">God isn’t a good explanation</a> for biological design. It was Darwin who came up with one.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -265,7 +293,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
 
 <p>Except for that, cooking (to me) is quite a satisfactory experience which enables me to  enjoy myself and have an encounter with my thoughts and imagination. It’s (almost) like  day dreaming, but it’s not. It’s much more. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>It’s something of a coincidence, but there’s a great <a href="http://macpowerusers.com/" title="Mac Power Users">mac power users</a> episode called <a href="http://macpowerusers.com/2012/04/mpu-082-cooking-ideas/" title="MPU 082: Cooking Ideas « Mac Power Users">“cooking ideas”</a>, where David and Katie cover strategies for using mindmapping and outlining tools. I highly recommend it.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -300,7 +328,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
 
 <p>Yes, it’s about exposing yourself and becoming stronger in the process. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>In the <em>virtual</em> world, I <em>do</em> know a number of people that write for the fun of it and are lucky enough to make a living from it. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -379,7 +407,7 @@ I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX 
 
 <p>I’ve been late, as always, to many fascinating events of recent years – at least the geeky ones it seems. But I’ve come to accept that as a reality of mine. These days I can say that I try to keep myself more in the loop by following several interesting people on the web, whether it be via their blogs, twitter, or podcasts. This  seems a bit of a remedy to my bad timing, but hey everyone’s entitled to do things their way. I’m still struggling to actually find what <em>is</em> “my way”, but I’m in no hurry. There probably isn’t any <em>real</em> answer, <a href="http://www.macdrifter.com/2012/08/fiddle-sticks.html" title="Fiddle Sticks">I reckon the search is more valuable than the goal itself.</a></p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>I <em>still</em> have few close friends on twitter; most of them are rarely active. As regards Facebook, I cannot say the same. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -424,7 +452,7 @@ Automator service.</div>
 </span><span class="line">
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn2">
       <p>As a matter of fact, now that I’ve finally upgraded to Mountain Lion, Imagemagick stopped working. Had to reinstall with macports.<a href="#fnref:fn2" rel="reference">&#8617;</a></p>
@@ -530,7 +558,7 @@ Modify latest post.</div>
 
 <p>It may look like there’s not much automation, but if you think that this runs on my Mac while I’m writing it in my iPod Touch, then it gets really interesting, and the possibilities are almost infinite. Besides, updating the post date, moving files and changing extensions are quite tedious tasks by themselves. To make it automatically generate and deploy the site I’d have to add several more lines to the script, but I’m ok with how it is for now. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:foo2">
       <p>Special thanks to <a href="http://www.neilsmithline.com/">Neil Smithline</a> for helping me out on <a href="https://github.com/imathis/octopress/issues/708">the two blogs one domain issue</a>.<a href="#fnref:foo2" rel="reference">&#8617;</a></p>
@@ -574,7 +602,7 @@ Square bracket on spanish keyboard.</div>
 
 <p>I have googled a bit about this topic and in an <a href="https://discussions.apple.com/thread/1452719?start=0&amp;tstart=0">apple discussion</a> this was somewhat discussed, but to no great length. And the only solution for the time being is to go to <code>'Aperture' &gt; 'Commands' &gt; 'Customize...'</code>. But I’m still not comfortable changing the default commands in Aperture. I really liked the single key shortcuts for rotating an image and stuff like that. Let’s see how this ends up.</p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>Or any other keyboard that’s not the English one.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -634,7 +662,7 @@ Square bracket on spanish keyboard.</div>
 
 <p>Here’s a <a href="http://d.pr/f/t4ff">download link</a> so you can download it as a system service. You’ll have to move it to <code>~/Library/Services/</code>. Enjoy!</p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:1">
       <p>I don’t usually write long entries in Day One, but hey there’s always a day when I feel <em>so</em> inspired, I could write a short story if I wanted to.<a href="#fnref:1" rel="reference">&#8617;</a></p>
@@ -679,7 +707,7 @@ Square bracket on spanish keyboard.</div>
 
 <p>It’s not an optimal solution (in the automation sense), but I’ve found that most of my Day One entries have one or two footnotes, so it’s not really a big deal. I think it’s totally worth the effort. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:1">
       <p>I probably could but I would really, <em>really</em> miss them. <a href="#fnref:1" rel="reference">&#8617;</a></p>
@@ -736,7 +764,7 @@ Vincent Van Gogh
 Alex Chilton
 Chad Baker
 There are a lot of people whose work I admire that I think partly what brought me to them in some ways is knowing that backstory  -->
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:1">
       <p><a href="http://en.wikiquote.org/wiki/Richard_Feynman">Feynman originally said</a>, “There are all kinds of interesting questions that come from a knowledge of science, which only adds to the excitement and mystery and awe of a flower. It only adds. I don’t understand how it subtracts.”<a href="#fnref:1" rel="reference">&#8617;</a></p>
@@ -746,41 +774,6 @@ There are a lot of people whose work I admire that I think partly what brought m
     </li>
     <li id="fn:3">
       <p>Which to me means a great thing.<a href="#fnref:3" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I'm writing the site I want to read]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/09/19/the-site-i-want-to-read/"/>
-    <updated>2012-09-19T23:32:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/09/19/the-site-i-want-to-read</id>
-    <content type="html"><![CDATA[<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8004479709/" title="a day in the life of striatic ~ end of day accident by striatic, on Flickr"><img src="http://farm9.staticflickr.com/8313/8004479709_2bfe1eb43a_n.jpg" width="240" height="320" alt="a day in the life of striatic ~ end of day accident" /></a><br />
-photo by striatic.</div>
-
-<p>If there’s something I learned from the famous talk “<a href="http://www.43folders.com/2009/03/25/blogs-turbocharged">149 Surprising Ways to Turbocharge Your Blog With Credibility!</a>” by <a href="http://daringfireball.net/">John Gruber</a> and <a href="http://www.merlinmann.com/">Merlin Mann</a>,  was that one should make a great effort to write as if the people you admire we’re going to read your work. This is true even if the people you admire are fictional, or like in Gruber’s case, an idealized version of himself. 
-I like to think that this piece of advice is as valid for writing/blogging as it is for anything else you do in life.
-<!--more--> </p>
-
-<p>I can certainly say that I personally don’t know most of the people I admire,<sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> which is fine by me. But I don’t write exclusively for them. Quite often, if not always, I write for myself.<sup id="fnref:4"><a href="#fn:4" rel="footnote">2</a></sup> I write as a way to remind my future self of what it felt to be me in the past.<sup id="fnref:1"><a href="#fn:1" rel="footnote">3</a></sup> I write to the better version of myself, in the hopes that by doing so, my worse version recognizes his mistakes and learns from them. </p>
-
-<p>In some ways my ideal reader <em>is</em> the better version of myself. More often than not I find myself reading my own articles several times after they’ve been published. It certainly is not a narcissistic thing,<sup id="fnref:3"><a href="#fn:3" rel="footnote">4</a></sup> I just really like to feel proud of what I make. This is why <em>I write the site I want to read</em>. </p>
-
-<div class="footnotes"><hr>
-  <ol>
-    <li id="fn:2">
-      <p>This, without much doubt will continue to stay this way, for some of them are dead, and believing in the afterlife is plain foolishness. <a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p>I had been meaning to write this post for quite a while, but hadn’t found time to do so. However, Gabe Weatherhead’s post on his <a href="http://macdrifter.com/2012/09/audience-and-my-multiple-personalities.html">Audience and Multiple Personalities</a> prompted me to write it in a flash. Thanks Gabe. <a href="#fnref:4" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:1">
-      <p>Trust me, one easily forgets how things felt in the very moment you were experiencing them. And all that is left is a vague reminder of what happened. <a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>Or so I like to think. <a href="#fnref:3" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>

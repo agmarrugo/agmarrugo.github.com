@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/"/>
-  <updated>2014-06-19T21:25:54-05:00</updated>
+  <updated>2014-12-09T23:02:32-05:00</updated>
   <id>http://andresmarrugo.net/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -61,7 +61,7 @@ I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX 
 
 <p>I’ve been late, as always, to many fascinating events of recent years – at least the geeky ones it seems. But I’ve come to accept that as a reality of mine. These days I can say that I try to keep myself more in the loop by following several interesting people on the web, whether it be via their blogs, twitter, or podcasts. This  seems a bit of a remedy to my bad timing, but hey everyone’s entitled to do things their way. I’m still struggling to actually find what <em>is</em> “my way”, but I’m in no hurry. There probably isn’t any <em>real</em> answer, <a href="http://www.macdrifter.com/2012/08/fiddle-sticks.html" title="Fiddle Sticks">I reckon the search is more valuable than the goal itself.</a></p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:fn1">
       <p>I <em>still</em> have few close friends on twitter; most of them are rarely active. As regards Facebook, I cannot say the same. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
@@ -173,7 +173,7 @@ Modify latest post.</div>
 
 <p>It may look like there’s not much automation, but if you think that this runs on my Mac while I’m writing it in my iPod Touch, then it gets really interesting, and the possibilities are almost infinite. Besides, updating the post date, moving files and changing extensions are quite tedious tasks by themselves. To make it automatically generate and deploy the site I’d have to add several more lines to the script, but I’m ok with how it is for now. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:foo2">
       <p>Special thanks to <a href="http://www.neilsmithline.com/">Neil Smithline</a> for helping me out on <a href="https://github.com/imathis/octopress/issues/708">the two blogs one domain issue</a>.<a href="#fnref:foo2" rel="reference">&#8617;</a></p>
@@ -211,7 +211,7 @@ I like to think that this piece of advice is as valid for writing/blogging as it
 
 <p>In some ways my ideal reader <em>is</em> the better version of myself. More often than not I find myself reading my own articles several times after they’ve been published. It certainly is not a narcissistic thing,<sup id="fnref:3"><a href="#fn:3" rel="footnote">4</a></sup> I just really like to feel proud of what I make. This is why <em>I write the site I want to read</em>. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:2">
       <p>This, without much doubt will continue to stay this way, for some of them are dead, and believing in the afterlife is plain foolishness. <a href="#fnref:2" rel="reference">&#8617;</a></p>
@@ -262,7 +262,7 @@ photo by Mike Licht. </div>
 
 <p>This has been a brief summary of my initiation in the blogosphere. I feel that blogging is much more than a hobby, it has become part of what I am, and that is why I care <em>so much</em> about it. </p>
 
-<div class="footnotes"><hr>
+<div class="footnotes">
   <ol>
     <li id="fn:foo">
       <p>At least that’s the idea. <a href="#fnref:foo" rel="reference">&#8617;</a></p>
