@@ -76,7 +76,11 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2015/01/08/el-marciano/</loc>
-        <lastmod>2015-01-08T02:06:52-05:00</lastmod>
+        <lastmod>2015-01-08T02:07:24-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://andresmarrugo.net/es//blog/2015/02/22/el-efecto-limpiador/</loc>
+        <lastmod>2015-02-22T20:47:27-05:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//about/</loc>
@@ -84,7 +88,7 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/archives/</loc>
-        <lastmod>2015-01-08T02:06:52-05:00</lastmod>
+        <lastmod>2015-02-22T20:47:27-05:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//docencia/</loc>
@@ -92,6 +96,6 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//</loc>
-        <lastmod>2015-01-08T02:06:52-05:00</lastmod>
+        <lastmod>2015-02-22T20:47:27-05:00</lastmod>
     </url>
 </urlset>
