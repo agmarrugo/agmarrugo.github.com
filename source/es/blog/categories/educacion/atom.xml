@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: educación | andres marrugo]]></title>
-  <link href="http://andresmarrugo.net/es//blog/categories/educación/atom.xml" rel="self"/>
+  <title><![CDATA[Category: educacion | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/educacion/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2015-02-22T20:54:10-05:00</updated>
+  <updated>2015-07-25T02:03:28-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
+    <updated>2015-03-30T23:57:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
+
+  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
+</blockquote>
+
+<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
+
+<!-- more -->
+
+<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
+
+<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
+
+<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[No, no tienes derecho a opinar]]></title>

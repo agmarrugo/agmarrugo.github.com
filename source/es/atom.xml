@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2015-02-22T20:54:10-05:00</updated>
+  <updated>2015-07-25T02:03:28-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[De cero a uno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
+    <updated>2015-07-25T01:07:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
+</div>
+
+<blockquote>
+  <p>De 0 a 1 el salto es infinito.    <br />
+Crear de la nada cuesta mucho.     <br />
+De 1 a 2 el salto es 1.       </p>
+
+  <p><strong>J.E.</strong>     </p>
+</blockquote>
+
+<p>Hace unos semanas estuve conversando con un amigo del departamento donde hice mi doctorado en España. Le estuve comentando sobre mi trabajo acá en la universidad en Colombia y cómo estaba todavía intentando arrancar con proyectos y la investigación.</p>
+
+<p>Él me dijo algo que me hizo reflexionar y es el mensaje que quiero compartir en este entrada. <em>Pasar de cero a uno es infinito, de uno a dos es sólo uno.</em> Arrancar, comenzar, escribir la primera línea con la hoja en blanco, crear de la nada, cuesta mucho y efectivamente a veces parece un esfuerzo infinito. Cuando ya se ha comenzado con algo, seguir haciéndolo cuesta menos. </p>
+
+<p>He estado buscando financiamiento, sin éxito, para algunos proyectos de investigación que hemos planteado entre varios profesores. Buscar financiación no es cosa fácil y es el gran dilema de los investigadores. A veces siento que no debo enfocarme sólo en la financiación. 
+<!-- porque buscar dinero sin una motivación profunda tampoco tiene sentido.  --> 
+He decidido centrarme en algunas cosas más elementales, trabajar con las uñas si es necesario, pero sobre todo, <em>hacer limonada con los limones que he recibido.</em></p>
+
+<p>Ya he comenzado con algo. No es mucho, pero el infinito se está haciendo más pequeño.</p>
+
+<!-- Es más fácil decirlo que hacerlo, pero no hay que desfallecer. Yo me muevo entre el área computacional y el procesamiento digital de imágenes, así como cuestiones más experimentales relacionadas con óptica aplicada. Esto me da cierta versatilidad y he querido aprovecharlo al máximo.  -->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
+    <updated>2015-03-30T23:57:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
+
+  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
+</blockquote>
+
+<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
+
+<!-- more -->
+
+<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
+
+<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
+
+<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[El efecto limpiador]]></title>
@@ -591,51 +653,6 @@ Que los americanos	    </p>
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[¿Por qué un blog?]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/08/25/por-que-un-blog/"/>
-    <updated>2012-08-25T21:31:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/08/25/por-que-un-blog</id>
-    <content type="html"><![CDATA[<div class="air" style="width:225px"><a href="http://www.flickr.com/photos/copiancestral/7883291906/" title="Seated Woman with Blog, after Picasso by Mike Licht on Flickr"><img src="http://farm9.staticflickr.com/8443/7883291906_479ae82a40_n.jpg" width="225" height="240" alt="Seated Woman with Blog, after Picasso" /></a><br />
-photo by Mike Licht. </div>
-
-<p>Existen diversas razones por las cuales embarcarse en la aventura de un blog. Sin embargo, la principal razón seguramente está mas ligada al hecho de tener algo que contar. <!-- more --> En las palabras de <a href="http://www.43folders.com/2009/03/25/blogs-turbocharged">Merlin Mann</a></p>
-
-<blockquote>
-  <p>“How do you know you should start a blog? Because people keep telling you to shut up. You just won’t shut up about a subject.”  <br />
-– <strong>Merlin Mann</strong>, <a href="http://www.43folders.com/2009/03/25/blogs-turbocharged">SXSW Interactive 2009</a></p>
-</blockquote>
-
-<p>Que traduce algo así como, si constantemente te mandan a callar y no puedes parar de hablar de un tema, <em>deberías</em> abrir un blog. Resulta cómico, pero como la mayoría de las cosas cómicas en la vida, tiene mucho de cierto y nos reímos porque nos vemos reflejados en ellas. Normalmente preferimos reírnos de los demás, antes que de nosotros mismos, pero nos reímos porque somos capaces de sentir empatía<sup id="fnref:foo"><a href="#fn:foo" rel="footnote">1</a></sup> y ponernos en los zapatos de otros. </p>
-
-<p>Es esa capacidad de ponernos en el lugar de otro lo que nos permite identificarnos con otras personas y llegar a admirarlos por lo que son y por lo que han hecho. De hecho una de las principales motivaciones para escribir en un blog debería ser el intentar llegarle a aquellos a quienes se admira. Deberíamos siempre escribir como si nuestro blogger/escritor favorito<sup id="fnref:foo2"><a href="#fn:foo2" rel="footnote">2</a></sup> fuera a leer nuestro artículo. Esto nos permitirá tener un blog del cual sentirnos orgullosos, y tener la oportunidad de encontrar nuestra <em>propia voz</em>. </p>
-
-<p>En el proceso de encontrar nuestra voz descubriremos las voces de otros. Un blog no existe de manera aislada. Si no fuera por la interacción con otras personas que comparten nuestra pasión, la empresa de un blog podría ser una sin mayor satisfacción y sin motivos por los cuales mejorar y continuar. Siempre es mejor un comentario o crítica oportuna a  diez mil visitas anónimas. </p>
-
-<p>Nunca antes hubo un momento tan propicio como ahora para atreverse a publicar nuestras historias y reflexiones. Nunca antes fue tan barato llegarle a tantas personas como lo que podemos hacer a día de hoy con el internet. Vivimos en tiempos emocionantes y resulta apenas lógico querer participar en esta aventura. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:foo">
-      <p>Aunque es cierto que siempre hay alguno que otro por ahí que no siente empatía alguna con los demás. <a href="#fnref:foo" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:foo2">
-      <p>Incluso si a quien admiramos es un personaje ficticio, o nuestro propio álter ego. Muchas veces escribimos tanto para un “yo” pasado como para un “yo” futuro. <a href="#fnref:foo2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hola Mundo]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo/"/>
-    <updated>2012-08-12T12:43:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo</id>
-    <content type="html"><![CDATA[<p>Este es mi primer post en este blog implementado en <a href="http://octopress.org/" title="Octopress">octopress</a>.</p>
 ]]></content>
   </entry>
   

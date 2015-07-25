@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2015-02-22T20:54:10-05:00</updated>
+  <updated>2015-07-25T02:03:28-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[De cero a uno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
+    <updated>2015-07-25T01:07:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
+</div>
+
+<blockquote>
+  <p>De 0 a 1 el salto es infinito.    <br />
+Crear de la nada cuesta mucho.     <br />
+De 1 a 2 el salto es 1.       </p>
+
+  <p><strong>J.E.</strong>     </p>
+</blockquote>
+
+<p>Hace unos semanas estuve conversando con un amigo del departamento donde hice mi doctorado en España. Le estuve comentando sobre mi trabajo acá en la universidad en Colombia y cómo estaba todavía intentando arrancar con proyectos y la investigación.</p>
+
+<p>Él me dijo algo que me hizo reflexionar y es el mensaje que quiero compartir en este entrada. <em>Pasar de cero a uno es infinito, de uno a dos es sólo uno.</em> Arrancar, comenzar, escribir la primera línea con la hoja en blanco, crear de la nada, cuesta mucho y efectivamente a veces parece un esfuerzo infinito. Cuando ya se ha comenzado con algo, seguir haciéndolo cuesta menos. </p>
+
+<p>He estado buscando financiamiento, sin éxito, para algunos proyectos de investigación que hemos planteado entre varios profesores. Buscar financiación no es cosa fácil y es el gran dilema de los investigadores. A veces siento que no debo enfocarme sólo en la financiación. 
+<!-- porque buscar dinero sin una motivación profunda tampoco tiene sentido.  --> 
+He decidido centrarme en algunas cosas más elementales, trabajar con las uñas si es necesario, pero sobre todo, <em>hacer limonada con los limones que he recibido.</em></p>
+
+<p>Ya he comenzado con algo. No es mucho, pero el infinito se está haciendo más pequeño.</p>
+
+<!-- Es más fácil decirlo que hacerlo, pero no hay que desfallecer. Yo me muevo entre el área computacional y el procesamiento digital de imágenes, así como cuestiones más experimentales relacionadas con óptica aplicada. Esto me da cierta versatilidad y he querido aprovecharlo al máximo.  -->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
+    <updated>2015-03-30T23:57:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
+
+  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
+</blockquote>
+
+<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
+
+<!-- more -->
+
+<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
+
+<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
+
+<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Un cv moderno]]></title>
@@ -86,57 +148,6 @@
 
 <p>Vuelve dentro de poco para que veas el primero de la serie. </p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Después del Ph.D.]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd/"/>
-    <updated>2012-09-27T17:48:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/09/27/despues-del-phd</id>
-    <content type="html"><![CDATA[<p>El camino más común después de un doctorado suele ser continuar con un postdoc y permanecer en la academia. De tal manera que se <em>intenta</em> sobrevivir con proyectos y contratos de investigación hasta que se <em>pueda</em> obtener alguna plaza de investigación o docencia. Sin embargo, una de los caminos menos recorridos y que parece más arriesgado es el de los negocios. En un artículo reciente en <a href="http://blogs.nature.com/soapboxscience/">Soapbox Science</a> Jerry Nguyen, Doctor en neurociencia, escribe </p>
-
-<blockquote>
-  <p>When I first considered leaving academia, I anxiously wondered, “Who would want to hire a systems neuroscientist who specializes in 3-dimensional vision?” Seven years later, with a career that has spanned healthcare management consulting, window decorating at Pottery Barn, finance,  and global health consulting, I think I have a pretty good answer. </p>
-
-  <p>– <strong>Jerry Nguyen</strong>, <a href="http://blogs.nature.com/soapboxscience/2012/08/17/phdelta-phd-what-is-it-good-for-leavingacademia">PhDelta: PhD what is it good for? #leavingacademia</a> </p>
-</blockquote>
-
-<p>Su ansiedad partía del hecho en considerar que se había especializado tanto en un área en particular, que creía que nadie lo contrataría por ese hecho. La verdad es que el doctorado no se trata solo de especializarse en un área del conocimiento, sino también de obtener un entrenamiento que moldea tu forma de trabajar y pensar. El Dr. Nguyen continua resaltando cosas que aprendió durante su doctorado que <em>a priori</em> no hubiese considerado, como <strong>gestión de projectos</strong>, <strong>la capacidad de hacer buenas preguntas</strong>, y <strong>ser un autodidacta profesional</strong>. Es ésta última habilidad la que en mi opinión se ejercita más durante el doctorado. Gran parte del doctorado se trata de <em>estar solo</em> y sacar los resultados adelante con  esfuerzo, dedicación y una gran dosis de auto-confianza. El artículo es corto pero resume bien alguna de las ventajas de la formación doctoral y las falencias también a la hora de embarcarse en la aventura del <strong>doctor/business man</strong>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hay que ser pobres para innovar]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar/"/>
-    <updated>2012-09-19T00:04:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/09/19/hay-que-ser-pobres-para-innovar</id>
-    <content type="html"><![CDATA[<p>Hace unos días en la reunión nacional de óptica asistí a una charla interesantísima sobre sensores 3D presentada por el profesor <a href="http://www.optik.uni-erlangen.de/osmin/team/team.php?sid=3">Gerd Häusler</a> de la universidad Friedrich-Alexander en Erlangen (Alemania). Al comenzar la charla hizo algo curioso. Dedicó los primero minutos de la charla a enviar un mensaje especialmente dirigido a los políticos y de manera seguida lanzó unos consejos para los jóvenes investigadores. Por su puesto en el evento no había la mas mínima representación política y estoy seguro que todos los presentes estuvimos de acuerdo con su llamado de atención. De todas maneras comparto aquí el mensaje con el afán de darle algo de divulgación. Para los dirigentes políticos lanzó la siguiente frase </p>
-
-<blockquote>
-  <p>Si la educación es costosa, prueba la ignorancia. </p>
-
-  <p>– <strong>Gerd Häusler</strong>, XRNO Zaragoza, 2012</p>
-</blockquote>
-
-<!--more-->
-
-<p>Me parece que el mensaje es lo suficientemente claro, aunque pareciera que a muchos políticos les costara de entender. En esta línea de criticas mostró una gráfica  al referirse sobre el desarrollo de un país y la relación entre el éxito versus el tiempo invertido en la formación académica. Como tal, el éxito sólo se consigue tras la dedicación de mucho tiempo y esfuerzo. ¿Qué crees que pasaría si cortásemos el proceso de formación? Pues tendríamos el mercado laboral repleto de profesionales a medio hacer, cuyo curriculum además de la falta de experiencia también deberían agregarle la falta de formación. A dicho corte le llaman el “Bologna cut-off” en relación al controvertido <a href="http://es.wikipedia.org/wiki/Proceso_de_Bolonia">proceso de Bolonia</a> y el Espacio Europeo de educación superior.</p>
-
-<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8001074285/" title="Success vs time by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8453/8001074285_d3ed7ea9d2_m.jpg" width="240" height="97" alt="Success vs time" /></a><br />
-Éxito vs. tiempo.</div>
-
-<p>Después de las criticas correspondientes para la clase dirigente, enfatizó en que no debemos obstinarnos por conseguir dinero, sino intentar mantenernos activos y curiosos para poder disfrutar de lo que hacemos. Según él, al estar siempre tras el dinero perdemos la perspectiva de por qué nos metimos inicialmente en la ciencia y en esto estoy completamente de acuerdo. No hay que perder la perspectiva, ni la esencia de lo que somos. Hay que mantenerse fieles a nuestros principios, pero con la mente abierta para enderezarlos cuando sea oportuno.</p>
-
-<p>Por último y para el deleite de los asistentes insistió en que la formula para ser innovadores pasa por <em>ser pobres</em>. Vaya frase y vaya momento para insistir en ello. Aunque no sea tan evidente esta última anotación, resulta por lo menos llamativa en cuanto hace alusión a una de las cualidades más sorprendentes del ser humano<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, nuestra capacidad para inventar e innovar. Parece ser que cuando nos encontramos ante verdaderas adversidades, nuestra capacidad para innovar y producir soluciones óptimas es lo que nos conduce a superarnos y solventar las dificultades. Con tanto recorte en Europa, parece que no hubo antes mejor momento para dedicarse a innovar y pensar en hacer las cosas de una manera diferente. ¿Qué piensas tu?</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Tan sólo hace unos cuantos días escribí al respecto, sobre <a href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/">lo que somos y como admiro el intelecto humano</a>.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
