@@ -46,8 +46,8 @@ Notice that ``published: false``, which means *it is a draft*. When I'm finished
 The Syncing is done via Dropbox, because any iOS text editor comes with Dropbox support. iCloud has still a long way to go. Because my octopress folder does not reside in the Dropbox folder I made symlinks on my Mac to the ``_posts``, ``_drafts``, and ``images`` folders so they get synced 
 
 	ln -s ~/octopress/source/_posts/ ~/Dropbox/PlainText/blog/_posts
-	ln -s ~/octopress/source/images/ ~/Dropbox/blog/PlainText/images
-	ln -s ~/octopress/source/_drafts/ ~/Dropbox/blog/PlainText/_drafts
+	ln -s ~/octopress/source/images/ ~/Dropbox/PlainText/blog/images
+	ln -s ~/octopress/source/_drafts/ ~/Dropbox/PlainText/blog/_drafts
 	
 On any other machine they become actual folders.
 
