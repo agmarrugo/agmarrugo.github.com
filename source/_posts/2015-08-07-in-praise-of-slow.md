@@ -5,7 +5,7 @@ date: 2015-08-07 23:53
 author: Andres Marrugo
 comments: true
 published: true
-categories: blog
+categories: life
 ---
 
 I have a recurrent discussion with my wife. 
