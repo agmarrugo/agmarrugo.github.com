@@ -11,7 +11,7 @@ facebook:
     image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg
 twitter_card:
     creator: agmarrugo
-    type: summary_large_image
+    type: summary
     image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg
 ---
 
