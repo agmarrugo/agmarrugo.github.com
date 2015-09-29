@@ -1,11 +1,18 @@
 ---
 layout: post
 title: "A CV for my Thesis"
+description: A Ph.D. thesis is one of those things that has a life of its own. Last January, I had the opportunity to write a two-page abstract of my thesis for publication in Electronic Letters on Computer Vision and Image Analysis.
 date: 2014-06-19 21:11
 author: Andres Marrugo
 comments: true
 published: true
 categories: academia
+facebook:
+    image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg
+twitter_card:
+    creator: agmarrugo
+    type: summary_large_image
+    image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg
 ---
 
 
