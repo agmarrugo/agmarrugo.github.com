@@ -57,7 +57,7 @@ After filling it out I get something like the following:
 
 This is easy to fill out, looks nice and is well formated. I can preview it - if I want – in [Marked][marked] or in any other markdown previewer. But the truth is, I'm fine viewing it just like that in plain text. The tedious part comes when I need to copy the grades from this file to a spreadsheet.
 
-This is where [automating the boring stuff][automate] in python makes this a fun and interesting problem to spend an evening solving with a script. The following script takes an input text file like formatted like the one previously shown.
+This is where [automating the boring stuff][automate] in python makes this a fun and interesting problem to spend an evening solving with a script. The following script takes an input text file formatted like the one previously shown.
 
 
 ```python grades2csv.py https://gist.github.com/agmarrugo/5781fbf3d42f26cd2114 Link
@@ -151,7 +151,7 @@ Which looks like this when viewed as a spreadsheet:
 
 <div class="aic" style="width:600px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202015-10-14%20at%2000.31.02.png" alt="" width="" height="" border="0" /><br></div>
 
-You might be wondering, but why go through all this trouble. Because I can, but mostly because I find spreadsheets useful, but I don't like to type data in them. I find it more productive to write continuously in a plain text file. I can use Textexpander and other tools more easily. And finally, why not let the computer do the work it's supposed to do - I'm no monkey.
+You might be wondering, but why go through all this trouble. Because I can, but mostly because I find spreadsheets useful, but I don't like typing data into them. I find it more productive to write continuously in a plain text file. I can use Textexpander and other tools more easily. And finally, why not let the computer do the work it's supposed to do - I'm no monkey.
 
 
 
