@@ -52,7 +52,7 @@ headers = ["Date","Lecture","Lecture Topics"]
 print tabulate(listFridays,headers,tablefmt='pipe')
 ```
 
-As you can see, the script is quite simple. I give it the year and the months. The loops go over the months, and then the weeks and it looks up the friday of that week. 
+As you can see, the script is quite simple. I give it the year and the months. The loops go over the months, and then the weeks and it looks up the friday of that week. On line 18, I have to append the white spaces ``" "`` and convert day to ``str`` in order to get three columns per day, so that tabulate gives me back a nifty formatted table. Another cool thing is that tabulate can also output in LaTeX format.
 
 The script will produce this:
 
