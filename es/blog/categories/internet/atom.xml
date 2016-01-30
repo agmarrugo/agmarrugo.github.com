@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: internet | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/internet/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/es//"/>
+  <updated>2016-01-30T01:52:08-05:00</updated>
+  <id>http://andresmarrugo.net/es//</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ El problema de lo gratis]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2013/02/28/el-problema-de-lo-gratis/"/>
+    <updated>2013-02-28T21:27:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2013/02/28/el-problema-de-lo-gratis</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:480px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/origin_2945559128.jpg" alt="Jump on" /><br />
+photo credit: <a href="http://www.flickr.com/photos/matthamm/2945559128/">Matt Hamm</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a>.</div>
+
+<p>De pequeño me enseñaron a no recibir cosas que me ofrezca una persona extraña. De paso también me enseñaron que de lo bueno no dan mucho, y que no hay nada que sea realmente gratis – siempre hay alguna pega. Entonces por qué somos tan dados a darlo todo<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> y tan fácilmente por ahí en el internet. </p>
+
+<!-- more -->
+
+<p>Facebook, Google, Twitter, y demás empresas parecidas de la era de la web 2.0, ofrecen innumerables servicios de manera gratuita. ¿O no?</p>
+
+<p>La verdad, en esto de lo gratis nos hemos acostumbrado todos, y nos parecería muy <a href="http://www.theverge.com/2013/1/7/3835724/the-price-of-apps" title="Consumers pay the hidden costs for the 'free' app ecosystem | The Verge">extraño pagar por un servicio de mensajería instantánea</a>, chat, red social, etc. Pero si en la época de mis padres cualquier servicio que te ofreciera una empresa tenía un coste, ¿qué pasa, ahora no? Ahora también, lo que pasa es que el modelo de negocio es distinto. Para todas estas empresas nosotros <a href="http://www.rushkoff.com/blog/2013/2/25/cnn-unlike-why-im-leaving-facebook.html" title="Douglas Rushkoff - Blog - CNN: Unlike - Why I'm Leaving Facebook">no somos el cliente, somos el producto.</a> </p>
+
+<p>Hasta hace no mucho, una empresa que cualquiera debía hacer estudios de mercado, encuestas, perfiles de sus potenciales clientes, y quien sabe qué más. Es probable que a día de hoy aún lo hagan, pero no tienen muchos motivos para seguir haciéndolo. Toda esta información la hemos “regalado” a cambio de un aparente servicio gratuito. No hay empresa que pueda superar el arduo trabajo que ponen <a href="https://medium.com/i-m-h-o/52a20d7a17de" title="Why I love Twitter and barely tolerate Facebook — I.M.H.O. — Medium">los millones de usuarios de Facebook</a> rellenando perfiles y haciendo click en me gusta este enlace, me gusta este libro, me gusta esta foto (que además tiene información GPS de donde la tomamos), etc. Para que luego Facebook le venda está información a sus verdaderos clientes los anunciantes de publicidad y quien sabe que más tipo de organizaciones que también estén interesadas. </p>
+
+<p>Yo te digo hoy, tu información personal es valiosa, piensa primero a <em>quien</em> y <em>por qué</em> se la das. La gente no suele pensar en ello, pero es cierto. Mi privacidad no es algo que me tome a la ligera. Así cómo el tiempo es oro, la información también. </p>
+
+<p>Si le invertiré mucho tiempo a algo (que es como si invirtiera dinero) quiero que sea en <a href="http://www.macdrifter.com/2012/08/glassboard-the-anti-facebook.html" title="Glassboard: The Anti-Facebook">un producto del que me pueda sentir orgulloso.</a> Además, siempre que pueda, quiero ser dueño y responsable de mi información. No quiero pasar horas y horas rellenando formularios, subiendo fotos, o lo que sea, para que luego de la noche a la mañana la empresa (dueña de estos datos) decida borrarlos o que se vaya a la banca rota y desaparezcan mis datos con ella.<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">2</a></sup> Una forma rápida de saber si se puede invertir tiempo y atención en uno de estos servicios gratuitos es si ofrece la posibilidad de exportar toda esa información que les hemos dado de una manera relativamente fácil. </p>
+
+<p>Por paranoico que parezca no es sólo una cuestión de seguridad y confianza, es una cuestión de principios. Así como no dejo entrar a cualquiera a mi casa y que se entere de mi vida, tampoco quiero dejarle mi vida (digital) a gente que no conozco bien o que no <em>sé bien</em> que hará con ella. Y tu, ¿a quien le estas dejando tu vida digital?</p>
+
+<!-- 
+* Artículo the verge. 
+* Facebook, Google, Twitter, etc. 
+	* Todos gratis. 
+	* No te enseñaron a desconfiar de un extraño que te haga un regalo. 
+	* De lo bueno no dan mucho. 
+	* Si es gratis, probablemente tu seas el producto y no el cliente. 
+	* Tu información es valiosa. 
+* La gente no piensa en ello. 
+	* Pero es importante. 
+	* Mi privacidad no es algo que me tomo a la ligera. 
+* El tiempo es oro, y la información también. 
+	* El valor del tiempo que invierto en un producto. 
+	* Quiero ser dueño y responsable de mi información. 
+	* no quiero que desaparezca. 
+* No sólo es cuestión de seguridad, sino de principios. 
+ -->
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>“Dados a darlo todo”, lo escribí así a propósito. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2">
+      <p>Mira <a href="http://www.theverge.com/2013/1/7/3835724/the-price-of-apps" title="Consumers pay the hidden costs for the 'free' app ecosystem | The Verge">este enlace</a> sobre como los usuarios pagamos los costes “ocultos” de las aplicaciones gratuitas. <a href="#fnref:fn2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
