@@ -17,7 +17,6 @@ twitter_card:
 
 So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that's once a week every Friday. I could look up the calendar and write every date, which is what I initially did. But then I though, I could write a script for this. And that's when I entered the rabbit hole.[^fn1]
 
-<!-- more -->
 
 [^fn1]: Don't we all?
 
