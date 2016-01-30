@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bookmarks | andres marrugo]]></title>
+  <link href="http://agmarrugo.github.com/blog/categories/bookmarks/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2016-01-30T01:28:38-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Links of Interest for January 31, 2013]]></title>
+    <link href="http://agmarrugo.github.com/blog/2013/01/31/links-of-interest/"/>
+    <updated>2013-01-31T00:00:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2013/01/31/links-of-interest</id>
+    <content type="html"><![CDATA[<p>The <a href="http://andresmarrugo.net/blog/categories/bookmarks/">“Links of Interest”</a> is a type of post I’ll start to do on a regular basis here. Every now and then I come across something interesting in the web that I’d like to share with my readers, but that doesn’t necessarily merit a blog post or I really don’t have the time to write one. This type of blog post is inspired by <a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/" title="A &quot;Web Excursions&quot; system for static blogs - Brett Terpstra">Brett Terpstra’s “Web Excursions”</a> system. As he explains, he prefers a single post with multiple links rather than a ton of individual “link list” posts. I do too.</p>
+
+<p>To find out more about the details and the ruby script for automatically generating the post <a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/" title="A &quot;Web Excursions&quot; system for static blogs - Brett Terpstra">go to his website</a>. The links posted here, I’ve gathered in the past couple of weeks using <a href="http://pinboard.in/">pinboard</a> an incredibly useful bookmarking service. Enjoy.</p>
+
+<!-- more -->
+
+<h2 id="the-links">The links</h2>
+
+<dl>
+  <dt><a href="http://www.wikiwebapp.com/">Wikiweb - A Delightful Wikipedia Reader</a></dt>
+  <dd>The power of wiki backlinks. Visualizing connections between articles.   </dd>
+  <dt><a href="http://cvip.computing.dundee.ac.uk/papers/TruccoIOVS2013inpress.pdf">Validating Retinal Fundus Image Analysis Algorithms: Issues And A Proposal</a></dt>
+  <dd>Interesting article in which the “big players” in the field of retinal image analysis make recommendations on the possible avenues for research. The purpose is that the research may have a greater impact on the clinical practice.    </dd>
+  <dt><a href="http://dictionary2.classic.reference.com/writing/styleguide/footnotes.html">Footnotes, Endnotes and Textnotes</a></dt>
+  <dd>A brief style-guide on the use of footnotes, and the like. I came to this page by looking up the recommended style for placing superscript of footnotes next to punctuation marks. BTW it should always go after the punctuation mark, unless the mark is a dash.   </dd>
+  <dt><a href="http://www.seankorzdorfer.com/open_notebook/voodoopad%20workflow%20and%20notes.html#section-why">VoodooPad Workflow and Notes</a></dt>
+  <dd>Sean Korzdorfer’s workflow on note-taking and using a personal wiki. Really cool.</dd>
+  <dt><a href="http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-commands/">xk0der » Git Tutorial : Starting with git using just 10 commands</a></dt>
+  <dd>A basic tutorial on git version control.</dd>
+  <dt><a href="http://talmai-oliveira.blogspot.com.es/2011/06/how-to-cite-matlab-bibtex-latex.html">Things I Shouldn’t Forget: How to cite MATLAB (bibtex / latex)</a></dt>
+  <dd>Truly important. How to cite the all powerful MATLAB.</dd>
+  <dt><a href="http://mattgemmell.com/2013/01/15/writing-tools/">Writing Tools - Matt Gemmell</a></dt>
+  <dd>Matt Gemmell gives a nice overview of the tools he uses to write plus some general advice on avoiding writer’s block and getting stuff done.</dd>
+  <dt><a href="http://www.chocomoko.com/brisk">Brisk</a></dt>
+  <dd>An interesting alternative to LaTeXiT on the mac. Doesn’t need a latex installation. </dd>
+  <dt><a href="https://medium.com/the-writers-room/8d6e7df7ae58">The Spark File — The Writer’s Room — Medium</a></dt>
+  <dd>A “spark” file for writing down anything that goes through your mind. Later revisiting it to find  reminders of useful ideas.  </dd>
+  <dt><a href="http://www.cs.berkeley.edu/~jrs/speaking.html">Giving an Academic Talk</a></dt>
+  <dd>A nice article on general guidelines and tips for giving a “decent” academic presentation.</dd>
+  <dt><a href="http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/">Writing math equations on Octopress</a></dt>
+  <dd>A nice little tutorial on posting LaTeX equations on Octopress.</dd>
+  <dt><a href="http://bigthink.com/rewire/a-tech-geek-on-why-we-need-the-humanities">A Tech Geek on Why We Need the Humanities | Input/Output | Big Think</a></dt>
+  <dd>A nice piece on the importance of arts alongside technology. Because “the only jobs left to humans in the not-so-distant future will be those that computers can’t do – the kind that demand intuition and creative thinking.”</dd>
+  <dt><a href="http://www.elezea.com/2012/12/do-what-you-love/">How to do what you love, the right way</a></dt>
+  <dd>A call to forget about titles and do “what you love.”</dd>
+  <dt><a href="https://medium.com/i-m-h-o/52a20d7a17de">Why I love Twitter and barely tolerate Facebook — I.M.H.O. — Medium</a></dt>
+  <dd>MATT HAUGHEY explains his reasons for liking so much twitter and barely tolerating Facebook. In his words, twitter is the now, is the present. You follow people more for what they have to say, rather than for how they relate to you (high school friend, attended the same university, etc).  Facebook is all about the past.  </dd>
+</dl>
+
+]]></content>
+  </entry>
+  
+</feed>

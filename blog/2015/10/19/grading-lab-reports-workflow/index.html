@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Grading lab reports workflow - andres marrugo</title>
+  <meta name="author" content="Andres Marrugo">
+
+  
+  <meta name="description" content="Grading lab reports workflow using Python and Plain Text Files.">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/andresmarrugo" rel="alternate" title="andres marrugo" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="/javascripts/footnotify.js"></script>
+
+<!-- Social media content metadata -->
+
+<meta property="fb:app_id" content="688168701320097" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Grading lab reports workflow" />
+<meta property="og:site_name" content="andres marrugo" />
+<meta property="og:url" content="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/" />
+<meta property="og:description" content="Grading lab reports workflow using Python and Plain Text Files." />
+<meta property="og:author" content="https://www.facebook.com/andres.g.marrugo" />
+<meta property="og:image" content="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" />
+<meta property="og:image:width" content="300" />
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="agmarrugo" />
+<meta property="twitter:url" content="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/" />
+<meta property="twitter:title" content="Grading lab reports workflow" />
+<meta property="twitter:description" content="Grading lab reports workflow using Python and Plain Text Files." />
+<meta property="twitter:creator" content="agmarrugo" />
+<meta property="twitter:image:src" content="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" />
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34225633-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">andres marrugo</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/andresmarrugo" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:agmarrugo.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>	
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/es/">Espa&ntilde;ol</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Grading Lab Reports Workflow</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-19T22:31:00-05:00" pubdate data-updated="true">Oct 19<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><div class="aic" style="width:320px"><a href="https://www.flickr.com/photos/50652826@N03/22134710389"><img src="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" alt="Grades 2 CSV with Python." width="320px" height="" border="0" /></a></div>
+
+<p>Despite all the tools and applications at my disposal, I like to write my comments, feedback and grade the lab reports I get from my students using plain text files. To be precise, <a href="https://daringfireball.net/projects/markdown/" title="Daring Fireball: Markdown">markdown</a> formatted plain text files md.</p>
+
+<!-- more -->
+
+<p>I typically write in a plain text file using <a href="http://brettterpstra.com/projects/nvalt/" title="nvALT - BrettTerpstra.com">nvalt</a> or <a href="https://macromates.com/" title="TextMate — The Missing Editor for Mac OS X">textmate</a> as my text editor. With the help of a <a href="https://smilesoftware.com/TextExpander/index.html" title="TextExpander: Mac Typing Shortcut Utility Saves You Time TextExpander: Mac Typing Shortcut Utility Saves You Time">TextExpander</a> snippet I print out the class list and the other fields I must fill out, typically a general comment/feedback and the grade. The snippet produces something like this:<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
+
+<pre><code>tags:#vision,#lab
+
+- Pérez Ramos, Miguel A.
+	- Comentario: 
+	- Nota:
+
+- Beleño Hernández, Liliana P.
+	- Comentario: 
+	- Nota: 
+
+... Other parts look the same ...
+</code></pre>
+
+<p>After filling it out I get something like the following:</p>
+
+<pre><code>tags:#vision,#lab
+
+- Pérez Ramos, Miguel A.
+	- Comentario: El informe está completo y bien argumentado. Se demuestra que se realizó la práctica a cabalidad. Concluye adecuadamente y cita las referencias consultadas.
+	- Nota: 5.0
+
+- Beleño Hernández, Liliana P.
+	- Comentario: El informe comienza bien, pero termina abruptamente. No se mencionan los aspectos relacionados con la lectura y tampoco se evidencia adecuadamente los resultados de la práctica. No hay bibliografía.
+	- Nota: 3.5
+
+- Carrascal Mendez, Martín S.
+	- Comentario: El informe es adecuado y cumple con el objetivo de la práctica.
+	- Nota: 5.0	
+</code></pre>
+
+<p>This is easy to fill out, looks nice and is well formated. I can preview it - if I want – in <a href="http://marked2app.com/" title="Marked 2 - Smarter tools for smarter writers">Marked</a> or in any other markdown previewer. But the truth is, I’m fine viewing it just like that in plain text. The tedious part comes when I need to copy the grades from this file to a spreadsheet.</p>
+
+<p>This is where <a href="https://automatetheboringstuff.com/" title="Automate the Boring Stuff with Python - Practical Programming for Total Beginners">automating the boring stuff</a> in python makes this a fun and interesting problem to spend an evening solving with a script. The following script takes an input text file formatted like the one previously shown.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>grades2csv.py </span><a href="https://gist.github.com/agmarrugo/5781fbf3d42f26cd2114">Link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+<span class="line-number">36</span>
+<span class="line-number">37</span>
+<span class="line-number">38</span>
+<span class="line-number">39</span>
+<span class="line-number">40</span>
+<span class="line-number">41</span>
+<span class="line-number">42</span>
+<span class="line-number">43</span>
+<span class="line-number">44</span>
+<span class="line-number">45</span>
+<span class="line-number">46</span>
+<span class="line-number">47</span>
+<span class="line-number">48</span>
+<span class="line-number">49</span>
+<span class="line-number">50</span>
+<span class="line-number">51</span>
+<span class="line-number">52</span>
+<span class="line-number">53</span>
+<span class="line-number">54</span>
+<span class="line-number">55</span>
+<span class="line-number">56</span>
+<span class="line-number">57</span>
+<span class="line-number">58</span>
+<span class="line-number">59</span>
+<span class="line-number">60</span>
+<span class="line-number">61</span>
+<span class="line-number">62</span>
+<span class="line-number">63</span>
+<span class="line-number">64</span>
+<span class="line-number">65</span>
+<span class="line-number">66</span>
+<span class="line-number">67</span>
+</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c">#! /usr/local/bin/python</span>
+</span><span class="line"><span class="c"># -*- coding: utf-8 -*-</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">re</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">csv</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">argparse</span>
+</span><span class="line">
+</span><span class="line"><span class="k">class</span> <span class="nc">REMatcher</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+</span><span class="line">    <span class="sd">&quot;&quot;&quot; A little class that returns the boolean result of calling match,</span>
+</span><span class="line"><span class="sd">    and retains the matched groups for subsequent retrieval.</span>
+</span><span class="line">
+</span><span class="line"><span class="sd">    Attributes</span>
+</span><span class="line"><span class="sd">    ----------</span>
+</span><span class="line"><span class="sd">    matchstring : The string to match</span>
+</span><span class="line"><span class="sd">    match : Matching the regular expression, returns True/False</span>
+</span><span class="line"><span class="sd">    group : Returns the matched groups with index i</span>
+</span><span class="line">
+</span><span class="line"><span class="sd">    Modified from Paul McGuire, </span>
+</span><span class="line"><span class="sd">    http://stackoverflow.com/questions/2554185/match-groups-in-python</span>
+</span><span class="line"><span class="sd">    &quot;&quot;&quot;</span>
+</span><span class="line">    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matchstring</span><span class="p">):</span>
+</span><span class="line">        <span class="bp">self</span><span class="o">.</span><span class="n">matchstring</span> <span class="o">=</span> <span class="n">matchstring</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">match</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">regexp</span><span class="p">):</span>
+</span><span class="line">        <span class="bp">self</span><span class="o">.</span><span class="n">rematch</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">regexp</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">matchstring</span><span class="p">)</span>
+</span><span class="line">        <span class="k">return</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">rematch</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">group</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">i</span><span class="p">):</span>
+</span><span class="line">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">rematch</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># construct the argument parse and parse the arguments</span>
+</span><span class="line"><span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+</span><span class="line"><span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;input&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;path to the input text file&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="c"># optional output csv file path</span>
+</span><span class="line"><span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;-o&quot;</span><span class="p">,</span> <span class="s">&quot;--output&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;path to the output csv file&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="n">args</span> <span class="o">=</span> <span class="nb">vars</span><span class="p">(</span><span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">())</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Path to text file</span>
+</span><span class="line"><span class="n">filePath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;input&#39;</span><span class="p">]</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Path to output file</span>
+</span><span class="line"><span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;output&#39;</span><span class="p">]:</span>
+</span><span class="line">    <span class="n">fileCSVPath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;output&#39;</span><span class="p">]</span>
+</span><span class="line"><span class="k">else</span><span class="p">:</span>
+</span><span class="line">    <span class="c"># If output file path is not provided</span>
+</span><span class="line">    <span class="n">fileCSVPath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;input&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.csv&quot;</span>
+</span><span class="line">
+</span><span class="line">
+</span><span class="line"><span class="n">fileCSV</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">fileCSVPath</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
+</span><span class="line"><span class="n">wr</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">fileCSV</span><span class="p">,</span><span class="n">quoting</span><span class="o">=</span><span class="n">csv</span><span class="o">.</span><span class="n">QUOTE_ALL</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Write titles in csv file</span>
+</span><span class="line"><span class="n">wr</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="s">&quot;Nombre&quot;</span><span class="p">,</span><span class="s">&quot;Nota&quot;</span><span class="p">,</span><span class="s">&quot;Comentario&quot;</span><span class="p">])</span>
+</span><span class="line">
+</span><span class="line"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span><span class="line">
+</span><span class="line"><span class="c">#   Iterate through all lines in f</span>
+</span><span class="line">    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+</span><span class="line">        <span class="n">m</span> <span class="o">=</span> <span class="n">REMatcher</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line">        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^-(.*$)&quot;</span><span class="p">):</span>
+</span><span class="line">            <span class="n">Name</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line">        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^\t.*-.*Comentario:(.*$)&quot;</span><span class="p">):</span>
+</span><span class="line">            <span class="n">Comment</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line">        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^\t.*-.*Nota:\s*(\d.*$)&quot;</span><span class="p">):</span>
+</span><span class="line">            <span class="n">Grade</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line">            <span class="n">List</span> <span class="o">=</span> <span class="p">[</span><span class="n">Name</span><span class="p">,</span><span class="n">Grade</span><span class="p">,</span><span class="n">Comment</span><span class="p">]</span>
+</span><span class="line">            <span class="n">wr</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">List</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>The usage is very simply, you just call the script <code>grades2csv.py</code> with the file you want to process. If you don’t specify where the output should go (<code>-o option</code>) it defaults to the same path as the input text file.</p>
+
+<p>I didn’t bother on avoiding overwriting an existing csv file with the same name. I never name two text files with grades the same way.</p>
+
+<p>About a year ago, I found out about this awesome trick of setting up a <code>REMatcher class</code> so that I can have an object that saves the matched string and returns <code>True</code> when it matches the regex. I’ve never gone back to implementing other regex paraphernalia in python. This works and I stick with it.</p>
+
+<p>The script looks for three different matches in every line of the input file. One for a line that starts with a dash (<code>^-(.*$)</code>), capturing the name of the student (<code>m.group(1)</code>). The second, that matches the word <code>Comentario</code>(<code>"^\t.*-.*Comentario:(.*$)"</code>) and captures the comment, and the third that captures the grade (<code>"^\t.*-.*Nota:\s*(\d.*$)"</code>). If the grade is not captured, then not a single item is written to the csv file (<code>wr.writerow(List)</code>).</p>
+
+<p>If everything is well formated in the input file. The output is a nicely formatted csv file:</p>
+
+<pre><code>"Nombre","Nota","Comentario"
+" Pérez Ramos, Miguel A.","5.0"," El informe está completo y bien argumentado. Se demuestra que se realizó la práctica a cabalidad. Concluye adecuadamente y cita las referencias consultadas."
+" Beleño Hernández, Liliana P.","3.5"," El informe comienza bien, pero termina abruptamente. No se mencionan los aspectos relacionados con la lectura y tampoco se evidencia adecuadamente los resultados de la práctica. No hay bibliografía."
+" Carrascal Mendez, Martín S.","5.0"," El informe es adecuado y cumple con el objetivo de la práctica."
+" Piñeres De La Rosa, Néstor N.","4.7"," El marco teórico apunta a lo necesario, pero con las citas correspondientes. Muy bien por utilizar otras imágenes. Los comentarios son oportunos. Una discusión un poco más extensa sobre los distintos tipos de filtros que se implementaron en la última parte es deseable, ""prewitt"", ""sobel"", etc."
+" Daza Beltran, Juan A.","3.5"," El informe se ajusta a lo mínimo. Debería tener una discusión de resultados más extensa u observaciones del proceso de filtrado con diferentes filtros. Termina abruptamente. No hay bibliografía."
+</code></pre>
+
+<p>Which looks like this when viewed as a spreadsheet:</p>
+
+<div class="aic" style="width:600px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202015-10-14%20at%2000.31.02.png" alt="" width="" height="" border="0" /><br /></div>
+
+<p>You might be wondering, but why go through all this trouble. Because I can, but mostly because I find spreadsheets useful, but I don’t like typing data into them. I find it more productive to write continuously in a plain text file. I can use Textexpander and other tools more easily. And finally, why not let the computer do the work it’s supposed to do - I’m no monkey.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>These are not the real names of my students.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Andres Marrugo</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-10-19T22:31:00-05:00" pubdate data-updated="true">Oct 19<span>th</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/academia/'>academia</a>, <a class='category' href='/blog/categories/automation/'>automation</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/" data-via="agmarrugo" data-counturl="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/10/10/life-inmutable/" title="Previous Post: Life immutable">&laquo; Life immutable</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/01/30/get-fridays/" title="Next Post: Get Fridays">Get Fridays &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/30/get-fridays/">Get Fridays</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/19/grading-lab-reports-workflow/">Grading lab reports workflow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/10/life-inmutable/">Life immutable</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/07/in-praise-of-slow/">In Praise of Slow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/29/on-relearning-things/">On (re)learning things</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+	<h1>Subscribe</h1>
+
+	<div id="thumbs">
+	   <div class="smallsection">
+			<a href="http://feeds.feedburner.com/andresmarrugo"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English feed)"></a>
+	   </div> 
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English feed)"> </a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feeds.feedburner.com/agmarrugo_en_es"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English + Spanish feed)"></a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=agmarrugo_en_es&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English + Spanish feed)"> </a> 
+		</div>
+	</div>​
+
+
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - <a href="/about">Andres Marrugo</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'andresmarrugo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/';
+        var disqus_url = 'http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
