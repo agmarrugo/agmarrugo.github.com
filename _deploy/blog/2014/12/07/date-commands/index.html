@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Date Commands - andres marrugo</title>
+  <meta name="author" content="Andres Marrugo">
+
+  
+  <meta name="description" content="Dr. Drang recently shared two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://andresmarrugo.net/blog/2014/12/07/date-commands/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/andresmarrugo" rel="alternate" title="andres marrugo" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="/javascripts/footnotify.js"></script>
+
+<!-- Social media content metadata -->
+
+<meta property="fb:app_id" content="688168701320097" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Date Commands" />
+<meta property="og:site_name" content="andres marrugo" />
+<meta property="og:url" content="http://andresmarrugo.net/blog/2014/12/07/date-commands/" />
+<meta property="og:description" content="Dr. Drang recently shared two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. I was &hellip;" />
+<meta property="og:author" content="https://www.facebook.com/andres.g.marrugo" />
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="agmarrugo" />
+<meta property="twitter:url" content="http://andresmarrugo.net/blog/2014/12/07/date-commands/" />
+<meta property="twitter:title" content="Date Commands" />
+<meta property="twitter:description" content="Dr. Drang recently shared two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. I was &hellip;" />
+<meta property="twitter:creator" content="agmarrugo" />
+
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34225633-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">andres marrugo</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/andresmarrugo" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:andresmarrugo.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>	
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/es/">Espa&ntilde;ol</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Date Commands</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-07T22:49:00-05:00" pubdate data-updated="true">Dec 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang recently shared</a> two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. </p>
+
+<p>I was mainly interested in the first one because I often have to do that calculation.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> Because the script can also compute the days remaining until a future date, you can imagine how handy it can be. For instance, if I’d like to know how many days until the day I start my vacations, I just run the script with a future date and it’ll return a negative result in days. Or if I’d like to know how old I am in days.</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br />
+This is how old I am in days.</div>
+
+<p>I thought it would be something useful to have on my iPhone so I turned it into a <a href="http://omz-software.com/pythonista/" title="Pythonista">Pythonista</a> script that I run from <a href="http://agiletortoise.com/drafts/" title="Drafts - Agile Tortoise">Drafts</a>. If you want to know exactly what the script does go to <a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang’s post</a>, I just modified it a bit so that it runs from Drafts when you enter a date in the following format <code>DD MM YY</code> where <code>YY</code> is optional, it assumes current year. </p>
+
+<p>You can download the <code>ago.py</code> script from <a href="https://gist.github.com/agmarrugo/e74853dd3914513af1d2">this gist.</a> The Drafts action is available <a href="http://drafts4-actions.agiletortoise.com/a/1PP">here.</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>My solution is typically to google for a date calculator. Then I have to go through the links, and find the one I need. A bit cumbersome, but since I don’t do this everyday I don’t complain much. It just seems simpler to have it as a Drafts action.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Andres Marrugo</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-07T22:49:00-05:00" pubdate data-updated="true">Dec 7<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/automation/'>automation</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://andresmarrugo.net/blog/2014/12/07/date-commands/" data-via="agmarrugo" data-counturl="http://andresmarrugo.net/blog/2014/12/07/date-commands/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/06/19/a-cv-for-my-thesis/" title="Previous Post: A CV for my Thesis">&laquo; A CV for my Thesis</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/01/29/on-relearning-things/" title="Next Post: On (re)learning things">On (re)learning things &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/30/get-fridays/">Get Fridays</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/19/grading-lab-reports-workflow/">Grading lab reports workflow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/10/life-inmutable/">Life immutable</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/07/in-praise-of-slow/">In Praise of Slow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/29/on-relearning-things/">On (re)learning things</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+	<h1>Subscribe</h1>
+
+	<div id="thumbs">
+	   <div class="smallsection">
+			<a href="http://feeds.feedburner.com/andresmarrugo"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English feed)"></a>
+	   </div> 
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English feed)"> </a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feeds.feedburner.com/agmarrugo_en_es"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English + Spanish feed)"></a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=agmarrugo_en_es&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English + Spanish feed)"> </a> 
+		</div>
+	</div>​
+
+
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - <a href="/about">Andres Marrugo</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'andresmarrugo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://andresmarrugo.net/blog/2014/12/07/date-commands/';
+        var disqus_url = 'http://andresmarrugo.net/blog/2014/12/07/date-commands/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

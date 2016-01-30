@@ -1,0 +1,7 @@
+<div class="highlight"><pre><span class="k">for </span>f in <span class="s2">&quot;$@&quot;</span>
+<span class="k">do</span>
+  /opt/local/bin/convert <span class="s2">&quot;$f&quot;</span> <span class="sb">`</span><span class="nb">echo</span> <span class="s2">&quot;$f&quot;</span>|sed <span class="s2">&quot;s/\..*/.pdf/&quot;</span><span class="sb">`</span>
+<span class="k">done</span>
+    
+</pre>
+</div>

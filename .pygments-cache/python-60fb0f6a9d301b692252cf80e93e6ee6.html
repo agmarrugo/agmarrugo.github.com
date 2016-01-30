@@ -1,0 +1,69 @@
+<div class="highlight"><pre><span class="c">#! /usr/local/bin/python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">import</span> <span class="nn">argparse</span>
+
+<span class="k">class</span> <span class="nc">REMatcher</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; A little class that returns the boolean result of calling match,</span>
+<span class="sd">    and retains the matched groups for subsequent retrieval.</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    matchstring : The string to match</span>
+<span class="sd">    match : Matching the regular expression, returns True/False</span>
+<span class="sd">    group : Returns the matched groups with index i</span>
+
+<span class="sd">    Modified from Paul McGuire, </span>
+<span class="sd">    http://stackoverflow.com/questions/2554185/match-groups-in-python</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matchstring</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">matchstring</span> <span class="o">=</span> <span class="n">matchstring</span>
+
+    <span class="k">def</span> <span class="nf">match</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">regexp</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rematch</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">regexp</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">matchstring</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">rematch</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">group</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">i</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">rematch</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c"># construct the argument parse and parse the arguments</span>
+<span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+<span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;input&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;path to the input text file&quot;</span><span class="p">)</span>
+<span class="c"># optional output csv file path</span>
+<span class="n">ap</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;-o&quot;</span><span class="p">,</span> <span class="s">&quot;--output&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;path to the output csv file&quot;</span><span class="p">)</span>
+<span class="n">args</span> <span class="o">=</span> <span class="nb">vars</span><span class="p">(</span><span class="n">ap</span><span class="o">.</span><span class="n">parse_args</span><span class="p">())</span>
+
+<span class="c"># Path to text file</span>
+<span class="n">filePath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;input&#39;</span><span class="p">]</span>
+
+<span class="c"># Path to output file</span>
+<span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;output&#39;</span><span class="p">]:</span>
+    <span class="n">fileCSVPath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;output&#39;</span><span class="p">]</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c"># If output file path is not provided</span>
+    <span class="n">fileCSVPath</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="s">&#39;input&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.csv&quot;</span>
+
+    
+<span class="n">fileCSV</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">fileCSVPath</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
+<span class="n">wr</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">fileCSV</span><span class="p">,</span><span class="n">quoting</span><span class="o">=</span><span class="n">csv</span><span class="o">.</span><span class="n">QUOTE_ALL</span><span class="p">)</span>
+
+<span class="c"># Write titles in csv file</span>
+<span class="n">wr</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="s">&quot;Nombre&quot;</span><span class="p">,</span><span class="s">&quot;Nota&quot;</span><span class="p">,</span><span class="s">&quot;Comentario&quot;</span><span class="p">])</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>    
+    
+<span class="c">#   Iterate through all lines in f</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="n">REMatcher</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^-(.*$)&quot;</span><span class="p">):</span>
+            <span class="n">Name</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^\t.*-.*Comentario:(.*$)&quot;</span><span class="p">):</span>
+            <span class="n">Comment</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&quot;^\t.*-.*Nota:\s*(\d.*$)&quot;</span><span class="p">):</span>
+            <span class="n">Grade</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">List</span> <span class="o">=</span> <span class="p">[</span><span class="n">Name</span><span class="p">,</span><span class="n">Grade</span><span class="p">,</span><span class="n">Comment</span><span class="p">]</span>
+            <span class="n">wr</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">List</span><span class="p">)</span>
+</pre>
+</div>
