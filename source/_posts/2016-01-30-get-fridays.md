@@ -6,7 +6,7 @@ date: 2016-01-30 00:58
 author: Andres Marrugo
 comments: true
 published: true
-categories: blog
+categories: automation
 facebook:
     image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.44.53.png
 twitter_card:
@@ -24,7 +24,7 @@ The script I'm showing here went through several iterations. I had several diffi
 
 [1]: http://leancrew.com/all-this/2016/01/formatting-multimarkdown-tables-with-numpy-and-tabulate/ "Formatting MultiMarkdown tables with NumPy and tabulate - All this"
 
-
+<!-- more -->
 
 ```python get_fridays.py https://github.com/agmarrugo/PythonScripts/blob/master/get_fridays.py Link
 
