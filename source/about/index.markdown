@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 author: Andres Marrugo
-date: 2012-08-18 18:06
+date: 2016-06-10 18:06
 comments: false
 sharing: true
 footer: true
@@ -10,7 +10,6 @@ footer: true
 
 My name is Andrés Marrugo, and I’m a professor at the department of Mechanical and Mechatronics Engineering of the Tecnhological University of Bolívar in Cartagena, Colombia. My research interests are: digital image processing, medical imaging and computer vision.
 
-Paso casi todo mi tiempo entre el trabajo en la universidad en docencia, investigación, “reuniones y otras cosas”, y la casa disfrutando de la compañía de mi esposa y mis dos hijos. 
 These days I spend most of my time either at work with teaching, research, and [meetings and stuff][meetings] or at home with my wife and my two sons. Becoming a father has been an amazing experience, it has changed my life and the way I look upon life itself. When I'm not being the *family guy* or the *professor*, I'm usually fiddling around at the terminal (doing nerdy stuff), editing photos/videos of my kids, cooking (I love to cook), writing on my journal, catching up on my favorite blogs and podcasts, and--of course--blogging[^foo].
 
 Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a blog hosted on [wordpress.com][wordpress 2]. It's been quite nice, even more in the last year because I've gotten into the habit of posting more frequently. However, I did feel it was time for a change to something more personal and customizable. That's one of the reasons why I changed to an [Octopress][octopress] powered site. In some future post I'll go into further detail about this.
