@@ -8,9 +8,10 @@ sharing: true
 footer: true
 ---
 
-My name is Andrés Marrugo, and I'm a PhD student in optical engineering at the Universitat Politècnica de Catalunya (UPC) in Barcelona, Spain. I work at the [group of Applied Optics and Image Processing][goapi] and my main line of research is in medical digital image processing.
+My name is Andrés Marrugo, and I’m a professor at the department of Mechanical and Mechatronics Engineering of the Tecnhological University of Bolívar in Cartagena, Colombia. My research interests are: digital image processing, medical imaging and computer vision.
 
-These days I spend most of my time either working on my thesis or at home with my girlfriend and my one-year-old son. Becoming a father has been an amazing experience, it has changed my life and the way I look upon life itself. When I'm not being the *family guy* or the *grad student*, I'm usually fiddling around at the terminal (doing nerdy stuff), editing photos/videos of my boy, cooking (I love to cook), writing on my journal, catching up on my favorite blogs and podcasts, and--of course--blogging[^foo].
+Paso casi todo mi tiempo entre el trabajo en la universidad en docencia, investigación, “reuniones y otras cosas”, y la casa disfrutando de la compañía de mi esposa y mis dos hijos. 
+These days I spend most of my time either at work with teaching, research, and [meetings and stuff][meetings] or at home with my wife and my two sons. Becoming a father has been an amazing experience, it has changed my life and the way I look upon life itself. When I'm not being the *family guy* or the *professor*, I'm usually fiddling around at the terminal (doing nerdy stuff), editing photos/videos of my kids, cooking (I love to cook), writing on my journal, catching up on my favorite blogs and podcasts, and--of course--blogging[^foo].
 
 Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a blog hosted on [wordpress.com][wordpress 2]. It's been quite nice, even more in the last year because I've gotten into the habit of posting more frequently. However, I did feel it was time for a change to something more personal and customizable. That's one of the reasons why I changed to an [Octopress][octopress] powered site. In some future post I'll go into further detail about this.
 
@@ -19,7 +20,8 @@ Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a 
 ## Contact me ##
 
 - **Email:** agmarrugo (at) gmail dot com
-- **Twitter:** [agmarrugo][twitter]
+- **Twitter personal:** [agmarrugo][twitter]
+- **Twitter professional:** [DrMarrugo][twitter2]
 
 ## Other places you can find me online ##
 
@@ -28,6 +30,7 @@ Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a 
 - [Mendeley](http://www.mendeley.com/profiles/andres-marrugo/)
 - [Tumblr: Mil Una Palabras](http://milunapalabras.tumblr.com/)
 - [Wordpress.com: Between the Candle and the Star][wordpress]
+- [Research Gate][gate]
 
 
 ## About this site ##
@@ -55,3 +58,6 @@ I've customized the appearance of the site a bit. A great part is based on the [
 [subtlepatterns]: http://subtlepatterns.com/3px-tile/
 [subtlepatterns 2]: http://subtlepatterns.com/
 [twitter]: https://twitter.com/agmarrugo
+[twitter2]: https://twitter.com/drmarrugo
+[meetings]: http://us1.campaign-archive2.com/?u=028de8672d5f9a229f15e9edf&id=ee59dab2a5&e=7ff32264cd "spare time is for work"
+[gate]: https://www.researchgate.net/profile/Andres_Marrugo "Andrés G Marrugo"
