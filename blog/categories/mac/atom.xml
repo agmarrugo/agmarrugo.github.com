@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mac | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2016-01-30T01:52:27-05:00</updated>
+  <updated>2016-06-10T00:00:46+02:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Always Late to The Party]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party/"/>
-    <updated>2012-10-22T00:11:00-05:00</updated>
+    <updated>2012-10-22T00:11:00+02:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party</id>
     <content type="html"><![CDATA[<h2 id="to-tweet-or-not-to-tweet">To Tweet or Not to Tweet</h2>
 
@@ -77,7 +77,7 @@ I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX 
   <entry>
     <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
-    <updated>2012-10-18T22:30:00-05:00</updated>
+    <updated>2012-10-18T22:30:00+02:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
     <content type="html"><![CDATA[<p>I often use <a href="http://www.imagemagick.org/script/index.php">Imagemagick</a> for image manipulation<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">1</a></sup>. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following</p>
 
@@ -121,7 +121,7 @@ Automator service.</div>
   <entry>
     <title type="html"><![CDATA[My blog post writing workflow with Dropbox and Hazel]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/"/>
-    <updated>2012-10-15T23:44:00-05:00</updated>
+    <updated>2012-10-15T23:44:00+02:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel</id>
     <content type="html"><![CDATA[<p>It may seem that, for the most part, I’ve been blogging about blogging. No matter how pointless it seems, I <em>do</em> think that this could prove useful to someone, in the same way I have benefited from others while setting up this site<sup id="fnref:foo2"><a href="#fn:foo2" rel="footnote">1</a></sup>.</p>
 
@@ -242,7 +242,7 @@ Modify latest post.</div>
   <entry>
     <title type="html"><![CDATA[Spanish keyboard and Aperture]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/07/spanish-keyboard-and-aperture/"/>
-    <updated>2012-10-07T00:36:00-05:00</updated>
+    <updated>2012-10-07T00:36:00+02:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/07/spanish-keyboard-and-aperture</id>
     <content type="html"><![CDATA[<div class="aic" style="width:320px"><a href="http://www.flickr.com/photos/copiancestral/8060866808/" title="Mac keyboard by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8030/8060866808_dc3b5dc915_n.jpg" width="320" height="240" alt="20121007-PA077266" /></a><br />
 My new keyboard.</div>
@@ -277,7 +277,7 @@ Square bracket on spanish keyboard.</div>
   <entry>
     <title type="html"><![CDATA[a service for writing day one footnotes inline]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline/"/>
-    <updated>2012-10-01T22:31:00-05:00</updated>
+    <updated>2012-10-01T22:31:00+02:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline</id>
     <content type="html"><![CDATA[<p>I recently wrote about <a href="http://andresmarrugo.net/blog/2012/09/29/footnotes-in-dayone/">inserting footnotes in Day One</a> and how it could be achieved with the new markdown support. I realize that ideally Day One should support multimarkdown footnotes, but this has not arrived yet. It could well be planned for a future release, but I’ll stick to my solution for the mean time.</p>
 
