@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2016-01-30T01:52:08-05:00</updated>
+  <updated>2016-06-11T12:59:31+02:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Estrés académico]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/09/26/estres-academico/"/>
-    <updated>2015-09-26T06:54:00-05:00</updated>
+    <updated>2015-09-26T06:54:00+02:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/09/26/estres-academico</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/paper-conference.png" alt="Estres academico" width="" height="" border="0" /><br /></div>
 
@@ -52,7 +52,7 @@
   <entry>
     <title type="html"><![CDATA[Plantilla LaTeX en Overleaf para informes de laboratorio]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf/"/>
-    <updated>2015-08-29T01:37:00-05:00</updated>
+    <updated>2015-08-29T01:37:00+02:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf</id>
     <content type="html"><![CDATA[<p>Una de las grandes barreras de entrada a LaTeX era lo relacionado con la instalación y compilación de documentos. LaTeX técnicamente no es un lenguaje de programación, pero para efectos prácticos es indistinguible de uno. Y esto complica un poco su utilización al principio, muchos abandonan y regresan a <em>seguir peleando con MS Word.</em> <!-- more --> (Para quien esté perdido, <a href="https://es.wikipedia.org/wiki/LaTeX" title="LaTeX - Wikipedia, la enciclopedia libre">“LaTeX es un es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica”</a>. Hace no mucho escribí <a href="http://andresmarrugo.net/es/blog/2014/02/17/un-cv-moderno/" title="Un cv moderno - andres marrugo">una entrada sobre cómo creo mi cv en LaTeX</a> – la calidad es sin igual.)</p>
 
@@ -71,7 +71,7 @@ Interfaz de Overleaf.</div>
   <entry>
     <title type="html"><![CDATA[De cero a uno]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
-    <updated>2015-07-25T01:07:00-05:00</updated>
+    <updated>2015-07-25T01:07:00+02:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
     <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
 </div>
@@ -102,7 +102,7 @@ He decidido centrarme en algunas cosas más elementales, trabajar con las uñas 
   <entry>
     <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
-    <updated>2015-03-30T23:57:00-05:00</updated>
+    <updated>2015-03-30T23:57:00+02:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
     <content type="html"><![CDATA[<blockquote>
   <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
@@ -133,7 +133,7 @@ He decidido centrarme en algunas cosas más elementales, trabajar con las uñas 
   <entry>
     <title type="html"><![CDATA[Un cv moderno]]></title>
     <link href="http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno/"/>
-    <updated>2014-02-17T23:04:00-05:00</updated>
+    <updated>2014-02-17T23:04:00+01:00</updated>
     <id>http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno</id>
     <content type="html"><![CDATA[<p>Hace ya mucho tiempo que preparo mi <em>curriculum vitæ</em> en LaTeX. Durante gran parte de ese tiempo lo he hecho con el <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/cv">paquete CV</a> que ayuda a producir un cv sobrio, bien estructurado y elegante. La gran ventaja de LaTeX es que no tienes que preocuparte por el formato, sólo tienes que introducir la información y LaTeX hace su magia al compilar. A continuación muestro un ejemplo</p>
 
