@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2016-06-11T13:00:00+02:00</updated>
+  <updated>2016-08-20T23:22:09-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Group Images by Person]]></title>
     <link href="http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person/"/>
-    <updated>2016-06-09T23:49:00+02:00</updated>
+    <updated>2016-06-09T23:49:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person</id>
     <content type="html"><![CDATA[<p>These are basically notes for my future self, but it may <em>sort of</em> work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored within a single folder. However, it would be ideal to store them on separate folders. The file names are like this <code>export0_Lastname_FirstName_1.jpg</code>, and there are several files per person.</p>
 
@@ -112,7 +112,7 @@
   <entry>
     <title type="html"><![CDATA[Get Fridays]]></title>
     <link href="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/"/>
-    <updated>2016-01-30T00:58:00+01:00</updated>
+    <updated>2016-01-30T00:58:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2016/01/30/get-fridays</id>
     <content type="html"><![CDATA[<p>So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that’s once a week every Friday. I could look up the calendar and write every date, which is what I initially did. But then I though, I could write a script for this. And that’s when I entered the rabbit hole.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
 
@@ -208,7 +208,7 @@
   <entry>
     <title type="html"><![CDATA[Grading lab reports workflow]]></title>
     <link href="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/"/>
-    <updated>2015-10-19T22:31:00+02:00</updated>
+    <updated>2015-10-19T22:31:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow</id>
     <content type="html"><![CDATA[<div class="aic" style="width:320px"><a href="https://www.flickr.com/photos/50652826@N03/22134710389"><img src="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" alt="Grades 2 CSV with Python." width="320px" height="" border="0" /></a></div>
 
@@ -425,7 +425,7 @@
   <entry>
     <title type="html"><![CDATA[Life immutable]]></title>
     <link href="http://agmarrugo.github.com/blog/2015/10/10/life-inmutable/"/>
-    <updated>2015-10-10T22:34:00+02:00</updated>
+    <updated>2015-10-10T22:34:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2015/10/10/life-inmutable</id>
     <content type="html"><![CDATA[<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/copiancestral/22093344571/in/datetaken/" title="Life immutable."><img src="https://farm1.staticflickr.com/724/22093344571_5a128fb7da.jpg" width="500" height="379" alt="Life immutable." /></a><script async="" src="http://agmarrugo.github.com//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
@@ -438,7 +438,7 @@
   <entry>
     <title type="html"><![CDATA[In Praise of Slow]]></title>
     <link href="http://agmarrugo.github.com/blog/2015/08/07/in-praise-of-slow/"/>
-    <updated>2015-08-07T23:53:00+02:00</updated>
+    <updated>2015-08-07T23:53:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2015/08/07/in-praise-of-slow</id>
     <content type="html"><![CDATA[<p>I have a recurrent discussion with my wife. </p>
 
@@ -466,7 +466,7 @@
   <entry>
     <title type="html"><![CDATA[On (re)learning things]]></title>
     <link href="http://agmarrugo.github.com/blog/2015/01/29/on-relearning-things/"/>
-    <updated>2015-01-29T22:47:00+01:00</updated>
+    <updated>2015-01-29T22:47:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2015/01/29/on-relearning-things</id>
     <content type="html"><![CDATA[<blockquote>
   <p>My favorite topic in an introductory differential equations course is mechanical and electrical vibrations. I enjoyed learning about it as a student and I enjoyed teaching it later. (Or more accurately, I enjoyed being exposed to it as a student and really learning it later when I had to teach it.)</p>
@@ -484,7 +484,7 @@
   <entry>
     <title type="html"><![CDATA[Date Commands]]></title>
     <link href="http://agmarrugo.github.com/blog/2014/12/07/date-commands/"/>
-    <updated>2014-12-07T22:49:00+01:00</updated>
+    <updated>2014-12-07T22:49:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2014/12/07/date-commands</id>
     <content type="html"><![CDATA[<p><a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang recently shared</a> two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. </p>
 
@@ -512,7 +512,7 @@ This is how old I am in days.</div>
   <entry>
     <title type="html"><![CDATA[A CV for my Thesis]]></title>
     <link href="http://agmarrugo.github.com/blog/2014/06/19/a-cv-for-my-thesis/"/>
-    <updated>2014-06-19T21:11:00+02:00</updated>
+    <updated>2014-06-19T21:11:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2014/06/19/a-cv-for-my-thesis</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><br />
 <img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg" alt="" width="460" height="" border="0" /></div>
@@ -527,7 +527,7 @@ This is how old I am in days.</div>
   <entry>
     <title type="html"><![CDATA[Not Collapsing the Wave Function]]></title>
     <link href="http://agmarrugo.github.com/blog/2014/01/31/not-collapsing-the-wave-function/"/>
-    <updated>2014-01-31T09:32:00+01:00</updated>
+    <updated>2014-01-31T09:32:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2014/01/31/not-collapsing-the-wave-function</id>
     <content type="html"><![CDATA[<p>Today in <a href="http://www.thisamericanlife.org/radio-archives/episode/399/contents-unknown" title="Contents Unknown | This American Life">“This American Life”</a> I was listening to an episode about hidden truths. It was really interesting to find out about a secret letter that the prime minister of Britain writes to every commander of a nuclear submarine. It supposedly contains instructions on what to do if the nation has been wiped out and if the commander should retaliate or not. It poses a mystery on what the contents are, even more so because every time there’s a new prime minister in office the letters are destroyed unread.</p>
 
@@ -541,7 +541,7 @@ This is how old I am in days.</div>
   <entry>
     <title type="html"><![CDATA[ The Perils of Talking Too Much]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/06/10/the-perils-of-talking-too-much/"/>
-    <updated>2013-06-10T22:07:00+02:00</updated>
+    <updated>2013-06-10T22:07:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/06/10/the-perils-of-talking-too-much</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_5731336614.jpg" alt="" /><br />
 photo credit: <a href="http://www.flickr.com/photos/mkorsakov/5731336614/">mkorsakov</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></div>
@@ -569,7 +569,7 @@ photo credit: <a href="http://www.flickr.com/photos/mkorsakov/5731336614/">mkors
   <entry>
     <title type="html"><![CDATA[New Secularism]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/04/10/new-secularism/"/>
-    <updated>2013-04-10T11:48:00+02:00</updated>
+    <updated>2013-04-10T11:48:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/04/10/new-secularism</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2911020311.jpg" alt="" /><br />
 photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pablo Moroe</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>.</div>
@@ -613,7 +613,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
   <entry>
     <title type="html"><![CDATA[A Book for my Son]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/03/27/a-book-for-my-son/"/>
-    <updated>2013-03-27T21:21:00+01:00</updated>
+    <updated>2013-03-27T21:21:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/03/27/a-book-for-my-son</id>
     <content type="html"><![CDATA[<p>In the latest <a href="http://www.70decibels.com/generational/2013/3/24/027-aaron-hillegass-and-teaching-experts.html" title="70Decibels - Generational - 027 - Aaron Hillegass and Teaching Experts">Generational podcast</a> episode <a href="http://www.bignerdranch.com/instructors/hillegass.shtml">Aaron Hillegass</a> told <a href="http://www.macdrifter.com/" title="Macdrifter">Gabe</a> that he wrote his <a href="http://www.bignerdranch.com/book/objective-c_programming_the_big_nerd_ranch_guide">Objective-C</a> book with his ten-year-old in mind. </p>
 
@@ -627,7 +627,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
   <entry>
     <title type="html"><![CDATA[A Brave New World: The joy of discovery]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/03/10/a-brave-new-world/"/>
-    <updated>2013-03-10T21:44:00+01:00</updated>
+    <updated>2013-03-10T21:44:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/03/10/a-brave-new-world</id>
     <content type="html"><![CDATA[<p><em>This post is in fact a <a href="http://dayoneapp.com/">Day One</a> entry. I treat my Day One journal as a sort of personal blog. A blog with a readership of one – at least in the present. What I mean to say is that, for the most part, I write about my life and for my kids, which are too young to read. I hope they read this in some distant future. I think that the things I might forget are probably the things they’ll want to know about. That is why I write.</em></p>
 
@@ -655,7 +655,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
   <entry>
     <title type="html"><![CDATA[Links of Interest for January 31, 2013]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/01/31/links-of-interest/"/>
-    <updated>2013-01-31T00:00:00+01:00</updated>
+    <updated>2013-01-31T00:00:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/01/31/links-of-interest</id>
     <content type="html"><![CDATA[<p>The <a href="http://andresmarrugo.net/blog/categories/bookmarks/">“Links of Interest”</a> is a type of post I’ll start to do on a regular basis here. Every now and then I come across something interesting in the web that I’d like to share with my readers, but that doesn’t necessarily merit a blog post or I really don’t have the time to write one. This type of blog post is inspired by <a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/" title="A &quot;Web Excursions&quot; system for static blogs - Brett Terpstra">Brett Terpstra’s “Web Excursions”</a> system. As he explains, he prefers a single post with multiple links rather than a ton of individual “link list” posts. I do too.</p>
 
@@ -702,7 +702,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
   <entry>
     <title type="html"><![CDATA[Writing my thoughts down]]></title>
     <link href="http://agmarrugo.github.com/blog/2013/01/02/writing-my-thoughts-down/"/>
-    <updated>2013-01-02T22:52:00+01:00</updated>
+    <updated>2013-01-02T22:52:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2013/01/02/writing-my-thoughts-down</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_3989921751.jpg" alt="iPod touch" /><br />
 photo credit: <a href="http://www.flickr.com/photos/chiarashine/3989921751/">chiarashine</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></div>
@@ -727,7 +727,7 @@ photo credit: <a href="http://www.flickr.com/photos/chiarashine/3989921751/">chi
   <entry>
     <title type="html"><![CDATA[Careless email writing]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/12/26/careless-email-writing/"/>
-    <updated>2012-12-26T10:16:00+01:00</updated>
+    <updated>2012-12-26T10:16:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/12/26/careless-email-writing</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2756494307.jpg" alt="Text editing." /><br />
 photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhindered by Talent</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a></div>
@@ -747,7 +747,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
   <entry>
     <title type="html"><![CDATA['Cooking' Ideas]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/12/07/cooking-ideas/"/>
-    <updated>2012-12-07T21:02:00+01:00</updated>
+    <updated>2012-12-07T21:02:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/12/07/cooking-ideas</id>
     <content type="html"><![CDATA[<p>I love to cook – or one of the reasons I enjoy it so much is – because it’s a manual activity that, quite often, lets my mind wonder about. While cooking I can think about my problems,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> about the future, about a world different from this one. I can hear my thoughts in a undisturbed way. It is like a moment of pristine inspiration. Me and myself. Nobody else.</p>
 
@@ -774,7 +774,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
   <entry>
     <title type="html"><![CDATA[ My reflection in a mirror of prose]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/11/16/my-reflection-in-a-mirror-of-prose/"/>
-    <updated>2012-11-16T07:02:00+01:00</updated>
+    <updated>2012-11-16T07:02:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/11/16/my-reflection-in-a-mirror-of-prose</id>
     <content type="html"><![CDATA[<p>I like to write, for writing reminds me of who I am, who I want to be, and where I come from. It is no mistery that I enjoy it, but that doesn’t make it any easier. </p>
 
@@ -809,7 +809,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
   <entry>
     <title type="html"><![CDATA[Four Paragraphs Long]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/11/02/four-paragraphs-long/"/>
-    <updated>2012-11-02T23:37:00+01:00</updated>
+    <updated>2012-11-02T23:37:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/11/02/four-paragraphs-long</id>
     <content type="html"><![CDATA[<p>I don’t really know what this post is about or even why I decided it should be blog post in the first place. All I can think is that  I really liked it. I thought it would be interesting to share it with others. Not that it would be useful or anything, simply a pleasant read. </p>
 
@@ -830,7 +830,7 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
   <entry>
     <title type="html"><![CDATA[Always Late to The Party]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party/"/>
-    <updated>2012-10-22T00:11:00+02:00</updated>
+    <updated>2012-10-22T00:11:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party</id>
     <content type="html"><![CDATA[<h2 id="to-tweet-or-not-to-tweet">To Tweet or Not to Tweet</h2>
 
