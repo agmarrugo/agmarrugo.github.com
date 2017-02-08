@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: book | andres marrugo]]></title>
-  <link href="http://andresmarrugo.net/blog/categories/book/atom.xml" rel="self"/>
-  <link href="http://andresmarrugo.net/"/>
-  <updated>2016-01-30T01:24:57-05:00</updated>
-  <id>http://andresmarrugo.net/</id>
+  <link href="http://agmarrugo.github.com/blog/categories/book/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2017-02-07T22:11:03-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[It makes a difference to know the backstory]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/09/26/the-backstory/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/09/26/the-backstory/"/>
     <updated>2012-09-26T00:29:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/09/26/the-backstory</id>
+    <id>http://agmarrugo.github.com/blog/2012/09/26/the-backstory</id>
     <content type="html"><![CDATA[<div class="aic" style="width:258px"><a href="http://www.flickr.com/photos/copiancestral/8021150733/" title="Selbstporträt by Vincent van Gogh, on Flickr"><img src="http://farm9.staticflickr.com/8442/8021150733_abdaa02811.jpg" width="258" height="320" alt="Selbstporträt" /></a><br />
 selbstporträt by Vincent van Gogh .</div>
 
@@ -78,9 +78,9 @@ There are a lot of people whose work I admire that I think partly what brought m
   
   <entry>
     <title type="html"><![CDATA[On the human intellect and prehistoric people]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/"/>
     <updated>2012-09-11T17:53:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people</id>
+    <id>http://agmarrugo.github.com/blog/2012/09/11/on-the-human-intellect-and-prehistoric-people</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7977735786/" title="Lascaux by JackVersloot, on Flickr"><img src="http://farm9.staticflickr.com/8441/7977735786_aecd77b178.jpg" width="500" height="333" alt="Lascaux" /></a><br />
 photo by JackVersloot.</div>
 

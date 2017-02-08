@@ -9,7 +9,7 @@
   <meta name="author" content="Andres Marrugo">
 
   
-  <meta name="description" content="So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For &hellip;">
+  <meta name="description" content="These are basically notes for my future self, but it may sort of work out for someone else, so here it is. I’m currently working on a project in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://andresmarrugo.net/">
+  <link rel="canonical" href="http://agmarrugo.github.com/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -38,17 +38,17 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="andres marrugo" />
 <meta property="og:site_name" content="andres marrugo" />
-<meta property="og:url" content="http://andresmarrugo.net/" />
-<meta property="og:description" content="So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that’s once a week every &hellip;" />
+<meta property="og:url" content="http://agmarrugo.github.com/" />
+<meta property="og:description" content="These are basically notes for my future self, but it may sort of work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored &hellip;" />
 <meta property="og:author" content="https://www.facebook.com/andres.g.marrugo" />
 
 
 
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:site" content="agmarrugo" />
-<meta property="twitter:url" content="http://andresmarrugo.net/" />
+<meta property="twitter:url" content="http://agmarrugo.github.com/" />
 <meta property="twitter:title" content="andres marrugo" />
-<meta property="twitter:description" content="So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that’s once a week every &hellip;" />
+<meta property="twitter:description" content="These are basically notes for my future self, but it may sort of work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored &hellip;" />
 <meta property="twitter:creator" content="agmarrugo" />
 
 
@@ -85,7 +85,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:andresmarrugo.net" />
+    <input type="hidden" name="q" value="site:agmarrugo.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -102,6 +102,129 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/06/09/group-images-by-person/">Group Images by Person</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-06-09T23:49:00-05:00" pubdate data-updated="true">Jun 9<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>These are basically notes for my future self, but it may <em>sort of</em> work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored within a single folder. However, it would be ideal to store them on separate folders. The file names are like this <code>export0_Lastname_FirstName_1.jpg</code>, and there are several files per person.</p>
+
+<p>What I basically wanted, was to organize the mess of files into something like the following:</p>
+
+<pre><code>├── 01-lastname_firstname
+│   ├── export0_lastname_firstname.jpg
+│   ├── export0_lastname_firstname_1.jpg
+│   ├── export0_lastname_firstname_2.jpg
+├── 02-lastname_firstname
+...
+</code></pre>
+
+<p>So I made a Python script to deal with it.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>group_by_person.py </span><a href="https://github.com/agmarrugo/PythonScripts/blob/master/group_by_person.py">Link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c">#!/usr/bin/env python3</span>
+</span><span class="line"><span class="c"># -*- coding: utf-8 -*-</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Import the necessary packages</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">os</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">re</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">shutil</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Getting the list of people</span>
+</span><span class="line"><span class="n">personList</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)</span> <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&#39;e.*\D\.jpg&#39;</span><span class="p">,</span> <span class="n">f</span><span class="p">)]</span>
+</span><span class="line"><span class="n">personNames</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&quot;_&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">personList</span><span class="p">]</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Getting the list of all jpg images</span>
+</span><span class="line"><span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)</span> <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r&#39;e.*\.jpg&#39;</span><span class="p">,</span> <span class="n">f</span><span class="p">)]</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Getting existing subdirectories</span>
+</span><span class="line"><span class="c"># they start with ./01/</span>
+</span><span class="line"><span class="n">existing_dirs</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">))[</span><span class="mi">1</span><span class="p">]</span>
+</span><span class="line"><span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">existing_dirs</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="c"># Iterate over all images to sort them per person</span>
+</span><span class="line"><span class="c"># and create a new folder if it does not already exist</span>
+</span><span class="line"><span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">personNames</span><span class="p">:</span>
+</span><span class="line">    <span class="n">N</span><span class="o">+=</span><span class="mi">1</span>
+</span><span class="line">    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span><span class="line">        <span class="k">if</span> <span class="n">r</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+</span><span class="line">            <span class="n">NewDir</span> <span class="o">=</span> <span class="s">&quot;{:2d}-{}/&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">N</span><span class="p">,</span><span class="n">r</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span> <span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">,</span> <span class="s">&quot;_&quot;</span><span class="p">))</span>
+</span><span class="line">            <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">NewDir</span><span class="p">):</span>
+</span><span class="line">                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">NewDir</span><span class="p">,</span> <span class="mi">0</span><span class="n">o777</span><span class="p">)</span>
+</span><span class="line">            <span class="k">try</span><span class="p">:</span>
+</span><span class="line">                <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">NewDir</span><span class="o">+</span><span class="n">f</span><span class="p">)</span>
+</span><span class="line">            <span class="k">except</span><span class="p">:</span>
+</span><span class="line">                <span class="k">print</span><span class="p">(</span><span class="s">&quot;The file does not exist.&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>The <code>personList</code> line is done in such a way to get the unique number of people. This is done with the regex. Because there is a file that doesn’t end with a number, matching all files that begin with <code>e</code>, that don’t end with a number and <code>.jpg</code>, it serves as a list of the people for all the images in the directory. In the next line we build a list of the names of each person. This is later used to match and sort each file to its corresponding folder.</p>
+
+<p>Because I had already created some directories, I could have the new directories start at <code>01</code>. So I use <code>os.walk</code> to get the list and <code>len(N)</code> the number of existing directories. The directories to be created should start at <code>N+1</code>.</p>
+
+<p>The outer-most loop iterates over every single person name, and then matches it the existing image files in the folder. When a match is found it creates a directory, if it does not exist. Then it moves file to the newly created folder. If the file doesn’t exist it prints the error, but it continues. And voilà that’s it. Just a quick tip. Make a copy of your files before starting to manipulate them (you could end with corrupt or no data at all). And also, before moving/renaming files, try printing the variables first to see if that’s what you intend to do.</p>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -135,90 +258,12 @@
 
 <p>The script I’m showing here went through several iterations. I had several difficulties until I got it to work. I wasn’t pleased with it, so I fiddled a bit more. Later when I saw Dr Drang’s post about <a href="http://leancrew.com/all-this/2016/01/formatting-multimarkdown-tables-with-numpy-and-tabulate/" title="Formatting MultiMarkdown tables with NumPy and tabulate - All this">formatting multimarkdown tables with tabulate</a>, I knew I had to use that. So I did. Here’s the script.</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>get_fridays.py </span><a href="https://github.com/agmarrugo/PythonScripts/blob/master/get_fridays.py">Link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="kn">import</span> <span class="nn">calendar</span>
-</span><span class="line"><span class="kn">from</span> <span class="nn">tabulate</span> <span class="kn">import</span> <span class="n">tabulate</span>
-</span><span class="line">
-</span><span class="line"><span class="n">c</span> <span class="o">=</span> <span class="n">calendar</span><span class="o">.</span><span class="n">Calendar</span><span class="p">(</span><span class="n">firstweekday</span><span class="o">=</span><span class="n">calendar</span><span class="o">.</span><span class="n">MONDAY</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line"><span class="n">year</span> <span class="o">=</span> <span class="mi">2016</span>
-</span><span class="line"><span class="n">months</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-</span><span class="line"><span class="n">monthName</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">calendar</span><span class="o">.</span><span class="n">month_abbr</span><span class="p">)}</span>
-</span><span class="line">
-</span><span class="line"><span class="n">listFridays</span> <span class="o">=</span> <span class="p">[]</span>
-</span><span class="line"><span class="k">for</span> <span class="n">month</span> <span class="ow">in</span> <span class="n">months</span><span class="p">:</span>
-</span><span class="line">
-</span><span class="line">    <span class="n">monthcal</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">monthdatescalendar</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">month</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line">    <span class="k">for</span> <span class="n">week</span> <span class="ow">in</span> <span class="n">monthcal</span><span class="p">:</span>
-</span><span class="line">        <span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="n">week</span><span class="p">:</span>
-</span><span class="line">            <span class="k">if</span> <span class="n">day</span><span class="o">.</span><span class="n">weekday</span><span class="p">()</span> <span class="o">==</span> <span class="n">calendar</span><span class="o">.</span><span class="n">FRIDAY</span> <span class="ow">and</span> <span class="n">day</span><span class="o">.</span><span class="n">month</span> <span class="o">==</span> <span class="n">month</span><span class="p">:</span>
-</span><span class="line">                <span class="n">listFridays</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">monthName</span><span class="p">[</span><span class="n">day</span><span class="o">.</span><span class="n">month</span><span class="p">]</span><span class="o">+</span><span class="s">&quot; &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">day</span><span class="o">.</span><span class="n">day</span><span class="p">),</span><span class="s">&quot; &quot;</span><span class="p">,</span><span class="s">&quot; &quot;</span><span class="p">])</span>
-</span><span class="line">
-</span><span class="line"><span class="n">headers</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Date&quot;</span><span class="p">,</span><span class="s">&quot;Lecture&quot;</span><span class="p">,</span><span class="s">&quot;Lecture Topics&quot;</span><span class="p">]</span>
-</span><span class="line">
-</span><span class="line"><span class="k">print</span> <span class="n">tabulate</span><span class="p">(</span><span class="n">listFridays</span><span class="p">,</span><span class="n">headers</span><span class="p">,</span><span class="n">tablefmt</span><span class="o">=</span><span class="s">&#39;pipe&#39;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>As you can see, the script is quite simple. I give it the year and the months. The loops go over the months, and then the weeks and it looks up the friday of that week. On line 18, I have to append the white spaces <code>" "</code> and convert day to <code>str</code> in order to get three columns per day, so that tabulate gives me back a nifty formatted table. Another cool thing is that tabulate can also output in LaTeX format.</p>
-
-<p>The script will produce this:</p>
-
-<pre><code>| Date   | Lecture   | Lecture Topics   |
-|:-------|:----------|:-----------------|
-| Feb 5  |           |                  |
-| Feb 12 |           |                  |
-| Feb 19 |           |                  |
-| Feb 26 |           |                  |
-| Mar 4  |           |                  |
-| Mar 11 |           |                  |
-| Mar 18 |           |                  |
-| Mar 25 |           |                  |
-| Apr 1  |           |                  |
-| Apr 8  |           |                  |
-| Apr 15 |           |                  |
-| Apr 22 |           |                  |
-| Apr 29 |           |                  |
-| May 6  |           |                  |
-| May 13 |           |                  |
-| May 20 |           |                  |
-| May 27 |           |                  |
-</code></pre>
-
-<p>As you can see it works. However, by now you’re wondering, but what about holidays. The script should be smart enough to exclude holidays. I am implementing this, but I’ll leave it for a future post. When rendered looks something like this:</p>
-
-<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br /></div>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>Don’t we all?<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2016/01/30/get-fridays/">Continue reading &rarr;</a>
+    </footer>
   
 
 
@@ -579,52 +624,6 @@ photo credit: <a href="http://www.flickr.com/photos/mkorsakov/5731336614/">mkors
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/10/new-secularism/">New Secularism</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-10T11:48:00-05:00" pubdate data-updated="true">Apr 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2911020311.jpg" alt="" /><br />
-photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pablo Moroe</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>.</div>
-
-<p>Before Darwin it certainly was <a href="http://choiceindying.com/2011/03/02/could-you-be-an-intellectually-fulfilled-atheist-before-darwin/" title="Could you be an intellectually fulfilled atheist before Darwin? | Choice in Dying">very difficult to be an atheist</a> or a nonbeliever – that is, an intellectually fulfilled one.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> At least that’s how <a href="http://www.talkorigins.org/indexcc/CA/CA602_1.html" title="CA602.1: An intellectually fulfilled atheist">Richard Dawkins</a> usually puts it and I quite agree with him. It was not that the scientific method<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">2</a></sup> didn’t exist at the time, it was that the mystery of life was too big a mystery to even consider tackling through the ways of science. Yet that was what Darwin did. </p>
-
-<p>The topic of this post does not have to do with Darwin, at least in a direct sense. The other day I was listening to <a href="http://www.pointofinquiry.org/" title="Point of Inquiry">Point of Inquiry</a>, a podcast from the center of inquiry.<sup id="fnref:fn5"><a href="#fn:fn5" rel="footnote">3</a></sup> They had <a href="http://en.wikipedia.org/wiki/Frans_de_Waal" title="Frans de Waal - Wikipedia, the free encyclopedia">Frans de Waal</a> on and he talked about his latest book <a href="http://www.amazon.com/The-Bonobo-Atheist-Humanism-ebook/dp/B007Q6XKEY"><em>The Bonobo and the Atheist</em></a>. There was a moment during the interview that the host, Chris Mooney, referred to him as being an atheist to which he replied saying </p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013/04/10/new-secularism/">Continue reading &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -638,12 +637,16 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
     <section>
   <h1>About</h1>
 <p><img src="/images/photo.png" alt=""></p>
-  <p>Hi, I&#8217;m Andr&eacute;s Marrugo. I&#8217;m a professor at the department of Mechanical and Mechatronical Engineering of the Tecnhological University of Bolívar (Colombia).</p>
+  <p>Hi, I&#8217;m Andr&eacute;s Marrugo. I&#8217;m a professor at the department of Mechanical and Mechatronics Engineering of the Tecnhological University of Bolívar (Colombia).</p>
 <p>This is my personal website and blog. There&#8217;s a version in <a href="/">English</a> and in <a href="/es">Espa&ntilde;ol.</a> </p>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/06/09/group-images-by-person/">Group Images by Person</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/01/30/get-fridays/">Get Fridays</a>
@@ -659,10 +662,6 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
     
       <li class="post">
         <a href="/blog/2015/08/07/in-praise-of-slow/">In Praise of Slow</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/29/on-relearning-things/">On (re)learning things</a>
       </li>
     
   </ul>
@@ -714,7 +713,7 @@ photo credit: <a href="http://www.flickr.com/photos/pablomoroe/2911020311/">Pabl
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2016 - <a href="/about">Andres Marrugo</a> -
+  Copyright &copy; 2017 - <a href="/about">Andres Marrugo</a> -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

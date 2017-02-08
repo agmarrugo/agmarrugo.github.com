@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mac | andres marrugo]]></title>
-  <link href="http://andresmarrugo.net/blog/categories/mac/atom.xml" rel="self"/>
-  <link href="http://andresmarrugo.net/"/>
-  <updated>2016-01-30T01:24:57-05:00</updated>
-  <id>http://andresmarrugo.net/</id>
+  <link href="http://agmarrugo.github.com/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2017-02-07T22:10:45-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Always Late to The Party]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/22/always-late-to-the-party/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party/"/>
     <updated>2012-10-22T00:11:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/22/always-late-to-the-party</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party</id>
     <content type="html"><![CDATA[<h2 id="to-tweet-or-not-to-tweet">To Tweet or Not to Tweet</h2>
 
 <p>It always seems I’m late to the party. For several years I pondered on the idea of joining <a href="https://twitter.com/" title="Twitter">Twitter</a>, but it never really made much sense to me – at least at the time – to join a social network where there were hardly any friends of mine<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup>. Big mistake, that actually <em>is</em> one of the cool things about twitter. Unlike Facebook, it <em>does</em> provides an open space suitable for engaging in discussions, albeit short, of all sorts with interesting people who don’t really have to be your “friend.”</p>
@@ -76,9 +76,9 @@ I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX 
   
   <entry>
     <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
     <updated>2012-10-18T22:30:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
     <content type="html"><![CDATA[<p>I often use <a href="http://www.imagemagick.org/script/index.php">Imagemagick</a> for image manipulation<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">1</a></sup>. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following</p>
 
 <pre><code>convert somefile.png somefile.pdf
@@ -120,9 +120,9 @@ Automator service.</div>
   
   <entry>
     <title type="html"><![CDATA[My blog post writing workflow with Dropbox and Hazel]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/"/>
     <updated>2012-10-15T23:44:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel</id>
     <content type="html"><![CDATA[<p>It may seem that, for the most part, I’ve been blogging about blogging. No matter how pointless it seems, I <em>do</em> think that this could prove useful to someone, in the same way I have benefited from others while setting up this site<sup id="fnref:foo2"><a href="#fn:foo2" rel="footnote">1</a></sup>.</p>
 
 <p>One of the things I like about having an <a href="http://octopress.org/" title="Octopress">Octopress</a> driven <code>txt</code>-only blog is that I have the liberty to set things my way. The topic I am addressing here is that of writing blog posts on different devices<sup id="fnref:foo1"><a href="#fn:foo1" rel="footnote">2</a></sup> with the help of Dropbox<sup id="fnref:foo5"><a href="#fn:foo5" rel="footnote">3</a></sup> and <a href="http://www.noodlesoft.com/hazel.php" title="Noodlesoft | Hazel">Hazel</a>. I’m still working out the whole remote blogging thing, this is but the first stage of a soon-to-be remote blogging workflow with Octopress. </p>
@@ -241,9 +241,9 @@ Modify latest post.</div>
   
   <entry>
     <title type="html"><![CDATA[Spanish keyboard and Aperture]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/07/spanish-keyboard-and-aperture/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/07/spanish-keyboard-and-aperture/"/>
     <updated>2012-10-07T00:36:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/07/spanish-keyboard-and-aperture</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/07/spanish-keyboard-and-aperture</id>
     <content type="html"><![CDATA[<div class="aic" style="width:320px"><a href="http://www.flickr.com/photos/copiancestral/8060866808/" title="Mac keyboard by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8030/8060866808_dc3b5dc915_n.jpg" width="320" height="240" alt="20121007-PA077266" /></a><br />
 My new keyboard.</div>
 <p>It’s been quite a while since I’ve grown accustomed to switching back and forth between an english keyboard at home and a spanish keyboard at work. Like anything, at first it takes a while to get fully accustomed, but all in all it isn’t too bad. This week my English keyboard at home died, so I bought a new one this time in Spanish, because that was what they had at the store. </p>
@@ -276,9 +276,9 @@ Square bracket on spanish keyboard.</div>
   
   <entry>
     <title type="html"><![CDATA[a service for writing day one footnotes inline]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline/"/>
     <updated>2012-10-01T22:31:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/01/a-service-for-writing-day-one-footnotes-inline</id>
     <content type="html"><![CDATA[<p>I recently wrote about <a href="http://andresmarrugo.net/blog/2012/09/29/footnotes-in-dayone/">inserting footnotes in Day One</a> and how it could be achieved with the new markdown support. I realize that ideally Day One should support multimarkdown footnotes, but this has not arrived yet. It could well be planned for a future release, but I’ll stick to my solution for the mean time.</p>
 
 <p>One of the tedious things about my solution to footnotes in <a href="http://dayoneapp.com/">Day One</a> is that you have to <em>do</em> everything manually. The insertion of the footnotes <em>plus</em> the formatting, not to mention keeping count of the number of footnotes. For one or two footnotes this doesn’t seem like a big issue. But for several more it gets complicated.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> You have to put the superscript (<code>^</code>), the number of the footnote, the horizontal line (which I think necessary) and the footnote itself. Therefore, I thought I could automate this–somewhat.</p>

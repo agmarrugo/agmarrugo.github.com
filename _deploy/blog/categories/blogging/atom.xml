@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blogging | andres marrugo]]></title>
-  <link href="http://andresmarrugo.net/blog/categories/blogging/atom.xml" rel="self"/>
-  <link href="http://andresmarrugo.net/"/>
-  <updated>2016-01-30T01:24:57-05:00</updated>
-  <id>http://andresmarrugo.net/</id>
+  <link href="http://agmarrugo.github.com/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2017-02-07T22:10:45-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Always Late to The Party]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/22/always-late-to-the-party/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party/"/>
     <updated>2012-10-22T00:11:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/22/always-late-to-the-party</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party</id>
     <content type="html"><![CDATA[<h2 id="to-tweet-or-not-to-tweet">To Tweet or Not to Tweet</h2>
 
 <p>It always seems I’m late to the party. For several years I pondered on the idea of joining <a href="https://twitter.com/" title="Twitter">Twitter</a>, but it never really made much sense to me – at least at the time – to join a social network where there were hardly any friends of mine<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup>. Big mistake, that actually <em>is</em> one of the cool things about twitter. Unlike Facebook, it <em>does</em> provides an open space suitable for engaging in discussions, albeit short, of all sorts with interesting people who don’t really have to be your “friend.”</p>
@@ -76,9 +76,9 @@ I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX 
   
   <entry>
     <title type="html"><![CDATA[My blog post writing workflow with Dropbox and Hazel]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/"/>
     <updated>2012-10-15T23:44:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel</id>
+    <id>http://agmarrugo.github.com/blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel</id>
     <content type="html"><![CDATA[<p>It may seem that, for the most part, I’ve been blogging about blogging. No matter how pointless it seems, I <em>do</em> think that this could prove useful to someone, in the same way I have benefited from others while setting up this site<sup id="fnref:foo2"><a href="#fn:foo2" rel="footnote">1</a></sup>.</p>
 
 <p>One of the things I like about having an <a href="http://octopress.org/" title="Octopress">Octopress</a> driven <code>txt</code>-only blog is that I have the liberty to set things my way. The topic I am addressing here is that of writing blog posts on different devices<sup id="fnref:foo1"><a href="#fn:foo1" rel="footnote">2</a></sup> with the help of Dropbox<sup id="fnref:foo5"><a href="#fn:foo5" rel="footnote">3</a></sup> and <a href="http://www.noodlesoft.com/hazel.php" title="Noodlesoft | Hazel">Hazel</a>. I’m still working out the whole remote blogging thing, this is but the first stage of a soon-to-be remote blogging workflow with Octopress. </p>
@@ -197,9 +197,9 @@ Modify latest post.</div>
   
   <entry>
     <title type="html"><![CDATA[I'm writing the site I want to read]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/09/19/the-site-i-want-to-read/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/09/19/the-site-i-want-to-read/"/>
     <updated>2012-09-19T23:32:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/09/19/the-site-i-want-to-read</id>
+    <id>http://agmarrugo.github.com/blog/2012/09/19/the-site-i-want-to-read</id>
     <content type="html"><![CDATA[<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8004479709/" title="a day in the life of striatic ~ end of day accident by striatic, on Flickr"><img src="http://farm9.staticflickr.com/8313/8004479709_2bfe1eb43a_n.jpg" width="240" height="320" alt="a day in the life of striatic ~ end of day accident" /></a><br />
 photo by striatic.</div>
 
@@ -232,9 +232,9 @@ I like to think that this piece of advice is as valid for writing/blogging as it
   
   <entry>
     <title type="html"><![CDATA[Why I care about blogging]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/08/27/why-i-care-about-blogging/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/08/27/why-i-care-about-blogging/"/>
     <updated>2012-08-27T15:47:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/08/27/why-i-care-about-blogging</id>
+    <id>http://agmarrugo.github.com/blog/2012/08/27/why-i-care-about-blogging</id>
     <content type="html"><![CDATA[<div class="ail" style="width:247px"><a href="http://www.flickr.com/photos/copiancestral/7890587640/" title="Blogging Fun! by Mike Licht, on Flickr"><img src="http://farm9.staticflickr.com/8313/7890587640_f1ddb21e38_n.jpg" width="247" height="320" alt="Blogging Fun!" /></a><br />
 photo by Mike Licht. </div>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: general | andres marrugo]]></title>
-  <link href="http://andresmarrugo.net/blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://andresmarrugo.net/"/>
-  <updated>2016-01-30T01:24:57-05:00</updated>
-  <id>http://andresmarrugo.net/</id>
+  <link href="http://agmarrugo.github.com/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2017-02-07T22:11:03-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello world]]></title>
-    <link href="http://andresmarrugo.net/blog/2012/08/15/hello-world/"/>
+    <link href="http://agmarrugo.github.com/blog/2012/08/15/hello-world/"/>
     <updated>2012-08-15T08:52:00-05:00</updated>
-    <id>http://andresmarrugo.net/blog/2012/08/15/hello-world</id>
+    <id>http://agmarrugo.github.com/blog/2012/08/15/hello-world</id>
     <content type="html"><![CDATA[<p>This is my first post on my <a href="http://octopress.org/">octopress</a> powered blog.</p>
 ]]></content>
   </entry>
