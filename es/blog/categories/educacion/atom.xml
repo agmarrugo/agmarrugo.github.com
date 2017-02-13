@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: educacion | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/educacion/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/es//"/>
+  <updated>2017-02-07T22:10:39-05:00</updated>
+  <id>http://andresmarrugo.net/es//</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Plantilla LaTeX en Overleaf para informes de laboratorio]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf/"/>
+    <updated>2015-08-29T01:37:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf</id>
+    <content type="html"><![CDATA[<p>Una de las grandes barreras de entrada a LaTeX era lo relacionado con la instalación y compilación de documentos. LaTeX técnicamente no es un lenguaje de programación, pero para efectos prácticos es indistinguible de uno. Y esto complica un poco su utilización al principio, muchos abandonan y regresan a <em>seguir peleando con MS Word.</em> <!-- more --> (Para quien esté perdido, <a href="https://es.wikipedia.org/wiki/LaTeX" title="LaTeX - Wikipedia, la enciclopedia libre">“LaTeX es un es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica”</a>. Hace no mucho escribí <a href="http://andresmarrugo.net/es/blog/2014/02/17/un-cv-moderno/" title="Un cv moderno - andres marrugo">una entrada sobre cómo creo mi cv en LaTeX</a> – la calidad es sin igual.)</p>
+
+<p>Para solventar el problema de la instalación, y abrir nuevas oportunidades en la creación y edición de documentos se creó el servicio <a href="https://www.overleaf.com/">overleaf</a> (antiguamente WriteLatex). Esencialmente es un editor de LaTeX en la web que compila el documento en la medida en que se va escribiendo. A continuación un ejemplo:</p>
+
+<div class="aic" style="width:460px"><a href="https://dl.dropboxusercontent.com/u/5279729/blog-pics/overleaf_project.png"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/overleaf_project.png" alt="" width="460" height="" border="0" /></a><br />
+Interfaz de Overleaf.</div>
+
+<p>Una de las ventajas que ofrece es la disponibilidad de plantillas, listas para usar para preparar todo tipo de documentos. Desde artículos hasta tesis de doctorado y presentaciones. De hecho ya la mayoría de universidades del mundo han subido sus plantillas a la plataforma. Cualquier estudiante sólo tiene que iniciar un proyecto con la plantilla que desee y después sólo tiene que preocuparse por el contenido del documento, <em>no la apariencia</em>. Ese es el atractivo de LaTeX.</p>
+
+<p>Este semestre cree una plantilla en Overleaf para que mis estudiantes del curso de visión artificial prepararan sus informes de laboratorio. Pueden ver la plantilla en siguiente <a href="https://www.overleaf.com/latex/templates/plantilla-imtr-3013-vision-artificial/wcdbvrkjngyq" title="Plantilla IMTR 3013 - Vision Artificial - LaTeX Template on Overleaf">enlace.</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
+    <updated>2015-03-30T23:57:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
+
+  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
+</blockquote>
+
+<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
+
+<!-- more -->
+
+<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
+
+<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
+
+<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[No, no tienes derecho a opinar]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/12/13/no-tienes-derecho-a-opinar/"/>
+    <updated>2012-12-13T00:15:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/12/13/no-tienes-derecho-a-opinar</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_3133604390.jpg" alt="" /><br />
+photo credit: <a href="http://www.flickr.com/photos/will-lion/3133604390/">Will Lion</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a>.</div>
+
+<p>Hace algunos días leí un artículo interesante en el que el autor exploraba la idea de permitirle a los estudiantes la <em>oportunidad de opinar</em> siempre y cuando pudieran argumentar su opinión. </p>
+
+<p>En este mundo de la información resulta fácil confundir – de acuerdo a Platón – una opinión o creencia con conocimiento certero. Una de las cosas que más me llamó la atención del artículo fue lo siguiente</p>
+
+<!--more-->
+
+<blockquote>
+  <p>The problem with “I’m entitled to my opinion” is that, all too often, it’s used to shelter beliefs that should have been abandoned. It becomes shorthand for “I can say or think whatever I like” – and by extension, continuing to argue is somehow disrespectful. And this attitude feeds, I suggest, into the false equivalence between experts and non-experts that is an increasingly pernicious feature of our public discourse.</p>
+
+  <p><strong>– Patrick Stokes</strong>, <a href="http://theconversation.edu.au/no-youre-not-entitled-to-your-opinion-9978">No, you’re not entitled to your opinion</a></p>
+</blockquote>
+
+<p>Como dice P. Stokes, el problema está en creer que opinar significa “yo puedo decir lo que me de la gana” – así sea un disparate –  y los demás deben aceptarlo porque <em>es mi opinión</em>. </p>
+
+<p>Si te están preguntando por tu sabor de helado favorito no tiene que existir discusión alguna, pero si te preguntan sobre el calentamiento global resulta que hay gente sin la más mínima formación científica – que por diversas circunstancias, muchas veces políticas – se creen en capacidad de opinar. Pero lo peor es que quieren que su opinión se tenga en cuenta. Y la verdad es que no hay motivos <em>razonables</em> o lógicos para prestarle atención. Sin embargo, a veces nos parece mal el no permitirle a un personaje de estos <em>su derecho a opinar</em>. Yo diría que, <em>¡No! No tienes derecho a opinar.</em></p>
+
+]]></content>
+  </entry>
+  
+</feed>

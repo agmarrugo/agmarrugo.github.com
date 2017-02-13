@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: automation | andres marrugo]]></title>
+  <link href="http://agmarrugo.github.com/blog/categories/automation/atom.xml" rel="self"/>
+  <link href="http://agmarrugo.github.com/"/>
+  <updated>2017-02-07T22:15:08-05:00</updated>
+  <id>http://agmarrugo.github.com/</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Group Images by Person]]></title>
+    <link href="http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person/"/>
+    <updated>2016-06-09T23:49:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person</id>
+    <content type="html"><![CDATA[<p>These are basically notes for my future self, but it may <em>sort of</em> work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored within a single folder. However, it would be ideal to store them on separate folders. The file names are like this <code>export0_Lastname_FirstName_1.jpg</code>, and there are several files per person.</p>
+
+<p>What I basically wanted, was to organize the mess of files into something like the following:</p>
+
+<pre><code>├── 01-lastname_firstname
+│   ├── export0_lastname_firstname.jpg
+│   ├── export0_lastname_firstname_1.jpg
+│   ├── export0_lastname_firstname_2.jpg
+├── 02-lastname_firstname
+...
+</code></pre>
+
+<p>So I made a Python script to deal with it.</p>
+
+<p>```python group_by_person.py https://github.com/agmarrugo/PythonScripts/blob/master/group_by_person.py Link
+#!/usr/bin/env python3
+# -<em>- coding: utf-8 -</em>-</p>
+
+<h1 id="import-the-necessary-packages">Import the necessary packages</h1>
+<p>import os
+import re
+import shutil</p>
+
+<h1 id="getting-the-list-of-people">Getting the list of people</h1>
+<p>personList = [f for f in os.listdir(‘.’) if re.match(r’e.*\D.jpg’, f)]
+personNames = [f.split(“_”) for f in personList]</p>
+
+<h1 id="getting-the-list-of-all-jpg-images">Getting the list of all jpg images</h1>
+<p>files = [f for f in os.listdir(‘.’) if re.match(r’e.*.jpg’, f)]</p>
+
+<h1 id="getting-existing-subdirectories">Getting existing subdirectories</h1>
+<p># they start with ./01/
+existing_dirs = next(os.walk(‘.’))[1]
+N = len(existing_dirs)</p>
+
+<h1 id="iterate-over-all-images-to-sort-them-per-person">Iterate over all images to sort them per person</h1>
+<p># and create a new folder if it does not already exist
+for r in personNames:
+    N+=1
+    for f in files:
+        if r[1] in f:
+            NewDir = “-{}/”.format(N,r[1].replace (“ “, “_”))
+            if not os.path.exists(NewDir): 
+                os.mkdir(NewDir, 0o777)
+            try:
+                shutil.move(f, NewDir+f)
+            except:
+                print(“The file does not exist.”)</p>
+
+<p>```</p>
+
+<p>The <code>personList</code> line is done in such a way to get the unique number of people. This is done with the regex. Because there is a file that doesn’t end with a number, matching all files that begin with <code>e</code>, that don’t end with a number and <code>.jpg</code>, it serves as a list of the people for all the images in the directory. In the next line we build a list of the names of each person. This is later used to match and sort each file to its corresponding folder.</p>
+
+<p>Because I had already created some directories, I could have the new directories start at <code>01</code>. So I use <code>os.walk</code> to get the list and <code>len(N)</code> the number of existing directories. The directories to be created should start at <code>N+1</code>.</p>
+
+<p>The outer-most loop iterates over every single person name, and then matches it the existing image files in the folder. When a match is found it creates a directory, if it does not exist. Then it moves file to the newly created folder. If the file doesn’t exist it prints the error, but it continues. And voilà that’s it. Just a quick tip. Make a copy of your files before starting to manipulate them (you could end with corrupt or no data at all). And also, before moving/renaming files, try printing the variables first to see if that’s what you intend to do.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Get Fridays]]></title>
+    <link href="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/"/>
+    <updated>2016-01-30T00:58:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2016/01/30/get-fridays</id>
+    <content type="html"><![CDATA[<p>So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that’s once a week every Friday. I could look up the calendar and write every date, which is what I initially did. But then I though, I could write a script for this. And that’s when I entered the rabbit hole.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
+
+<p>The script I’m showing here went through several iterations. I had several difficulties until I got it to work. I wasn’t pleased with it, so I fiddled a bit more. Later when I saw Dr Drang’s post about <a href="http://leancrew.com/all-this/2016/01/formatting-multimarkdown-tables-with-numpy-and-tabulate/" title="Formatting MultiMarkdown tables with NumPy and tabulate - All this">formatting multimarkdown tables with tabulate</a>, I knew I had to use that. So I did. Here’s the script.</p>
+
+<!-- more -->
+
+<p>```python get_fridays.py https://github.com/agmarrugo/PythonScripts/blob/master/get_fridays.py Link</p>
+
+<p>import calendar
+from tabulate import tabulate</p>
+
+<p>c = calendar.Calendar(firstweekday=calendar.MONDAY)</p>
+
+<p>year = 2016
+months = [2,3,4,5]
+monthName = {k: v for k,v in enumerate(calendar.month_abbr)}</p>
+
+<p>listFridays = []
+for month in months:</p>
+
+<pre><code>monthcal = c.monthdatescalendar(year,month)  
+
+for week in monthcal:
+    for day in week:
+        if day.weekday() == calendar.FRIDAY and day.month == month:
+            listFridays.append([monthName[day.month]+" "+str(day.day)," "," "])
+</code></pre>
+
+<p>headers = [“Date”,”Lecture”,”Lecture Topics”]</p>
+
+<p>print tabulate(listFridays,headers,tablefmt=’pipe’)
+```</p>
+
+<p>As you can see, the script is quite simple. I give it the year and the months. The loops go over the months, and then the weeks and it looks up the friday of that week. On line 18, I have to append the white spaces <code>" "</code> and convert day to <code>str</code> in order to get three columns per day, so that tabulate gives me back a nifty formatted table. Another cool thing is that tabulate can also output in LaTeX format.</p>
+
+<p>The script will produce this:</p>
+
+<pre><code>| Date   | Lecture   | Lecture Topics   |
+|:-------|:----------|:-----------------|
+| Feb 5  |           |                  |
+| Feb 12 |           |                  |
+| Feb 19 |           |                  |
+| Feb 26 |           |                  |
+| Mar 4  |           |                  |
+| Mar 11 |           |                  |
+| Mar 18 |           |                  |
+| Mar 25 |           |                  |
+| Apr 1  |           |                  |
+| Apr 8  |           |                  |
+| Apr 15 |           |                  |
+| Apr 22 |           |                  |
+| Apr 29 |           |                  |
+| May 6  |           |                  |
+| May 13 |           |                  |
+| May 20 |           |                  |
+| May 27 |           |                  |
+</code></pre>
+
+<p>As you can see it works. However, by now you’re wondering, but what about holidays. The script should be smart enough to exclude holidays. I am implementing this, but I’ll leave it for a future post. When rendered looks something like this:</p>
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br /></div>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Don’t we all?<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Grading lab reports workflow]]></title>
+    <link href="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/"/>
+    <updated>2015-10-19T22:31:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:320px"><a href="https://www.flickr.com/photos/50652826@N03/22134710389"><img src="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" alt="Grades 2 CSV with Python." width="320px" height="" border="0" /></a></div>
+
+<p>Despite all the tools and applications at my disposal, I like to write my comments, feedback and grade the lab reports I get from my students using plain text files. To be precise, <a href="https://daringfireball.net/projects/markdown/" title="Daring Fireball: Markdown">markdown</a> formatted plain text files md.</p>
+
+<!-- more -->
+
+<p>I typically write in a plain text file using <a href="http://brettterpstra.com/projects/nvalt/" title="nvALT - BrettTerpstra.com">nvalt</a> or <a href="https://macromates.com/" title="TextMate — The Missing Editor for Mac OS X">textmate</a> as my text editor. With the help of a <a href="https://smilesoftware.com/TextExpander/index.html" title="TextExpander: Mac Typing Shortcut Utility Saves You Time TextExpander: Mac Typing Shortcut Utility Saves You Time">TextExpander</a> snippet I print out the class list and the other fields I must fill out, typically a general comment/feedback and the grade. The snippet produces something like this:<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
+
+<pre><code>tags:#vision,#lab
+
+- Pérez Ramos, Miguel A.
+	- Comentario: 
+	- Nota:
+
+- Beleño Hernández, Liliana P.
+	- Comentario: 
+	- Nota: 
+
+... Other parts look the same ...
+</code></pre>
+
+<p>After filling it out I get something like the following:</p>
+
+<pre><code>tags:#vision,#lab
+
+- Pérez Ramos, Miguel A.
+	- Comentario: El informe está completo y bien argumentado. Se demuestra que se realizó la práctica a cabalidad. Concluye adecuadamente y cita las referencias consultadas.
+	- Nota: 5.0
+
+- Beleño Hernández, Liliana P.
+	- Comentario: El informe comienza bien, pero termina abruptamente. No se mencionan los aspectos relacionados con la lectura y tampoco se evidencia adecuadamente los resultados de la práctica. No hay bibliografía.
+	- Nota: 3.5
+
+- Carrascal Mendez, Martín S.
+	- Comentario: El informe es adecuado y cumple con el objetivo de la práctica.
+	- Nota: 5.0	
+</code></pre>
+
+<p>This is easy to fill out, looks nice and is well formated. I can preview it - if I want – in <a href="http://marked2app.com/" title="Marked 2 - Smarter tools for smarter writers">Marked</a> or in any other markdown previewer. But the truth is, I’m fine viewing it just like that in plain text. The tedious part comes when I need to copy the grades from this file to a spreadsheet.</p>
+
+<p>This is where <a href="https://automatetheboringstuff.com/" title="Automate the Boring Stuff with Python - Practical Programming for Total Beginners">automating the boring stuff</a> in python makes this a fun and interesting problem to spend an evening solving with a script. The following script takes an input text file formatted like the one previously shown.</p>
+
+<p>```python grades2csv.py https://gist.github.com/agmarrugo/5781fbf3d42f26cd2114 Link
+#! /usr/local/bin/python
+# -<em>- coding: utf-8 -</em>-
+import re
+import csv
+import argparse</p>
+
+<p>class REMatcher(object):
+    “”” A little class that returns the boolean result of calling match,
+    and retains the matched groups for subsequent retrieval.</p>
+
+<pre><code>Attributes
+----------
+matchstring : The string to match
+match : Matching the regular expression, returns True/False
+group : Returns the matched groups with index i
+
+Modified from Paul McGuire, 
+http://stackoverflow.com/questions/2554185/match-groups-in-python
+"""
+def __init__(self, matchstring):
+    self.matchstring = matchstring
+
+def match(self,regexp):
+    self.rematch = re.match(regexp, self.matchstring)
+    return bool(self.rematch)
+
+def group(self,i):
+    return self.rematch.group(i)
+</code></pre>
+
+<h1 id="construct-the-argument-parse-and-parse-the-arguments">construct the argument parse and parse the arguments</h1>
+<p>ap = argparse.ArgumentParser()
+ap.add_argument(“input”, help=”path to the input text file”)
+# optional output csv file path
+ap.add_argument(“-o”, “–output”, help=”path to the output csv file”)
+args = vars(ap.parse_args())</p>
+
+<h1 id="path-to-text-file">Path to text file</h1>
+<p>filePath = args[‘input’]</p>
+
+<h1 id="path-to-output-file">Path to output file</h1>
+<p>if args[‘output’]:
+    fileCSVPath = args[‘output’]
+else:
+    # If output file path is not provided
+    fileCSVPath = args[‘input’].split(‘.’)[0] + “.csv”</p>
+
+<p>fileCSV = open(fileCSVPath,’w’)
+wr = csv.writer(fileCSV,quoting=csv.QUOTE_ALL)</p>
+
+<h1 id="write-titles-in-csv-file">Write titles in csv file</h1>
+<p>wr.writerow([“Nombre”,”Nota”,”Comentario”])</p>
+
+<p>with open(filePath,’r’) as f:    </p>
+
+<h1 id="iterate-through-all-lines-in-f">Iterate through all lines in f</h1>
+<pre><code>for line in f:
+    m = REMatcher(line)
+
+    if m.match(r"^-(.*$)"):
+        Name = m.group(1)
+    if m.match(r"^\t.*-.*Comentario:(.*$)"):
+        Comment = m.group(1)
+    if m.match(r"^\t.*-.*Nota:\s*(\d.*$)"):
+        Grade = m.group(1)
+        List = [Name,Grade,Comment]
+        wr.writerow(List) ```
+</code></pre>
+
+<p>The usage is very simply, you just call the script <code>grades2csv.py</code> with the file you want to process. If you don’t specify where the output should go (<code>-o option</code>) it defaults to the same path as the input text file.</p>
+
+<p>I didn’t bother on avoiding overwriting an existing csv file with the same name. I never name two text files with grades the same way.</p>
+
+<p>About a year ago, I found out about this awesome trick of setting up a <code>REMatcher class</code> so that I can have an object that saves the matched string and returns <code>True</code> when it matches the regex. I’ve never gone back to implementing other regex paraphernalia in python. This works and I stick with it.</p>
+
+<p>The script looks for three different matches in every line of the input file. One for a line that starts with a dash (<code>^-(.*$)</code>), capturing the name of the student (<code>m.group(1)</code>). The second, that matches the word <code>Comentario</code>(<code>"^\t.*-.*Comentario:(.*$)"</code>) and captures the comment, and the third that captures the grade (<code>"^\t.*-.*Nota:\s*(\d.*$)"</code>). If the grade is not captured, then not a single item is written to the csv file (<code>wr.writerow(List)</code>).</p>
+
+<p>If everything is well formated in the input file. The output is a nicely formatted csv file:</p>
+
+<pre><code>"Nombre","Nota","Comentario"
+" Pérez Ramos, Miguel A.","5.0"," El informe está completo y bien argumentado. Se demuestra que se realizó la práctica a cabalidad. Concluye adecuadamente y cita las referencias consultadas."
+" Beleño Hernández, Liliana P.","3.5"," El informe comienza bien, pero termina abruptamente. No se mencionan los aspectos relacionados con la lectura y tampoco se evidencia adecuadamente los resultados de la práctica. No hay bibliografía."
+" Carrascal Mendez, Martín S.","5.0"," El informe es adecuado y cumple con el objetivo de la práctica."
+" Piñeres De La Rosa, Néstor N.","4.7"," El marco teórico apunta a lo necesario, pero con las citas correspondientes. Muy bien por utilizar otras imágenes. Los comentarios son oportunos. Una discusión un poco más extensa sobre los distintos tipos de filtros que se implementaron en la última parte es deseable, ""prewitt"", ""sobel"", etc."
+" Daza Beltran, Juan A.","3.5"," El informe se ajusta a lo mínimo. Debería tener una discusión de resultados más extensa u observaciones del proceso de filtrado con diferentes filtros. Termina abruptamente. No hay bibliografía."
+</code></pre>
+
+<p>Which looks like this when viewed as a spreadsheet:</p>
+
+<div class="aic" style="width:600px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202015-10-14%20at%2000.31.02.png" alt="" width="" height="" border="0" /><br /></div>
+
+<p>You might be wondering, but why go through all this trouble. Because I can, but mostly because I find spreadsheets useful, but I don’t like typing data into them. I find it more productive to write continuously in a plain text file. I can use Textexpander and other tools more easily. And finally, why not let the computer do the work it’s supposed to do - I’m no monkey.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>These are not the real names of my students.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Date Commands]]></title>
+    <link href="http://agmarrugo.github.com/blog/2014/12/07/date-commands/"/>
+    <updated>2014-12-07T22:49:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2014/12/07/date-commands</id>
+    <content type="html"><![CDATA[<p><a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang recently shared</a> two date commands he uses for: i) calculating how many days have passed since a given date, and ii) another that returns the day of the year of the current date. </p>
+
+<p>I was mainly interested in the first one because I often have to do that calculation.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> Because the script can also compute the days remaining until a future date, you can imagine how handy it can be. For instance, if I’d like to know how many days until the day I start my vacations, I just run the script with a future date and it’ll return a negative result in days. Or if I’d like to know how old I am in days.</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br />
+This is how old I am in days.</div>
+
+<p>I thought it would be something useful to have on my iPhone so I turned it into a <a href="http://omz-software.com/pythonista/" title="Pythonista">Pythonista</a> script that I run from <a href="http://agiletortoise.com/drafts/" title="Drafts - Agile Tortoise">Drafts</a>. If you want to know exactly what the script does go to <a href="http://www.leancrew.com/all-this/2014/12/two-little-date-commands/">Dr. Drang’s post</a>, I just modified it a bit so that it runs from Drafts when you enter a date in the following format <code>DD MM YY</code> where <code>YY</code> is optional, it assumes current year. </p>
+
+<p>You can download the <code>ago.py</code> script from <a href="https://gist.github.com/agmarrugo/e74853dd3914513af1d2">this gist.</a> The Drafts action is available <a href="http://drafts4-actions.agiletortoise.com/a/1PP">here.</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>My solution is typically to google for a date calculator. Then I have to go through the links, and find the one I need. A bit cumbersome, but since I don’t do this everyday I don’t complain much. It just seems simpler to have it as a Drafts action.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
+    <link href="http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
+    <updated>2012-10-18T22:30:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
+    <content type="html"><![CDATA[<p>I often use <a href="http://www.imagemagick.org/script/index.php">Imagemagick</a> for image manipulation<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">1</a></sup>. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following</p>
+
+<pre><code>convert somefile.png somefile.pdf
+</code></pre>
+
+<p>Which is quite simple, and much better than opening preview -&gt; export<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">2</a></sup>-&gt;select pdf-&gt; and hit save. But typing that for more than one image is <em>also</em> tedious. So, I decided I’d better create a service that would essentially do the following.</p>
+
+<p>It would take the selected finder items, mainly images in <code>png</code>, <code>jpeg</code>, or whatever, and convert all of them to <code>pdf</code>. Simple. <!--more-->  The automator service is shown in the following image. It does exactly what I’ve described.</p>
+
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/8099954950/" title="to-pdf-automator-script by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8045/8099954950_8d97fab95f.jpg" width="500" height="252" alt="to-pdf-automator-script" /></a><br />
+Automator service.</div>
+
+<p>The shell script is quite simple. Because the <code>convert</code> command from Imagemagick is not a command in bash, I have to call it with the whole path. The rest of that one-liner is a <a href="http://en.wikipedia.org/wiki/Sed"><code>sed</code></a> call to substitute  whatever extension the input file has (with the <a href="http://en.wikipedia.org/wiki/Regular_expression" title="Regular expression - Wikipedia, the free encyclopedia">regex</a> <code>\..*</code>) to <code>.pdf</code>, and that’s it. Here’s the script.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>convert-to-pdf   </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">for </span>f in “<span class="nv">$@</span>”
+</span><span class='line'><span class="k">do</span>
+</span><span class='line'>  /opt/local/bin/convert “<span class="nv">$f</span>” &lt;code&gt;echo <span class="s2">&quot;$f&quot;</span>|sed <span class="s2">&quot;s/\..*/.pdf/&quot;</span>&lt;/code&gt;
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn2">
+      <p>As a matter of fact, now that I’ve finally upgraded to Mountain Lion, Imagemagick stopped working. Had to reinstall with macports.<a href="#fnref:fn2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:fn1">
+      <p>“Save as” in the old days, prior to OS X 10.7.<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

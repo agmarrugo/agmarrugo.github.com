@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Get Fridays - andres marrugo</title>
+  <meta name="author" content="Andres Marrugo">
+
+  
+  <meta name="description" content="A Python script for producing an outline for course with dates.">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/andresmarrugo" rel="alternate" title="andres marrugo" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="/javascripts/footnotify.js"></script>
+
+<!-- Social media content metadata -->
+
+<meta property="fb:app_id" content="688168701320097" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Get Fridays" />
+<meta property="og:site_name" content="andres marrugo" />
+<meta property="og:url" content="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/" />
+<meta property="og:description" content="A Python script for producing an outline for course with dates." />
+<meta property="og:author" content="https://www.facebook.com/andres.g.marrugo" />
+<meta property="og:image" content="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.44.53.png" />
+<meta property="og:image:width" content="300" />
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="agmarrugo" />
+<meta property="twitter:url" content="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/" />
+<meta property="twitter:title" content="Get Fridays" />
+<meta property="twitter:description" content="A Python script for producing an outline for course with dates." />
+<meta property="twitter:creator" content="agmarrugo" />
+<meta property="twitter:image:src" content="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.44.53.png" />
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34225633-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">andres marrugo</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/andresmarrugo" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:agmarrugo.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>	
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/es/">Espa&ntilde;ol</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Get Fridays</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-30T00:58:00-05:00" pubdate data-updated="true">Jan 30<span>th</span>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that’s once a week every Friday. I could look up the calendar and write every date, which is what I initially did. But then I though, I could write a script for this. And that’s when I entered the rabbit hole.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
+
+<p>The script I’m showing here went through several iterations. I had several difficulties until I got it to work. I wasn’t pleased with it, so I fiddled a bit more. Later when I saw Dr Drang’s post about <a href="http://leancrew.com/all-this/2016/01/formatting-multimarkdown-tables-with-numpy-and-tabulate/" title="Formatting MultiMarkdown tables with NumPy and tabulate - All this">formatting multimarkdown tables with tabulate</a>, I knew I had to use that. So I did. Here’s the script.</p>
+
+<!-- more -->
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>get_fridays.py </span><a href="https://github.com/agmarrugo/PythonScripts/blob/master/get_fridays.py">Link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="kn">import</span> <span class="nn">calendar</span>
+</span><span class="line"><span class="kn">from</span> <span class="nn">tabulate</span> <span class="kn">import</span> <span class="n">tabulate</span>
+</span><span class="line">
+</span><span class="line"><span class="n">c</span> <span class="o">=</span> <span class="n">calendar</span><span class="o">.</span><span class="n">Calendar</span><span class="p">(</span><span class="n">firstweekday</span><span class="o">=</span><span class="n">calendar</span><span class="o">.</span><span class="n">MONDAY</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="n">year</span> <span class="o">=</span> <span class="mi">2016</span>
+</span><span class="line"><span class="n">months</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span><span class="line"><span class="n">monthName</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">calendar</span><span class="o">.</span><span class="n">month_abbr</span><span class="p">)}</span>
+</span><span class="line">
+</span><span class="line"><span class="n">listFridays</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class="line"><span class="k">for</span> <span class="n">month</span> <span class="ow">in</span> <span class="n">months</span><span class="p">:</span>
+</span><span class="line">
+</span><span class="line">    <span class="n">monthcal</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">monthdatescalendar</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">month</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">for</span> <span class="n">week</span> <span class="ow">in</span> <span class="n">monthcal</span><span class="p">:</span>
+</span><span class="line">        <span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="n">week</span><span class="p">:</span>
+</span><span class="line">            <span class="k">if</span> <span class="n">day</span><span class="o">.</span><span class="n">weekday</span><span class="p">()</span> <span class="o">==</span> <span class="n">calendar</span><span class="o">.</span><span class="n">FRIDAY</span> <span class="ow">and</span> <span class="n">day</span><span class="o">.</span><span class="n">month</span> <span class="o">==</span> <span class="n">month</span><span class="p">:</span>
+</span><span class="line">                <span class="n">listFridays</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">monthName</span><span class="p">[</span><span class="n">day</span><span class="o">.</span><span class="n">month</span><span class="p">]</span><span class="o">+</span><span class="s">&quot; &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">day</span><span class="o">.</span><span class="n">day</span><span class="p">),</span><span class="s">&quot; &quot;</span><span class="p">,</span><span class="s">&quot; &quot;</span><span class="p">])</span>
+</span><span class="line">
+</span><span class="line"><span class="n">headers</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Date&quot;</span><span class="p">,</span><span class="s">&quot;Lecture&quot;</span><span class="p">,</span><span class="s">&quot;Lecture Topics&quot;</span><span class="p">]</span>
+</span><span class="line">
+</span><span class="line"><span class="k">print</span> <span class="n">tabulate</span><span class="p">(</span><span class="n">listFridays</span><span class="p">,</span><span class="n">headers</span><span class="p">,</span><span class="n">tablefmt</span><span class="o">=</span><span class="s">&#39;pipe&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>As you can see, the script is quite simple. I give it the year and the months. The loops go over the months, and then the weeks and it looks up the friday of that week. On line 18, I have to append the white spaces <code>" "</code> and convert day to <code>str</code> in order to get three columns per day, so that tabulate gives me back a nifty formatted table. Another cool thing is that tabulate can also output in LaTeX format.</p>
+
+<p>The script will produce this:</p>
+
+<pre><code>| Date   | Lecture   | Lecture Topics   |
+|:-------|:----------|:-----------------|
+| Feb 5  |           |                  |
+| Feb 12 |           |                  |
+| Feb 19 |           |                  |
+| Feb 26 |           |                  |
+| Mar 4  |           |                  |
+| Mar 11 |           |                  |
+| Mar 18 |           |                  |
+| Mar 25 |           |                  |
+| Apr 1  |           |                  |
+| Apr 8  |           |                  |
+| Apr 15 |           |                  |
+| Apr 22 |           |                  |
+| Apr 29 |           |                  |
+| May 6  |           |                  |
+| May 13 |           |                  |
+| May 20 |           |                  |
+| May 27 |           |                  |
+</code></pre>
+
+<p>As you can see it works. However, by now you’re wondering, but what about holidays. The script should be smart enough to exclude holidays. I am implementing this, but I’ll leave it for a future post. When rendered looks something like this:</p>
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br /></div>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Don’t we all?<a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Andres Marrugo</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-01-30T00:58:00-05:00" pubdate data-updated="true">Jan 30<span>th</span>, 2016</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/automation/'>automation</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/" data-via="agmarrugo" data-counturl="http://agmarrugo.github.com/blog/2016/01/30/get-fridays/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/10/19/grading-lab-reports-workflow/" title="Previous Post: Grading lab reports workflow">&laquo; Grading lab reports workflow</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/06/09/group-images-by-person/" title="Next Post: Group Images by Person">Group Images by Person &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/06/09/group-images-by-person/">Group Images by Person</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/30/get-fridays/">Get Fridays</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/19/grading-lab-reports-workflow/">Grading lab reports workflow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/10/life-inmutable/">Life immutable</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/07/in-praise-of-slow/">In Praise of Slow</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+	<h1>Subscribe</h1>
+
+	<div id="thumbs">
+	   <div class="smallsection">
+			<a href="http://feeds.feedburner.com/andresmarrugo"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English feed)"></a>
+	   </div> 
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English feed)"> </a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feeds.feedburner.com/agmarrugo_en_es"><img width=24px class=noborder align="left" src="/images/rss_style.png" alt="RSS Feed" title="RSS (English + Spanish feed)"></a>
+		</div>
+		<div class="smallsection">
+			<a href="http://feedburner.google.com/fb/a/mailverify?uri=agmarrugo_en_es&amp;loc=en_US"><img width=24px class=noborder align="left" src="/images/mail.png" alt="email" title="Email (English + Spanish feed)"> </a> 
+		</div>
+	</div>​
+
+
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - <a href="/about">Andres Marrugo</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'andresmarrugo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://agmarrugo.github.com/blog/2016/01/30/get-fridays/';
+        var disqus_url = 'http://agmarrugo.github.com/blog/2016/01/30/get-fridays/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: academia | andres marrugo]]></title>
+  <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
+  <link href="http://andresmarrugo.net/es//"/>
+  <updated>2017-02-07T22:10:39-05:00</updated>
+  <id>http://andresmarrugo.net/es//</id>
+  <author>
+    <name><![CDATA[Andres Marrugo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Estrés académico]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/09/26/estres-academico/"/>
+    <updated>2015-09-26T06:54:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/09/26/estres-academico</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/paper-conference.png" alt="Estres academico" width="" height="" border="0" /><br /></div>
+
+<p>Hay momentos en la vida en que la emoción por haber conseguido algo es rápidamente eclipsada por la realización de las implicaciones que tiene ese acontecimiento. </p>
+
+<!-- more -->
+
+<p>En el mundo académico y de la investigación se sufre mucho por tener ideas originales que luego se traduzcan en experimentos con resultados favorables,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> para luego redactar y poder divulgar en una conferencia o revista científica. Aunque todo parece bastante sencillo y directo, desde la idea hasta la publicación hay suficientes tropiezos para que cualquiera se dé por vencido. </p>
+
+<p>Uno de tales tropiezos es la <a href="http://jasonya.com/wp/your-manuscript-on-peer-review/" title="Your Manuscript On Peer Review | The Mad Scientist Confectioner's Club">revisión por pares</a>. La forma en cómo funciona la ciencia es que entre todos nos revisamos el trabajo para evitar llegar a conclusiones erradas por problemas metodológicos, sesgos, e incluso evitar el fraude – es más común de lo que se cree. Sin embargo, frecuentemente esta revisión a ciegas (es a ciegas porque no sabemos quien la hace) le da un poder al revisor para <a href="http://jasonya.com/wp/your-manuscript-on-peer-review/" title="Your Manuscript On Peer Review | The Mad Scientist Confectioner's Club">exigir cosas imposibles</a>, para hundir el trabajo o exigir que le citen sus respectivos articulos. Como todo ocurre de manera anónima, no hay temor por ser descubierto. </p>
+
+<p>El otro problema es el dinero – como suele ser. Parece mentira, pero en todo el proceso que describí brevemente al principio de esta entrada, se requiere de ciertos recursos para poder llevar a cabo satisfactoriamente. Si el trabajo es experimental se requieren más recursos. Si es teórico o computacional, se requieren menos, pero evidentemente algo se necesita. </p>
+
+<p>El caso de estos últimos días es el siguiente. La alegría por la aceptación de un paper en una conferencia internacional eclipsado por el estrés por conseguir recursos para asistir al evento. El paper representa un trabajo arduo con estudiantes de pregrado (que no son investigadores), de ahí el valor especial por el proceso formativo en introducirlos en la investigación. </p>
+
+<p>El evento es el <a href="http://www.sipaim.org/?mod=registration" title="SIPAIM - 2015">SIPAIM 2015</a> que tendrá lugar en noviembre en Cuenca, Ecuador. Estamos intentado conseguir apoyo por medio de la universidad<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">2</a></sup> pero no es fácil justificar un gasto de estos, sobre todo si no se cuenta con un proyecto activo con financiación externa. </p>
+
+<p>Ya les contaré si termino yendo a Ecuador a presentar el trabajo. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Por resultados favorables se suele entender que se demuestra la hipótesis o se prueba algo que empíricamente sabíamos. Esto no siempre es así y aunque sería bueno, casi nadie acepta la publicación de resultados negativos. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2">
+      <p>Porque en el momento, ninguno de los investigadores tiene proyecto activo con financiación. Vaya eso es otro rollo. <a href="#fnref:fn2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Plantilla LaTeX en Overleaf para informes de laboratorio]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf/"/>
+    <updated>2015-08-29T01:37:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf</id>
+    <content type="html"><![CDATA[<p>Una de las grandes barreras de entrada a LaTeX era lo relacionado con la instalación y compilación de documentos. LaTeX técnicamente no es un lenguaje de programación, pero para efectos prácticos es indistinguible de uno. Y esto complica un poco su utilización al principio, muchos abandonan y regresan a <em>seguir peleando con MS Word.</em> <!-- more --> (Para quien esté perdido, <a href="https://es.wikipedia.org/wiki/LaTeX" title="LaTeX - Wikipedia, la enciclopedia libre">“LaTeX es un es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica”</a>. Hace no mucho escribí <a href="http://andresmarrugo.net/es/blog/2014/02/17/un-cv-moderno/" title="Un cv moderno - andres marrugo">una entrada sobre cómo creo mi cv en LaTeX</a> – la calidad es sin igual.)</p>
+
+<p>Para solventar el problema de la instalación, y abrir nuevas oportunidades en la creación y edición de documentos se creó el servicio <a href="https://www.overleaf.com/">overleaf</a> (antiguamente WriteLatex). Esencialmente es un editor de LaTeX en la web que compila el documento en la medida en que se va escribiendo. A continuación un ejemplo:</p>
+
+<div class="aic" style="width:460px"><a href="https://dl.dropboxusercontent.com/u/5279729/blog-pics/overleaf_project.png"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/overleaf_project.png" alt="" width="460" height="" border="0" /></a><br />
+Interfaz de Overleaf.</div>
+
+<p>Una de las ventajas que ofrece es la disponibilidad de plantillas, listas para usar para preparar todo tipo de documentos. Desde artículos hasta tesis de doctorado y presentaciones. De hecho ya la mayoría de universidades del mundo han subido sus plantillas a la plataforma. Cualquier estudiante sólo tiene que iniciar un proyecto con la plantilla que desee y después sólo tiene que preocuparse por el contenido del documento, <em>no la apariencia</em>. Ese es el atractivo de LaTeX.</p>
+
+<p>Este semestre cree una plantilla en Overleaf para que mis estudiantes del curso de visión artificial prepararan sus informes de laboratorio. Pueden ver la plantilla en siguiente <a href="https://www.overleaf.com/latex/templates/plantilla-imtr-3013-vision-artificial/wcdbvrkjngyq" title="Plantilla IMTR 3013 - Vision Artificial - LaTeX Template on Overleaf">enlace.</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[De cero a uno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
+    <updated>2015-07-25T01:07:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
+</div>
+
+<blockquote>
+  <p>De 0 a 1 el salto es infinito.    <br />
+Crear de la nada cuesta mucho.     <br />
+De 1 a 2 el salto es 1.       </p>
+
+  <p><strong>J.E.</strong>     </p>
+</blockquote>
+
+<p>Hace unas semanas estuve conversando con un amigo del departamento donde hice mi doctorado en España. Le estuve comentando sobre mi trabajo acá en la universidad en Colombia y cómo estaba todavía intentando arrancar con proyectos y la investigación.</p>
+
+<p>Él me dijo algo que me hizo reflexionar y es el mensaje que quiero compartir en este entrada. <em>Pasar de cero a uno es infinito, de uno a dos es sólo uno.</em> Arrancar, comenzar, escribir la primera línea con la hoja en blanco, crear de la nada, cuesta mucho y efectivamente a veces parece un esfuerzo infinito. Cuando ya se ha comenzado con algo, seguir haciéndolo cuesta menos. </p>
+
+<p>He estado buscando financiamiento, sin éxito, para algunos proyectos de investigación que hemos planteado entre varios profesores. Buscar financiación no es cosa fácil y es el gran dilema de los investigadores. A veces siento que no debo enfocarme sólo en la financiación. 
+<!-- porque buscar dinero sin una motivación profunda tampoco tiene sentido.  --> 
+He decidido centrarme en algunas cosas más elementales, trabajar con las uñas si es necesario, pero sobre todo, <em>hacer limonada con los limones que he recibido.</em></p>
+
+<p>Ya he comenzado con algo. No es mucho, pero el infinito se está haciendo más pequeño.</p>
+
+<!-- Es más fácil decirlo que hacerlo, pero no hay que desfallecer. Yo me muevo entre el área computacional y el procesamiento digital de imágenes, así como cuestiones más experimentales relacionadas con óptica aplicada. Esto me da cierta versatilidad y he querido aprovecharlo al máximo.  -->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
+    <updated>2015-03-30T23:57:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
+
+  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
+</blockquote>
+
+<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
+
+<!-- more -->
+
+<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
+
+<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
+
+<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Un cv moderno]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno/"/>
+    <updated>2014-02-17T23:04:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2014/02/17/un-cv-moderno</id>
+    <content type="html"><![CDATA[<p>Hace ya mucho tiempo que preparo mi <em>curriculum vitæ</em> en LaTeX. Durante gran parte de ese tiempo lo he hecho con el <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/cv">paquete CV</a> que ayuda a producir un cv sobrio, bien estructurado y elegante. La gran ventaja de LaTeX es que no tienes que preocuparte por el formato, sólo tienes que introducir la información y LaTeX hace su magia al compilar. A continuación muestro un ejemplo</p>
+
+<!-- more -->
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2011.13.35.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete CV.</div>
+
+<p>Indudablemente esto es <em>mucho mejor</em> que cualquier cv producido en MS Word o procesadores similares. Sin embargo, hace poco más de un año al estar culminando el doctorado, comencé a buscar trabajo y me parecía que era hora de cambiar un poco el estilo del cv. Entre los distintos paquetes disponibles para LaTeX hubo uno que me pareció muy bueno. Era capaz de producir un cv académico, elegante, pero a la vez mucho más estético y divertido. El paquete se llama <a href="http://www.ctan.org/tex-archive/macros/latex2e/contrib/moderncv">moderncv</a>, he aquí un ejemplo de mi cv (ahora actualizado)</p>
+
+<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/Screenshot%202014-01-25%2013.37.05.png" alt="" width="" height="" border="0" /><br />
+*Curriculum vitæ* producido con el paquete moderncv.</div>
+
+<h2 id="personalizacin-del-cv">Personalización del cv</h2>
+
+<p>Por supuesto que el paquete permite personalizar muchos aspectos del cv. He aquí algunas opciones o configuraciones que he escogido.</p>
+
+<ul>
+  <li>En mi caso me gusta el estilo azul clásico <code>\moderncvtheme[blue]{classic}</code>.</li>
+  <li>La versión en español tiene que ir precedida del paquete <code>\usepackage[spanish]{babel}</code>. </li>
+  <li>
+    <p>Para separar las distintas publicaciones de artículos en revistas, proceedings de congresos, etc. Utilizo </p>
+
+    <pre><code>  \usepackage{multibib}
+  \newcites{jour,proc,jourdiv}{{Art\'iculos en Revistas},{Actas en Congresos Revisadas por Pares},{Art\'iculos t\'ecnicos por Invitaci\'on}}
+</code></pre>
+  </li>
+  <li>Esto significa que después de compilar el archivo <code>.tex</code>, debo ejecutar el commando <code>bibtex</code> independientemente para cada bibliografía (<code>jour.bbl, proc.bbl, jourdiv.bbl</code>).</li>
+  <li>N.B.1 Sólo hay un archivo <code>.bib</code>, el paquete <code>multibib</code> me permite producir varias bibliografías o referencias al final de un documento.</li>
+  <li>N.B.2 A veces edito manualmente los archivos <code>.bbl</code> si una referencia no sale exactamente como quiero. Esto es util para cuando un artículo que ha sido aceptado, pero todavía no tiene número o año (bibtex no maneja bien referencias sin año). </li>
+</ul>
+
+<p>El repositorio de mi cv <a href="https://github.com/agmarrugo/cv" title="agmarrugo/cv">está disponible en github</a> con todos los archivos necesarios para compilar y producir el cv. Espero que les resulte útil. </p>
+
+]]></content>
+  </entry>
+  
+</feed>
