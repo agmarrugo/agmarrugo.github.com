@@ -5,7 +5,7 @@ description: Presentations are mostly about telling a story, even if it envolves
 date: 2017-02-12 22:23
 author: Andres Marrugo
 comments: true
-published: false
+published: true
 categories: academia
 facebook:
     image: http://andresmarrugo.net/images/2017-02-12-notes.jpeg
