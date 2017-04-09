@@ -8,11 +8,12 @@ sharing: true
 footer: true
 ---
 
-My name is Andrés Marrugo, and I’m a professor at the department of Mechanical and Mechatronics Engineering of the Tecnhological University of Bolívar in Cartagena, Colombia. My research interests are: digital image processing, medical imaging and computer vision.
+My name is Andrés Marrugo, and I’m a professor of Mechatronics Engineering at the Tecnhological University of Bolívar in Cartagena, Colombia. My research interests are: digital image processing, medical imaging and computer vision.
 
 These days I spend most of my time either at work with teaching, research, and [meetings and stuff][meetings] or at home with my wife and my two sons. Becoming a father has been an amazing experience, it has changed my life and the way I look upon life itself. When I'm not being the *family guy* or the *professor*, I'm usually fiddling around at the terminal (doing nerdy stuff), editing photos/videos of my kids, cooking (I love to cook), writing on my journal, catching up on my favorite blogs and podcasts, and--of course--blogging[^foo].
 
-Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a blog hosted on [wordpress.com][wordpress 2]. It's been quite nice, even more in the last year because I've gotten into the habit of posting more frequently. However, I did feel it was time for a change to something more personal and customizable. That's one of the reasons why I changed to an [Octopress][octopress] powered site. In some future post I'll go into further detail about this.
+Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a blog hosted on [wordpress.com][wordpress 2]. It's been quite nice, even more in the last year because I've gotten into the habit of posting more frequently. However, I did feel it was time for a change to something more personal and customizable. That's one of the reasons why I changed to an [Octopress][octopress] powered site. 
+<!-- In some future post I'll go into further detail about this. -->
 
 
 
@@ -30,6 +31,7 @@ Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a 
 - [Tumblr: Mil Una Palabras](http://milunapalabras.tumblr.com/)
 - [Wordpress.com: Between the Candle and the Star][wordpress]
 - [Research Gate][gate]
+- [Lab website](http://opilab.unitecnologica.edu.co)
 
 
 ## About this site ##
