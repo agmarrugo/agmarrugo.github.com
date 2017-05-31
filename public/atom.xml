@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2017-02-12T22:48:34-05:00</updated>
+  <updated>2017-05-30T22:32:11-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How I do Presentations]]></title>
+    <link href="http://agmarrugo.github.com/blog/2017/02/12/how-i-do-presentations/"/>
+    <updated>2017-02-12T22:23:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2017/02/12/how-i-do-presentations</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-notes.jpeg" alt="Notes" width="" height="" border="0" /><br />
+</div>
+
+<p>I like to do presentations. I really do. It’s not my favorite thing, but I sure like to inspire others from the work I do. </p>
+
+<p>Ever since I learned of many creative ways to prepare a presentation, I’ve liked to undertake the task with a sense of commitment and a great dose of creativity. </p>
+
+<p>I read the <a href="https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0321811984" title="Presentation Zen: Simple Ideas on Presentation Design and Delivery (2nd Edition) (Voices That Matter): Garr Reynolds: 8601419413515: Amazon.com: Books">Presentation Zen</a> book. The <a href="https://www.amazon.com/Non-Designers-Design-Book-Non-Designers-ebook/dp/B00PWDFWEE/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1486955341&amp;sr=1-1&amp;keywords=design+book+robin" title="The Non-Designer's Design Book (Non Designer's Design Book) - Kindle edition by Robin Williams. Arts &amp; Photography Kindle eBooks @ Amazon.com.">The Non-Designer’s Design Book</a>. I learned about <a href="https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_sc_1?s=books&amp;ie=UTF8&amp;qid=1486955391&amp;sr=1-1-spell&amp;keywords=sketchnots" title="The Sketchnote Handbook: the illustrated guide to visual note taking: Mike Rohde: 8601300203768: Amazon.com: Books">Sketchnotes</a>, I also read about <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" title="Giving an Academic Talk">academic presentations</a> and <a href="http://5by5.tv/mpu/82" title="5by5 | Mac Power Users #82: Cooking Ideas">cooking ideas</a>, and many other things. Not in a single strecht, but as a constant search for getting better at something I value. So I’ve come to realize a couple of things. A presentation is <em>definitely</em> not prepared in the computer or presentation software. A computer <em>per se</em> is not good for the creative endeavour, but paper and pen <em>is</em>. </p>
+
+<p>One plans a narrative, because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they’ll listen.</p>
+
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-three-things.jpeg" alt="Three things" width="" height="" border="0" /><br /></div>
+
+<p>However I like to include my own things. Give it a personal touch. When I prepare the presentation I doodle and draw to get an idea of the picture or image I’d like to include in my slide. But I’ve often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using <a href="https://www.fiftythree.com/" title="Paper &amp; Pencil by FiftyThree">paper</a> and I import it to Keynote. They’re just doodles, but (I think) because it’s different from what everyone does, people pay attention. And they get the idea.</p>
+
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-different-people.jpeg" alt="" width="" height="" border="0" /><br />
+</div>
+
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-psfs.jpeg" alt="" width="" height="" border="0" /><br />
+</div>
+
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-thank_you.jpeg" alt="" width="" height="" border="0" /><br />
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Group Images by Person]]></title>
@@ -824,67 +856,6 @@ photo credit: <a href="http://www.flickr.com/photos/nicmcphee/2756494307/">Unhin
 <p><em>Sometimes he just stays awake, lying there in my regular-sized bed, staring at me directly into my eyes, even though I have them closed, like waiting for the slightest  hint of evidence that I too, am awake.</em></p>
 
 <p><em>At the first sight of a blink, he launches himself toward me. “Papa, papa,” he shouts with excitement. I open my eyes wide, he sticks his finger in one of them – it hurts.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Always Late to The Party]]></title>
-    <link href="http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party/"/>
-    <updated>2012-10-22T00:11:00-05:00</updated>
-    <id>http://agmarrugo.github.com/blog/2012/10/22/always-late-to-the-party</id>
-    <content type="html"><![CDATA[<h2 id="to-tweet-or-not-to-tweet">To Tweet or Not to Tweet</h2>
-
-<p>It always seems I’m late to the party. For several years I pondered on the idea of joining <a href="https://twitter.com/" title="Twitter">Twitter</a>, but it never really made much sense to me – at least at the time – to join a social network where there were hardly any friends of mine<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup>. Big mistake, that actually <em>is</em> one of the cool things about twitter. Unlike Facebook, it <em>does</em> provides an open space suitable for engaging in discussions, albeit short, of all sorts with interesting people who don’t really have to be your “friend.”</p>
-
-<p>It turns out that shortly after joining twitter most people<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">2</a></sup> were already considering abandoning it in favor of <a href="https://join.app.net/" title="Join the Movement - App.net">App.net</a>. For the time being <a href="https://join.app.net/" title="Join the Movement - App.net">App.net</a> seems like a <em>niche</em> thing, and most people seem to continue on twitter. Whether that stays that way for the next year or so depends on twitter and their recent policy changes that could well endanger the platform as we know it today. </p>
-
-<!--more-->
-
-<h2 id="its-all-about-the-editor">It’s All About The Editor</h2>
-
-<p>For quite a while it seemed that everywhere I looked, geeks where rejoicing and feeling proud of their text editor of choice: <a href="http://macromates.com/" title="TextMate — The Missing Editor for Mac OS X">Textmate</a>. I did look into it a couple of times, but I always thought it ways a bit too expensive for me. </p>
-
-<p>For the most part it seemed I had always managed to get by with the tools at my disposal, I really didn’t feel like I needed something else.
-I would use the builtin Matlab editor for writing Matlab code. As regards LaTeX – for writing papers – I would use the open source and free (as in beer) <a href="http://www.xm1math.net/texmaker/" title="Texmaker (free cross-platform latex editor)">Texmaker</a>. I really wasn’t aware of the exciting and cool features of <em>advanced</em> text editors like Textmate or <a href="http://www.vim.org/" title="welcome home : vim online">Vim</a>. </p>
-
-<p>For as long as I can remember, I’ve been a computer enthusiast, but a lone one. I never did have close friends that were into the sort of things I liked. I was never really ostracized, but I <em>was</em> the “nerd” nevertheless. </p>
-
-<p>This brief digression is not without a purpose, which is to bring forth the fact that despite being a geek, I’ve never been part of a geek community of any sort. And this influenced my way of life and how I – before social networks – ended up finding out about the latest and coolest thing. More often than not, late and when it wasn’t really a <em>new</em> thing. The text editor dilemma is proof to my lack of geeky-social interaction.</p>
-
-<p>Before I bought Textmate, I <em>did</em> do a little background check to see what was happening to its development. Apparently it was being not-so-actively developed, but version 2.0 was on the way. I had managed to somehow convince myself that it was totally worth it and that I would write my thesis with it. </p>
-
-<p>Shortly after I bought it, it went open source, and to the impression of some: abandoned. It seems that for quite some time, everyone had been moving to Sublime text or BBEdit. Late to the party once again. I just can’t stop thinking that if somehow I had looked into it a bit more, if I had participated more on forums and different communities all of this would have ended differently. I <em>can</em> however say, that I am still using Textmate 1,  and I’m enjoying my self quite a bit.</p>
-
-<h2 id="a-static-or-dynamic-blog">A Static or Dynamic Blog</h2>
-
-<p>Technically speaking I’ve been bloggin since 2010. However, I must be honest and admit that for about the first year of my <a href="http://copiancestral.wordpress.com/" title="Between the Candle and the Star | Academia, Computing, and other topics.">(former) blog</a> I hardly posted a thing or two. It was a <a href="http://wordpress.com/" title="WordPress.com — Get a Free Blog Here">wordpress.com</a> blog and for nearly the last year or so, I began posting more regularly and I was really enjoying myself. I rapidly got accustomed to wordpress; so much, that I felt trapped in the platform, and I needed more customization to set things my way. Well, for the looks of it, I had to leave wordpress.com and move my blog somewhere else in order to do just that.</p>
-
-<p>I kept blogging there, while I looked around to explore my options. It was interesting that this time I was <em>also</em> late, but not so much in the sense that I was able to catch a lot of people during their <a href="http://www.macdrifter.com/migrating-to-pelican-extracting-wordpress-data.html" title="Migrating to Pelican - Extracting WordPress Data">migration from a dynamic blog to a static one</a>. I’m not going to go through the details of why I chose a static blog, but it does have its advantages with respect to a dynamic one, like wordpress. </p>
-
-<h2 id="getting-stuff-done">Getting Stuff Done</h2>
-
-<p>As a final section for this already long post, I’d like to mention how I’ve also been late to the whole GTD movement (if there is such a thing). It’s amusing how shortly after I started to actually read David Allen’s book on <a href="http://en.wikipedia.org/wiki/Getting_Things_Done" title="Getting Things Done - Wikipedia, the free encyclopedia">“Getting Things Done”</a>, some people were already arguing </p>
-
-<blockquote>
-  <p>“whether GTD [was] valid after more than 10 years without any real “update”.”</p>
-
-  <p>– <strong>Sven Fechner</strong>, <a href="http://simplicitybliss.com/the-state-of-getting-things-done" title="The State of Getting Things Done — SimplicityBliss">The State of Getting Things Done.</a></p>
-</blockquote>
-
-<p>I can’t really say for my self, if it is still valid. I can, however, say that it still seems to make sense in the philosophy behind it, probably not so much in the methodology. But hey, what can I say, I haven’t even finished the <em>goddamn</em> book.</p>
-
-<p>I’ve been late, as always, to many fascinating events of recent years – at least the geeky ones it seems. But I’ve come to accept that as a reality of mine. These days I can say that I try to keep myself more in the loop by following several interesting people on the web, whether it be via their blogs, twitter, or podcasts. This  seems a bit of a remedy to my bad timing, but hey everyone’s entitled to do things their way. I’m still struggling to actually find what <em>is</em> “my way”, but I’m in no hurry. There probably isn’t any <em>real</em> answer, <a href="http://www.macdrifter.com/2012/08/fiddle-sticks.html" title="Fiddle Sticks">I reckon the search is more valuable than the goal itself.</a></p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>I <em>still</em> have few close friends on twitter; most of them are rarely active. As regards Facebook, I cannot say the same. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:fn2">
-      <p>When I say <em>most</em> people, I actually mean the majority of people worth following. <a href="#fnref:fn2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
