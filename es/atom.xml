@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2017-05-30T22:32:00-05:00</updated>
+  <updated>2017-06-03T00:10:10-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nuestra contribución]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion/"/>
+    <updated>2017-06-02T23:22:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/dn13599-1_567.jpg" alt="" width="" height="" border="0" /><br />
+<em>Unravelling Boléro</em> por Anne Adams.</div>
+
+<p>Como profesor usualmente nos preguntan sobre nuestra <a href="https://scholar.google.com.co/citations?user=TH8nMmUAAAAJ&amp;hl=en&amp;oi=ao" title="Andres G. Marrugo - Google Scholar Citations">producción intelectual</a>, sobre los proyectos y recursos que conseguimos, pero rara vez nos preguntan sobre cuantos jóvenes hemos logrado sacar adelante. A veces la pregunta viene más concreta, cuantas tesis has dirigido. Pero detrás de cada tesis, hay una historia inmensa. </p>
+
+<p>No siempre es la tesis. A veces es una clase, una asesoría o incluso una tesis fallida. En ocasiones no se cumplen los objetivos, pero el camino recorrido es un verdadero aprendizaje. Cuando miro atrás y pienso en mi época de estudiante, siempre estuve ansioso por buscar modelos a seguir, personas con criterio y experiencia que me enseñaran el camino. Lo que aprendí fue mucho, pero sobre todo que de tanto buscar encontré la manera de hacer mi propio camino.</p>
+
+<p>En estos días conocimos que nos aprobaron un proyecto en colaboración con la Universidad Politécnica de Cataluña y un par de clínicas entre España y Colombia. En el proyecto buscamos responder a una sencilla pregunta. Después de varios años desarrollando algoritmos para el procesamiento de imágenes médicas, queremos saber exactamente qué tan útil es esto en la práctica. De hecho el término <a href="http://www.scielo.org.ar/scielo.php?script=sci_arttext&amp;pid=S0025-76802014000200018" title="Medicina traslacional, ¿moda o necesidad?">medicina traslacional</a> está de moda y quiere decir cómo se pueden llevar resultados de investigaciones (básicas) a la práctica médica buscando un impacto positivo en la salud humana.</p>
+
+<p>Si bien nuestras investigaciones no son precisamente básicas, están más bien en el ámbito aplicado,  conseguir traducir una <a href="http://biomedicaloptics.spiedigitallibrary.org/article.aspx?articleid=1167113" title="Retinal image restoration by means of blind deconvolution | Journal of Biomedical Optics | SPIE">técnica de deconvolución para la restauración de una imagen</a> en una mejora en el diagnóstico no es exactamente como soplar y hacer botellas. Pero queremos intentarlo.</p>
+
+<p>Una de las características importantes en este proyecto es la vinculación de varios de nuestros estudiantes a esta línea de investigación biomédica. De hecho, uno de ellos realizará una estancia en España. Me enorgullece saber que hasta hace relativamente poco ese estudiante andaba por la universidad sin un rumbo claro. Hoy está becado en el programa de maestría en ingeniería, está participando de dos proyectos de investigación y continua su crecimiento profesional bajo nuestra tutela. </p>
+
+<p>Como él hay varios en  <a href="http://opilab.unitecnologica.edu.co">nuestro laboratorio</a>, jóvenes a quienes comenzamos a orientar y a apoyar para crezcan profesionalmente en la investigación. Tal vez no se trata de resolver grandes problemas, sino más bien de demostrar que a pesar de <em>nuestros grandes problemas</em> podemos contribuir a <em>la conversación</em>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mi lengua, mi historia]]></title>
@@ -553,22 +576,6 @@ photo credit: <a href="http://www.flickr.com/photos/will-lion/3133604390/">Will 
 <p>Como dice P. Stokes, el problema está en creer que opinar significa “yo puedo decir lo que me de la gana” – así sea un disparate –  y los demás deben aceptarlo porque <em>es mi opinión</em>. </p>
 
 <p>Si te están preguntando por tu sabor de helado favorito no tiene que existir discusión alguna, pero si te preguntan sobre el calentamiento global resulta que hay gente sin la más mínima formación científica – que por diversas circunstancias, muchas veces políticas – se creen en capacidad de opinar. Pero lo peor es que quieren que su opinión se tenga en cuenta. Y la verdad es que no hay motivos <em>razonables</em> o lógicos para prestarle atención. Sin embargo, a veces nos parece mal el no permitirle a un personaje de estos <em>su derecho a opinar</em>. Yo diría que, <em>¡No! No tienes derecho a opinar.</em></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Paper Tips]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2012/11/07/paper-tips/"/>
-    <updated>2012-11-07T14:37:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2012/11/07/paper-tips</id>
-    <content type="html"><![CDATA[<p>Pronto comenzaré a escribir una serie de artículos cortos con sugerencias para mejorar la escritura de un artículo científico en inglés. Como primera medida hago esto con la finalidad de tener mejor organizado el material de referencia del que dispongo, al hacerlo público me condiciono a mi mismo a hacerlo mejor. Lo comparto porque también sé que le puede ser útil a otros.</p>
-
-<p>Antes que todo quiero decir que <em>no soy un experto</em> en el tema. Estos—pequeños—artículos no son más que anotaciones sobre dudas o inconvenientes que he superado durante mi trayectoria académica en lo que respecta a la escritura de artículos científicos en inglés. </p>
-
-<p>Aunque el objetivo principal es abarcar la escritura de artículos, también puede ser útil para las tesis, reportes científicos o informes de laboratorio. </p>
-
-<p>Vuelve dentro de poco para que veas el primero de la serie. </p>
 
 ]]></content>
   </entry>

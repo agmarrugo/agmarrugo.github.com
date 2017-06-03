@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2017-05-30T22:32:00-05:00</updated>
+  <updated>2017-06-03T00:10:10-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nuestra contribución]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion/"/>
+    <updated>2017-06-02T23:22:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/dn13599-1_567.jpg" alt="" width="" height="" border="0" /><br />
+<em>Unravelling Boléro</em> por Anne Adams.</div>
+
+<p>Como profesor usualmente nos preguntan sobre nuestra <a href="https://scholar.google.com.co/citations?user=TH8nMmUAAAAJ&amp;hl=en&amp;oi=ao" title="Andres G. Marrugo - Google Scholar Citations">producción intelectual</a>, sobre los proyectos y recursos que conseguimos, pero rara vez nos preguntan sobre cuantos jóvenes hemos logrado sacar adelante. A veces la pregunta viene más concreta, cuantas tesis has dirigido. Pero detrás de cada tesis, hay una historia inmensa. </p>
+
+<p>No siempre es la tesis. A veces es una clase, una asesoría o incluso una tesis fallida. En ocasiones no se cumplen los objetivos, pero el camino recorrido es un verdadero aprendizaje. Cuando miro atrás y pienso en mi época de estudiante, siempre estuve ansioso por buscar modelos a seguir, personas con criterio y experiencia que me enseñaran el camino. Lo que aprendí fue mucho, pero sobre todo que de tanto buscar encontré la manera de hacer mi propio camino.</p>
+
+<p>En estos días conocimos que nos aprobaron un proyecto en colaboración con la Universidad Politécnica de Cataluña y un par de clínicas entre España y Colombia. En el proyecto buscamos responder a una sencilla pregunta. Después de varios años desarrollando algoritmos para el procesamiento de imágenes médicas, queremos saber exactamente qué tan útil es esto en la práctica. De hecho el término <a href="http://www.scielo.org.ar/scielo.php?script=sci_arttext&amp;pid=S0025-76802014000200018" title="Medicina traslacional, ¿moda o necesidad?">medicina traslacional</a> está de moda y quiere decir cómo se pueden llevar resultados de investigaciones (básicas) a la práctica médica buscando un impacto positivo en la salud humana.</p>
+
+<p>Si bien nuestras investigaciones no son precisamente básicas, están más bien en el ámbito aplicado,  conseguir traducir una <a href="http://biomedicaloptics.spiedigitallibrary.org/article.aspx?articleid=1167113" title="Retinal image restoration by means of blind deconvolution | Journal of Biomedical Optics | SPIE">técnica de deconvolución para la restauración de una imagen</a> en una mejora en el diagnóstico no es exactamente como soplar y hacer botellas. Pero queremos intentarlo.</p>
+
+<p>Una de las características importantes en este proyecto es la vinculación de varios de nuestros estudiantes a esta línea de investigación biomédica. De hecho, uno de ellos realizará una estancia en España. Me enorgullece saber que hasta hace relativamente poco ese estudiante andaba por la universidad sin un rumbo claro. Hoy está becado en el programa de maestría en ingeniería, está participando de dos proyectos de investigación y continua su crecimiento profesional bajo nuestra tutela. </p>
+
+<p>Como él hay varios en  <a href="http://opilab.unitecnologica.edu.co">nuestro laboratorio</a>, jóvenes a quienes comenzamos a orientar y a apoyar para crezcan profesionalmente en la investigación. Tal vez no se trata de resolver grandes problemas, sino más bien de demostrar que a pesar de <em>nuestros grandes problemas</em> podemos contribuir a <em>la conversación</em>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Director o mentor ]]></title>
@@ -124,37 +147,6 @@ He decidido centrarme en algunas cosas más elementales, trabajar con las uñas 
 
 <!-- Es más fácil decirlo que hacerlo, pero no hay que desfallecer. Yo me muevo entre el área computacional y el procesamiento digital de imágenes, así como cuestiones más experimentales relacionadas con óptica aplicada. Esto me da cierta versatilidad y he querido aprovecharlo al máximo.  -->
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
-    <updated>2015-03-30T23:57:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
-    <content type="html"><![CDATA[<blockquote>
-  <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
-
-  <p>Nolan Bushnell, <a href="http://articles.latimes.com/2013/apr/07/business/la-fi-tn-atari-founder-nolan-bushnell-on-finding-the-next-steve-jobs-20130405" title="Atari co-founder Nolan Bushnell on &quot;Finding The Next Steve Jobs&quot; - latimes">Atari co-founder on ‘Finding the Next Steve Jobs’</a></p>
-</blockquote>
-
-<p>Como parte de mi trabajo en la universidad, antes de iniciar un semestre entrevistamos a los aspirantes a estudiar ingeniería. Hay una pregunta concreta que se les hace sobre sus cualidades y qué los hace ser quienes son. La verdad es que la mayoría no saben qué responder, se quedan sin palabras – y sin adjetivos – para describirse a si mismos. </p>
-
-<!-- more -->
-
-<p>¿Pero, por qué no somos capaces de describirnos adecuadamente? En mi humilde opinión, porque por ser uno mismo, rara vez se detiene uno a pensar sobre quien es y lo que uno hace. Ni qué decir de actividades propias de auto-reflexión o meta-cognición. A veces les pregunto, ¿tienes un hobby? ¿Practicas algún deporte? ¿Haces algo, además de ir al colegio, dormir, comer y ver televisión? Todos deberíamos tener un hobby,<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> pues ayuda a definirnos y a conocernos mejor. Muchos reconocen que no tienen ninguno.</p>
-
-<p>Cuando hablo con un aspirante que reconoce tener un hobby noto claramente una persona con una actitud diferente para con la vida. Por lo general, resulta ser una persona más interesante y agradable para conversar – digamos que <em>tiene algo de qué conversar.</em></p>
-
-<p>Tener un Hobby significa dedicarle un tiempo importante a algo sin remuneración alguna, tan sólo por el interés y la pasión que lo motiva a uno. Es algo que uno hace por <em>amor al arte</em>, como se suele decir, y eso sí que lo define a uno, sin lugar a duda. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>Ver televisión no es un hobby. Por lo menos en la manera en que lo hace la mayoría de la gente. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
