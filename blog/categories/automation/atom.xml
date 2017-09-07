@@ -4,7 +4,7 @@
   <title><![CDATA[Category: automation | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/automation/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2017-08-14T16:49:23-05:00</updated>
+  <updated>2017-09-07T13:05:49-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -353,18 +353,12 @@ Automator service.</div>
 
 <p>The shell script is quite simple. Because the <code>convert</code> command from Imagemagick is not a command in bash, I have to call it with the whole path. The rest of that one-liner is a <a href="http://en.wikipedia.org/wiki/Sed"><code>sed</code></a> call to substitute  whatever extension the input file has (with the <a href="http://en.wikipedia.org/wiki/Regular_expression" title="Regular expression - Wikipedia, the free encyclopedia">regex</a> <code>\..*</code>) to <code>.pdf</code>, and that’s it. Here’s the script.</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>convert-to-pdf   </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">for </span>f in “<span class="nv">$@</span>”
-</span><span class='line'><span class="k">do</span>
-</span><span class='line'>  /opt/local/bin/convert “<span class="nv">$f</span>” &lt;code&gt;echo <span class="s2">&quot;$f&quot;</span>|sed <span class="s2">&quot;s/\..*/.pdf/&quot;</span>&lt;/code&gt;
-</span><span class='line'><span class="k">done</span>
-</span><span class='line'>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock convert-to-pdf lang:bash  %}
+for f in “$@”
+do
+  /opt/local/bin/convert “$f” <code>echo "$f"|sed "s/\..*/.pdf/"</code>
+done
+    {% endcodeblock %}</p>
 <div class="footnotes">
   <ol>
     <li id="fn:fn2">
