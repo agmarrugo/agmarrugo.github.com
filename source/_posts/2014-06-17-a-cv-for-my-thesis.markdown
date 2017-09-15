@@ -17,7 +17,7 @@ twitter_card:
 
 
 <div class="aic" style="width:460px"><br>
-<img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg" alt="" width="460" height="" border="0" /></div>
+<img src="http://andresmarrugo.net/images/2014-06-19-IMG_0775.jpg" alt="" width="460" height="" border="0" /></div>
 
 A Ph.D. thesis is one of those things that has a life of its own. Last January, I had the opportunity to write a two-page abstract of my thesis for publication in *Electronic Letters on Computer Vision and Image Analysis*. It has been published and is now [available on the web along with the PhD thesis.][1]
 
