@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2017-08-14T16:49:23-05:00</updated>
+  <updated>2017-09-15T08:52:32-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -547,7 +547,7 @@ This is how old I am in days.</div>
     <updated>2014-06-19T21:11:00-05:00</updated>
     <id>http://agmarrugo.github.com/blog/2014/06/19/a-cv-for-my-thesis</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><br />
-<img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/IMG_0775.jpg" alt="" width="460" height="" border="0" /></div>
+<img src="http://andresmarrugo.net/images/2014-06-19-IMG_0775.jpg" alt="" width="460" height="" border="0" /></div>
 
 <p>A Ph.D. thesis is one of those things that has a life of its own. Last January, I had the opportunity to write a two-page abstract of my thesis for publication in <em>Electronic Letters on Computer Vision and Image Analysis</em>. It has been published and is now <a href="http://elcvia.cvc.uab.es/article/view/597" title="Retinal Image Analysis Oriented to the Clinical Task - Marrugo - Electronic Letters on Computer Vision and Image Analysis">available on the web along with the PhD thesis.</a></p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2017-09-07T13:05:49-05:00</updated>
+  <updated>2017-09-15T08:52:32-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -146,17 +146,30 @@ Modify latest post.</div>
 
 <p>The shell script is the following. What it does is to replace the date with the current date – you see, several days could’ve passed since I created the draft – in both the yaml header and the file name. And the other thing it does is to change the extension to <code>.markdown</code>.  </p>
 
-<p>{% codeblock Move to posts folder lang:bash  %}</p>
-
-<h1 id="replace-yaml-header-date-to-current-date">Replace yaml header date to current date</h1>
-<p>sed “s/[0-9]{4}.*:[0-9]{2}/<code>date '+%Y-%m-%d %H:%M'</code>/” $1 &gt; tmp &amp;&amp; mv tmp $1</p>
-
-<p>mydate=$(date ‘+%Y-%m-%d’)
-fname=$(echo $1 | sed “s/text/markdown/”)
-# Rename file to current date
-mv $1 <code>echo $fname | sed "s/[0-9]\{4\}.*-[0-9]\{2\}-[0-9]\{2\}/$mydate/"</code></p>
-
-<p>{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Move to posts folder   </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1 <span class="nv">id</span><span class="o">=</span><span class="s2">&quot;replace-yaml-header-date-to-current-date&quot;</span>&gt;Replace yaml header date to current date&lt;/h1&gt;
+</span><span class='line'>&lt;p&gt;sed “s/<span class="o">[</span>0-9<span class="o">]{</span>4<span class="o">}</span>.*:<span class="o">[</span>0-9<span class="o">]{</span>2<span class="o">}</span>/&lt;code&gt;date <span class="s1">&#39;+%Y-%m-%d %H:%M&#39;</span>&lt;/code&gt;/” <span class="nv">$1</span> &amp;gt; tmp &amp;amp;&amp;amp; mv tmp <span class="nv">$1</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;mydate<span class="o">=</span><span class="k">$(</span>date ‘+%Y-%m-%d’<span class="k">)</span>
+</span><span class='line'><span class="nv">fname</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$1</span> | sed “s/text/markdown/”<span class="k">)</span>
+</span><span class='line'><span class="c"># Rename file to current date</span>
+</span><span class='line'>mv <span class="nv">$1</span> &lt;code&gt;echo <span class="nv">$fname</span> | sed <span class="s2">&quot;s/[0-9]\{4\}.*-[0-9]\{2\}-[0-9]\{2\}/$mydate/&quot;</span>&lt;/code&gt;&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>It may look like there’s not much automation, but if you think that this runs on my Mac while I’m writing it in my iPod Touch, then it gets really interesting, and the possibilities are almost infinite. Besides, updating the post date, moving files and changing extensions are quite tedious tasks by themselves. To make it automatically generate and deploy the site I’d have to add several more lines to the script, but I’m ok with how it is for now. </p>
 
