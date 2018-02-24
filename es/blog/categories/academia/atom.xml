@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2017-08-14T16:49:12-05:00</updated>
+  <updated>2018-02-23T23:32:26-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cómo hacer que las cosas sucedan]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2018/02/20/como-hacer-que-las-cosas-sucedan/"/>
+    <updated>2018-02-20T10:24:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2018/02/20/como-hacer-que-las-cosas-sucedan</id>
+    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/make-things-happen.jpg" alt="" width="" height="" border="0" /><br />
+photo by [George Hodan][photolink] cc.</div>
+
+<blockquote>
+  <p>Those who plan ahead, and who are ready to profit by opportunity, are far more likely to be able to do the science that they would most enjoy, and to have more control over how it is done, than those who do not. Those who let things happen to them will wind up becoming servants of those who make things happen.</p>
+
+  <p>Federico Rossi and Tudor Johnston, <a href="http://www.worldscientific.com/worldscibooks/10.1142/p441" title="Survival Skills for Scientists | World Scientific">Survival Skills for Scientists</a> </p>
+</blockquote>
+
+<p>Si sólo pudiera dar un consejo a mis estudiantes, especialmente quienes pretendan seguir una carrera en la academia, éste sería ese consejo. Me parece que es un consejo para la vida, pero que en la academia está más presente que en cualquier otro campo profesional. </p>
+
+<p>Resulta que la academia trata, principalmente, de tener una libertad bastante amplia para decidir cómo invertir el tiempo para contribuir a la sociedad a través de la generación de conocimiento y la formación de recurso humano. Evidentemente la docencia es un aspecto importante, pero no el único. Es más, como profesores rara vez se nos evalúa exclusivamente por la docencia, sino más bien por la actividad académica que desarrollamos, en particular lo relacionado con la investigación.</p>
+
+<p>A la luz de esta revelación, me gustaría dejar claro que <em>investigar</em> no significa estar metido en un laboratorio (con una bata blanca), medio despeinado, y trabajando solo hasta entrada la noche. No, investigar usualmente tiene que ver con <a href="https://www.quora.com/Why-dont-professors-publish-research-independently-of-their-students/answer/Shaad-M-Ahmad?share=706bc84f&amp;srid=9wlR">trabajar en equipo</a>, discutir con colegas y estudiantes sobre distintos problemas y aproximaciones, de escribir (muchos) proyectos y preocuparse por la financiación para que los estudiantes puedan hacer los experimentos y sacar sus carreras adelante. Investigar es <a href="https://www.quora.com/What-is-the-one-habit-that-can-transform-your-world-forever/answer/Richard-Muller-3?share=e1ee9cad&amp;srid=9wlR">hacerse preguntas mientras se está aprendiendo algo nuevo</a>, de anotar esas preguntas y transformarlas en borradores de proyectos, <a href="https://www.quora.com/How-do-I-train-myself-to-write-a-good-paper/answer/Zen-Faulkes?share=7858302c&amp;srid=9wlR">artículos</a>, etc. Investigar es aprender normativas y  construir presupuestos para responder preguntas. Es asistir a conferencias, no por las charlas, sino para hacer contactos. De mantener esos contactos y establecer alianzas y colaboraciones. Se trata de mucho, <a href="https://www.quora.com/What-misconception-about-your-occupation-would-you-like-to-clear-up/answer/Richard-Muller-3?share=22fc7dd9&amp;srid=9wlR">especialmente de relaciones humanas, sólo que casi nadie lo sabe</a>. </p>
+
+<p>Toda esta actividad no se hace, por un lado si no se disfruta de ella, pero por el otro si no se planifica. Como académico he aprendido que a pesar de tener algo andando en el momento, se debe pensar en lo que sigue después. En que pasará para dentro de un año. En prepararme para ello porque sólo así soy yo quien hago que las cosas ocurran y quien se termina beneficiando de las oportunidades. De estudiante se suele planificar poco y más bien se reacciona a las fechas límites. Límite para un congreso, límite para graduarse, finalización de una beca, etc. Pero la realidad es que en la academia los verdaderos límites, son los que uno mismo se impone para avanzar hacia una meta que no es tan concreta. </p>
+
+<p>No es mala idea acostumbrarse a esto de planificar y prepararse. Cómo me veo en un par de años. Quiero salir del país, necesito aprender otro idioma, necesito convalidar un título. Quiero ganarme una beca, he revisado las versiones pasadas, cómo era el cv de los anteriores ganadores, etc. En fin, son muchas las maneras de prepararse para la academia desde estudiante. Cómo decía Pasteur “la suerte sólo favorece a la mente preparada”.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nuestra contribución]]></title>
@@ -115,37 +142,6 @@ Interfaz de Overleaf.</div>
 <p>Una de las ventajas que ofrece es la disponibilidad de plantillas, listas para usar para preparar todo tipo de documentos. Desde artículos hasta tesis de doctorado y presentaciones. De hecho ya la mayoría de universidades del mundo han subido sus plantillas a la plataforma. Cualquier estudiante sólo tiene que iniciar un proyecto con la plantilla que desee y después sólo tiene que preocuparse por el contenido del documento, <em>no la apariencia</em>. Ese es el atractivo de LaTeX.</p>
 
 <p>Este semestre cree una plantilla en Overleaf para que mis estudiantes del curso de visión artificial prepararan sus informes de laboratorio. Pueden ver la plantilla en siguiente <a href="https://www.overleaf.com/latex/templates/plantilla-imtr-3013-vision-artificial/wcdbvrkjngyq" title="Plantilla IMTR 3013 - Vision Artificial - LaTeX Template on Overleaf">enlace.</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[De cero a uno]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
-    <updated>2015-07-25T01:07:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
-    <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
-</div>
-
-<blockquote>
-  <p>De 0 a 1 el salto es infinito.    <br />
-Crear de la nada cuesta mucho.     <br />
-De 1 a 2 el salto es 1.       </p>
-
-  <p><strong>J.E.</strong>     </p>
-</blockquote>
-
-<p>Hace unas semanas estuve conversando con un amigo del departamento donde hice mi doctorado en España. Le estuve comentando sobre mi trabajo acá en la universidad en Colombia y cómo estaba todavía intentando arrancar con proyectos y la investigación.</p>
-
-<p>Él me dijo algo que me hizo reflexionar y es el mensaje que quiero compartir en este entrada. <em>Pasar de cero a uno es infinito, de uno a dos es sólo uno.</em> Arrancar, comenzar, escribir la primera línea con la hoja en blanco, crear de la nada, cuesta mucho y efectivamente a veces parece un esfuerzo infinito. Cuando ya se ha comenzado con algo, seguir haciéndolo cuesta menos. </p>
-
-<p>He estado buscando financiamiento, sin éxito, para algunos proyectos de investigación que hemos planteado entre varios profesores. Buscar financiación no es cosa fácil y es el gran dilema de los investigadores. A veces siento que no debo enfocarme sólo en la financiación. 
-<!-- porque buscar dinero sin una motivación profunda tampoco tiene sentido.  --> 
-He decidido centrarme en algunas cosas más elementales, trabajar con las uñas si es necesario, pero sobre todo, <em>hacer limonada con los limones que he recibido.</em></p>
-
-<p>Ya he comenzado con algo. No es mucho, pero el infinito se está haciendo más pequeño.</p>
-
-<!-- Es más fácil decirlo que hacerlo, pero no hay que desfallecer. Yo me muevo entre el área computacional y el procesamiento digital de imágenes, así como cuestiones más experimentales relacionadas con óptica aplicada. Esto me da cierta versatilidad y he querido aprovecharlo al máximo.  -->
 
 ]]></content>
   </entry>
