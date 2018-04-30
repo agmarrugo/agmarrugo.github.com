@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Razonamiento Bayesiano o la incertidumbre en una trinchera - andres marrugo</title>
+  <meta name="author" content="Andres Marrugo">
+
+  
+  <meta name="description" content="Cómo lidiar con la incertidumbre y cómo actualizar nuestras creencias cuando tenemos nueva evidencia.">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://andresmarrugo.net/es/blog/2018/04/29/razonamiento-bayesiano/">
+  <link href="/es/favicon.png" rel="icon">
+  <link href="/es/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/es/javascripts/modernizr-2.0.js"></script>
+  <script src="/es/javascripts/ender.js"></script>
+  <script src="/es/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/andresmarrugo/es" rel="alternate" title="andres marrugo" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<script src="/es/javascripts/footnotify.js"></script>
+
+<!-- Social media content metadata -->
+
+<meta property="fb:app_id" content="688168701320097" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Razonamiento Bayesiano o la incertidumbre en una trinchera" />
+<meta property="og:site_name" content="andres marrugo" />
+<meta property="og:url" content="http://andresmarrugo.net/es/blog/2018/04/29/razonamiento-bayesiano/" />
+<meta property="og:description" content="Cómo lidiar con la incertidumbre y cómo actualizar nuestras creencias cuando tenemos nueva evidencia." />
+<meta property="og:author" content="https://www.facebook.com/andres.g.marrugo" />
+<meta property="og:image" content="http://andresmarrugo.net/es/images/drawing-prob-tree.png" />
+<meta property="og:image:width" content="300" />
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="agmarrugo" />
+<meta property="twitter:url" content="http://andresmarrugo.net/es/blog/2018/04/29/razonamiento-bayesiano/" />
+<meta property="twitter:title" content="Razonamiento Bayesiano o la incertidumbre en una trinchera" />
+<meta property="twitter:description" content="Cómo lidiar con la incertidumbre y cómo actualizar nuestras creencias cuando tenemos nueva evidencia." />
+<meta property="twitter:creator" content="agmarrugo" />
+<meta property="twitter:image:src" content="http://andresmarrugo.net/es/images/drawing-prob-tree.png" />
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34225633-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/es/">andres marrugo</a></h1>
+  
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+      messageStyle: "normal",
+      linebreaks: {
+          automatic: false
+      }
+  },
+  tex2jax: { 
+      inlineMath: [["$","$"],["\\(","\\)"]], 
+      displayMath: [["$$","$$"],["\\[","\\]"]], 
+      processEscapes: true
+  },
+  TeX: {
+      equationNumbers: {
+     	 autoNumber: "AMS"
+      },
+      Macros: {
+          tr: "{\\scriptscriptstyle\\mathrm{T}}",
+      }
+  }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/andresmarrugo/es" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo/es&amp;loc=es_ES" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:andresmarrugo.net/es/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+	<li><a href="/es/">Blog</a></li>
+	<li><a href="/es/about">Acerca</a></li>	
+	<li><a href="/es/blog/archives">Archivos</a></li>
+	<li><a href="/es/docencia">Docencia</a></li>
+	<li><a href="/es/../">English</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Razonamiento Bayesiano o la incertidumbre en una trinchera</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2018-04-29T22:34:00-05:00" pubdate data-updated="true">Apr 29<span>th</span>, 2018</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>El otro día estaba en clase comentándole a mis estudiantes sobre la importancia de darle inteligencia a las máquinas. Evidentemente, no es el tipo de inteligencia que tenemos nosotros, sino más bien la capacidad para responder ante situaciones cambiantes y por supuesto, hacerlo de una manera eficiente y oportuna. Hoy en día, se les da inteligencia a las máquinas usando técnicas de inteligencia artificial, que han sido derivadas a partir de métodos estadísticos que nos permiten lidiar con la incertidumbre.</p>
+
+<!-- more -->
+
+<p>Les comentaba sobre los refrigeradores inteligentes que pueden entrar en modo ahorrador aprendiendo los patrones de uso, según las horas del día, si detectan luz o no, etc. Todas estas variables fluctuan en el tiempo y la máquina debe hacer una estimación a partir de la información de la que dispone sobre cómo será el uso en las siguientes horas. De esta manera, la máquina siempre se está adaptando al entorno y responde de la manera más eficiente posible. </p>
+
+<p>Nosotros hacemos esto a diario, sólo que no lo hacemos de manera consistente y tampoco somos capaces de hacer valoraciones cuantitativas, pero las máquinas sí. </p>
+
+<p>Quería comenzar esta discusión sobre las estimaciones y cómo lidiar con la incertidumbre presentando el famoso teorema de Bayes. El teorema de Bayes, o su implementación a veces llamada inferencia o razonamiento Bayesiano, nos permite ponerle números a nuestra certeza sobre un evento en particular. Además, nos permite actualizar nuestras creencias cuando tenemos nueva evidencia. Esto es extremadamente poderoso y quería discutirlo aquí con <a href="http://www.lancaster.ac.uk/ppr/about-us/people/neil-manson#projects" title="Neil Manson | Politics, Philosophy &amp; Religion | Lancaster University">un ejemplo hipotético</a> bastante ilustrativo inventado por Neil Manson.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
+
+<h2 id="un-soldado-en-combate">Un soldado en combate</h2>
+
+<p>Imagina que eres un soldado en combate, estás metido en una trinchera. Sabes que del otro lado del campo de batalla a 400 metros queda sólo un soldado enemigo. Por una reunión previa de inteligencia, sabes que el ejercito enemigo está compuesto el 99% de soldados regulares y el 1% de francotiradores (incluso si no lo sabes puedes suponerlo, eso hacemos normalmente). Los soldados regulares son capaces de darle a un blanco a 400 metros el 20% de las veces, mientras que los francotiradores a esa misma distancia aciertan el 90% de las veces.</p>
+
+<p>Así que tu te dices a ti mismo, probablemente sea un soldado regular. Pero para estar seguro, pones tu casco en un palo y lo asomas cuando ¡Bam! le dan al casco. Así que te preguntas, ahora que he visto esto, ¿será que es un francotirador? Bueno, tal vez fue un tiro de suerte de un soldado regular.</p>
+
+<p>Pasan unos minutos y sacas nuevamente el caso, cuando ¡Bam! le dan nuevamente. Ahora ya más nervioso, comienzas a reevaluar tus creencias. Tal vez sí es un francotirador. Pero, ¿qué tan seguro puedes estas?</p>
+
+<h2 id="bayes-al-rescate">Bayes al rescate</h2>
+
+<p>Usaremos la notación establecida para hipótesis y datos: sea <script type="math/tex">\mathcal{H}_+</script> la hipótesis (evento) que el soldado sea un francotirador, y <script type="math/tex">\mathcal{H}_-</script> que no lo sea, esto es, que sea un soldado regular. De igual manera, sean <script type="math/tex">D_+</script> y <script type="math/tex">D_-</script> los datos positivos y negativos de una prueba, esto es, que un soldado dispare y acierte y que dispare y no acierte, respectivamente.</p>
+
+<p>Se nos dan los siguientes datos,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(D_+\vert\mathcal{H_+})=0.9 \enspace, \\ 
+&P(D_+\vert\mathcal{H_-})=0.2 \enspace, \\ 
+&P(\mathcal{H_+})=0.01 \enspace.
+\end{align}
+ %]]></script>
+
+<p>La primera expresión se lee, la probabilidad que al disparar acierte y sea un francotirador es del 0.9. Las siguientes de la misma manera. De estos datos podemos calcular los falsos negativos y los verdaderos negativos,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(D_-\vert\mathcal{H_+})=0.1 \enspace, \\ 
+&P(D_-\vert\mathcal{H_-})=0.8 \enspace.
+\end{align}
+ %]]></script>
+
+<p>La probabilidad que dispare no acierte y sea un francotirador es del 0.1. La siguiente de la misma manera. Todas la probabilidades se pueden visualizar como un arbol.</p>
+
+<div class="aic" style="width:460px"><img src="drawing-prob-tree.png" alt="Arbol de probabilidades" width="" height="" border="0" /><br /></div>
+
+<p>Entonces, la pregunta que debemos responder desde la trinchera es, ¿cuál es la probabilidad que sea un francotirador (<script type="math/tex">\mathcal{H_+}</script>) dado que ha acertado el disparo a mi casco <script type="math/tex">(\mathcal{D_+})</script>? El teorema de Bayes nos permite responder a esta pregunta, e incluso nos permite actualizar nuestras creencias según la evidencia que se nos presente en varias ocasiones. A continuación la ecuación de Bayes</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(\mathcal{H_+}\vert\mathcal{D_+})= \underbrace{P(\mathcal{H_+})}_{\text{prior}} \frac{\overbrace{P(\mathcal{D_+}\vert\mathcal{H_+})}^{\text{likelihood}}}{P(\mathcal{D_+})} \enspace.
+\end{align}
+ %]]></script>
+
+<p>Se lee la probabilidad que sea un francotirador dado que ha disparado y acertado. Esta es igual a la información previa (<em>prior</em>) de la que disponemos que los francotiradores son pocos (0.1) multiplicado por la posibilidad, también llamada “verosimiltud” (<em>likelihood</em>), que ocurra el evento. El numerador lo conocemos, la probabilidad que al disparar y acertar sea un francotirador <script type="math/tex">P(\mathcal{D_+}\vert\mathcal{H_+})=0.9</script>, pero debemos calcular el denominador, que es una especie de normalización. <script type="math/tex">P(\mathcal{D_+})</script> es la probabilidad total que al disparar quien sea (francotirador o soldado regular) acierte. Esta se calcula de la siguiente manera</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(\mathcal{D_+}) = P(\mathcal{D_+}\vert\mathcal{H_+})P(\mathcal{H_+}) + P(\mathcal{D_+}\vert\mathcal{H_-})P(\mathcal{H_-}) \enspace.
+\end{align}
+ %]]></script>
+
+<p>Por lo tanto reemplazando los valores obtenemos lo siguiente</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(\mathcal{H_+}\vert\mathcal{D_+})= 0.01 \frac{0.09}{(0.9)(0.01)+(0.2)(0.99)} = 0.0434 \enspace.
+\end{align}
+ %]]></script>
+
+<p>De tal manera que, antes de sacar el casco creías que la probabilidad que ese único soldado fuera un francotirador era del 1%, mientras que después de sacar el casco una vez y al ver que acierta ha subido tu creencia al 4.3%. Esto no puede parecer mucho, y en primera instancia podríamos hasta creer que fue un tiro de suerte. Pero veamos lo que pasa cuando volvemos a probar la realidad una segunda vez. Esta vez usaré el teorema de Bayes, pero mi nuevo <em>prior</em> <script type="math/tex">P^{\ast}(\mathcal{H_+})</script> será la probabilidad que acabo de calcular de 0.043</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+&P(\mathcal{H_+}\vert\mathcal{D_+})= 0.0434 \frac{0.09}{(0.9)(0.0434)+(0.2)(0.99)} = 0.165 \enspace.
+\end{align}
+ %]]></script>
+
+<p>Ahora la probabilidad que sea un francotirador ha subido hasta el 17% aproximadamente, ¡3.8 veces! </p>
+
+<p>Qué pasa si sacas el casco una tercera vez, pues la probabilidad sube hasta 0.428, así que concluyes que será mejor quedarte quieto y llamar por refuerzos porque estás seguro un 43% que ese tipo es un francotirador!!!</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Lo escuche inicialmente en el episodio 73 del Podcast <a href="https://youarenotsosmart.com/2016/04/08/yanss-073-how-to-get-the-most-out-of-realizing-you-are-wrong-by-using-bayes-theorem-to-update-your-beliefs/" title="YANSS 073 – How to get the most out of realizing you are wrong by using Bayes’ Theorem to update your beliefs – You Are Not So Smart">You are not so Smart.</a><a href="#fnref:fn1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Andres Marrugo</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2018-04-29T22:34:00-05:00" pubdate data-updated="true">Apr 29<span>th</span>, 2018</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/es/blog/categories/blog/'>blog</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/" data-via="agmarrugo" data-counturl="http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/es/blog/2018/02/23/escribiendo-con-un-proposito/" title="Previous Post: Escribiendo con un propósito">&laquo; Escribiendo con un propósito</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/es/blog/2018/04/29/razonamiento-bayesiano/">Razonamiento Bayesiano o la incertidumbre en una trinchera</a>
+      </li>
+    
+      <li class="post">
+        <a href="/es/blog/2018/02/23/escribiendo-con-un-proposito/">Escribiendo con un propósito</a>
+      </li>
+    
+      <li class="post">
+        <a href="/es/blog/2018/02/20/como-hacer-que-las-cosas-sucedan/">Cómo hacer que las cosas sucedan</a>
+      </li>
+    
+      <li class="post">
+        <a href="/es/blog/2017/07/28/la-ultima-hoja/">La última hoja</a>
+      </li>
+    
+      <li class="post">
+        <a href="/es/blog/2017/06/02/nuestra-contribucion/">Nuestra contribución</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+		<h1>Suscribirse</h1>	
+		
+		<div id="thumbs">
+		   <div class="smallsection">
+				<a href="http://feeds.feedburner.com/andresmarrugo/es"><img width=24px class=noborder align="left" src="/es/images/rss_style.png" alt="RSS Feed" title="RSS (Espa&ntilde;ol)"></a>
+		   </div> 
+			<div class="smallsection">
+				<a href="http://feedburner.google.com/fb/a/mailverify?uri=andresmarrugo/es&amp;loc=es_ES"><img width=24px class=noborder align="left" src="/es/images/mail.png" alt="email" title="Email (Espa&ntilde;ol)"> </a>
+			</div>
+			<div class="smallsection">
+				<a href="http://feeds.feedburner.com/agmarrugo_en_es"><img width=24px class=noborder align="left" src="/es/images/rss_style.png" alt="RSS Feed" title="RSS (Ingl&eacute;s + Espa&ntilde;ol)"></a>
+			</div>
+			<div class="smallsection">
+				<a href="http://feedburner.google.com/fb/a/mailverify?uri=agmarrugo_en_es&amp;loc=en_US"><img width=24px class=noborder align="left" src="/es/images/mail.png" alt="email" title="Email (Ingl&eacute;s + Espa&ntilde;ol)"> </a> 
+			</div>
+		</div>​
+		
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - <a href="/es/about">Andres Marrugo</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'andresmarrugo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/';
+        var disqus_url = 'http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
