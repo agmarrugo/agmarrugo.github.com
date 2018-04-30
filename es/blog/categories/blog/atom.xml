@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2018-04-30T00:11:24-05:00</updated>
+  <updated>2018-04-30T10:07:10-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -12,108 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Razonamiento Bayesiano o la incertidumbre en una trinchera]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/"/>
-    <updated>2018-04-29T22:34:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano</id>
-    <content type="html"><![CDATA[<p>El otro día estaba en clase comentándole a mis estudiantes sobre la importancia de darle inteligencia a las máquinas. Evidentemente, no es el tipo de inteligencia que tenemos nosotros, sino más bien la capacidad para responder ante situaciones cambiantes y por supuesto, hacerlo de una manera eficiente y oportuna. Hoy en día, se les da inteligencia a las máquinas usando técnicas de inteligencia artificial, que han sido derivadas a partir de métodos estadísticos que nos permiten lidiar con la incertidumbre.</p>
-
-<!-- more -->
-
-<p>Les comentaba sobre los refrigeradores inteligentes que pueden entrar en modo ahorrador aprendiendo los patrones de uso, según las horas del día, si detectan luz o no, etc. Todas estas variables fluctuan en el tiempo y la máquina debe hacer una estimación a partir de la información de la que dispone sobre cómo será el uso en las siguientes horas. De esta manera, la máquina siempre se está adaptando al entorno y responde de la manera más eficiente posible. </p>
-
-<p>Nosotros hacemos esto a diario, sólo que no lo hacemos de manera consistente y tampoco somos capaces de hacer valoraciones cuantitativas, pero las máquinas sí. </p>
-
-<p>Quería comenzar esta discusión sobre las estimaciones y cómo lidiar con la incertidumbre presentando el famoso teorema de Bayes. El teorema de Bayes, o su implementación a veces llamada inferencia o razonamiento Bayesiano, nos permite ponerle números a nuestra certeza sobre un evento en particular. Además, nos permite actualizar nuestras creencias cuando tenemos nueva evidencia. Esto es extremadamente poderoso y quería discutirlo aquí con <a href="http://www.lancaster.ac.uk/ppr/about-us/people/neil-manson#projects" title="Neil Manson | Politics, Philosophy &amp; Religion | Lancaster University">un ejemplo hipotético</a> bastante ilustrativo inventado por Neil Manson.<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup></p>
-
-<h2 id="un-soldado-en-combate">Un soldado en combate</h2>
-
-<p>Imagina que eres un soldado en combate, estás metido en una trinchera. Sabes que del otro lado del campo de batalla a 400 metros queda sólo un soldado enemigo. Por una reunión previa de inteligencia, sabes que el ejercito enemigo está compuesto el 99% de soldados regulares y el 1% de francotiradores (incluso si no lo sabes puedes suponerlo, eso hacemos normalmente). Los soldados regulares son capaces de darle a un blanco a 400 metros el 20% de las veces, mientras que los francotiradores a esa misma distancia aciertan el 90% de las veces.</p>
-
-<p>Así que tu te dices a ti mismo, probablemente sea un soldado regular. Pero para estar seguro, pones tu casco en un palo y lo asomas cuando ¡Bam! le dan al casco. Así que te preguntas, ahora que he visto esto, ¿será que es un francotirador? Bueno, tal vez fue un tiro de suerte de un soldado regular.</p>
-
-<p>Pasan unos minutos y sacas nuevamente el caso, cuando ¡Bam! le dan nuevamente. Ahora ya más nervioso, comienzas a reevaluar tus creencias. Tal vez sí es un francotirador. Pero, ¿qué tan seguro puedes estas?</p>
-
-<h2 id="bayes-al-rescate">Bayes al rescate</h2>
-
-<p>Usaremos la notación establecida para hipótesis y datos: sea <script type="math/tex">\mathcal{H}_+</script> la hipótesis (evento) que el soldado sea un francotirador, y <script type="math/tex">\mathcal{H}_-</script> que no lo sea, esto es, que sea un soldado regular. De igual manera, sean <script type="math/tex">D_+</script> y <script type="math/tex">D_-</script> los datos positivos y negativos de una prueba, esto es, que un soldado dispare y acierte y que dispare y no acierte, respectivamente.</p>
-
-<p>Se nos dan los siguientes datos,</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(D_+\vert\mathcal{H_+})=0.9 \enspace, \\ 
-&P(D_+\vert\mathcal{H_-})=0.2 \enspace, \\ 
-&P(\mathcal{H_+})=0.01 \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>La primera expresión se lee, la probabilidad que al disparar acierte y sea un francotirador es del 0.9. Las siguientes de la misma manera. De estos datos podemos calcular los falsos negativos y los verdaderos negativos,</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(D_-\vert\mathcal{H_+})=0.1 \enspace, \\ 
-&P(D_-\vert\mathcal{H_-})=0.8 \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>La probabilidad que dispare no acierte y sea un francotirador es del 0.1. La siguiente de la misma manera. Todas la probabilidades se pueden visualizar como un arbol.</p>
-
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/drawing-prob-tree.png" alt="Arbol de probabilidades" width="" height="" border="0" /><br /></div>
-
-<p>Entonces, la pregunta que debemos responder desde la trinchera es, ¿cuál es la probabilidad que sea un francotirador (<script type="math/tex">\mathcal{H_+}</script>) dado que ha acertado el disparo a mi casco <script type="math/tex">(\mathcal{D_+})</script>? El teorema de Bayes nos permite responder a esta pregunta, e incluso nos permite actualizar nuestras creencias según la evidencia que se nos presente en varias ocasiones. A continuación la ecuación de Bayes</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(\mathcal{H_+}\vert\mathcal{D_+})= \underbrace{P(\mathcal{H_+})}_{\text{prior}} \frac{\overbrace{P(\mathcal{D_+}\vert\mathcal{H_+})}^{\text{likelihood}}}{P(\mathcal{D_+})} \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>Se lee la probabilidad que sea un francotirador dado que ha disparado y acertado. Esta es igual a la información previa (<em>prior</em>) de la que disponemos que los francotiradores son pocos (0.1) multiplicado por la posibilidad, también llamada “verosimiltud” (<em>likelihood</em>), que ocurra el evento. El numerador lo conocemos, la probabilidad que al disparar y acertar sea un francotirador <script type="math/tex">P(\mathcal{D_+}\vert\mathcal{H_+})=0.9</script>, pero debemos calcular el denominador, que es una especie de normalización. <script type="math/tex">P(\mathcal{D_+})</script> es la probabilidad total que al disparar quien sea (francotirador o soldado regular) acierte. Esta se calcula de la siguiente manera</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(\mathcal{D_+}) = P(\mathcal{D_+}\vert\mathcal{H_+})P(\mathcal{H_+}) + P(\mathcal{D_+}\vert\mathcal{H_-})P(\mathcal{H_-}) \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>Por lo tanto reemplazando los valores obtenemos lo siguiente</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(\mathcal{H_+}\vert\mathcal{D_+})= 0.01 \frac{0.09}{(0.9)(0.01)+(0.2)(0.99)} = 0.0434 \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>De tal manera que, antes de sacar el casco creías que la probabilidad que ese único soldado fuera un francotirador era del 1%, mientras que después de sacar el casco una vez y al ver que acierta ha subido tu creencia al 4.3%. Esto no puede parecer mucho, y en primera instancia podríamos hasta creer que fue un tiro de suerte. Pero veamos lo que pasa cuando volvemos a probar la realidad una segunda vez. Esta vez usaré el teorema de Bayes, pero mi nuevo <em>prior</em> <script type="math/tex">P^{\ast}(\mathcal{H_+})</script> será la probabilidad que acabo de calcular de 0.043</p>
-
-<script type="math/tex; mode=display">% &lt;![CDATA[
-
-\begin{align}
-&P(\mathcal{H_+}\vert\mathcal{D_+})= 0.0434 \frac{0.09}{(0.9)(0.0434)+(0.2)(0.99)} = 0.165 \enspace.
-\end{align}
- %]]&gt;</script>
-
-<p>Ahora la probabilidad que sea un francotirador ha subido hasta el 17% aproximadamente, ¡3.8 veces! </p>
-
-<p>Qué pasa si sacas el casco una tercera vez, pues la probabilidad sube hasta 0.428, así que concluyes que será mejor quedarte quieto y llamar por refuerzos porque estás seguro un 43% que ese tipo es un francotirador!!!</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>Lo escuche inicialmente en el episodio 73 del Podcast <a href="https://youarenotsosmart.com/2016/04/08/yanss-073-how-to-get-the-most-out-of-realizing-you-are-wrong-by-using-bayes-theorem-to-update-your-beliefs/" title="YANSS 073 – How to get the most out of realizing you are wrong by using Bayes’ Theorem to update your beliefs – You Are Not So Smart">You are not so Smart.</a><a href="#fnref:fn1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[El mundo de Alo y Nico]]></title>
@@ -229,6 +127,15 @@ photo by Mike Licht. </div>
     </li>
   </ol>
 </div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hola Mundo]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo/"/>
+    <updated>2012-08-12T12:43:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo</id>
+    <content type="html"><![CDATA[<p>Este es mi primer post en este blog implementado en <a href="http://octopress.org/" title="Octopress">octopress</a>.</p>
 ]]></content>
   </entry>
   
