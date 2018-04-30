@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2018-04-29T23:57:08-05:00</updated>
+  <updated>2018-04-30T00:11:24-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -63,7 +63,7 @@
 
 <p>La probabilidad que dispare no acierte y sea un francotirador es del 0.1. La siguiente de la misma manera. Todas la probabilidades se pueden visualizar como un arbol.</p>
 
-<div class="aic" style="width:460px"><img src="drawing-prob-tree.png" alt="Arbol de probabilidades" width="" height="" border="0" /><br /></div>
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/drawing-prob-tree.png" alt="Arbol de probabilidades" width="" height="" border="0" /><br /></div>
 
 <p>Entonces, la pregunta que debemos responder desde la trinchera es, ¿cuál es la probabilidad que sea un francotirador (<script type="math/tex">\mathcal{H_+}</script>) dado que ha acertado el disparo a mi casco <script type="math/tex">(\mathcal{D_+})</script>? El teorema de Bayes nos permite responder a esta pregunta, e incluso nos permite actualizar nuestras creencias según la evidencia que se nos presente en varias ocasiones. A continuación la ecuación de Bayes</p>
 
