@@ -22,7 +22,7 @@ I like to do presentations. I really do. It's not my favorite thing, but I sure 
 
 Ever since I learned of many creative ways to prepare a presentation, I've liked to undertake the task with a sense of commitment and a great dose of creativity. 
 
-I read the [Presentation Zen][1] book. The [The Non-Designer's Design Book][2]. I learned about [Sketchnotes][3], I also read about [academic presentations][4] and [cooking ideas][5], and many other things. Not in a single stretch, but as a constant search for getting better at something I value. So I've come to realize a couple of things. A presentation is *definitely* not prepared in the computer or presentation software. A computer *per se* is not good for the creative endeavor, but paper and pen *is*. 
+I read the [Presentation Zen][1] book. The [The Non-Designer's Design Book][2]. I learned about [Sketchnotes][3], I also read about [academic presentations][4] and [cooking ideas][5], and many other things. Not in a single stretch, but as a constant search for getting better at something I value. So I've come to realize a couple of things. A presentation is *definitely* not prepared in the computer or presentation software. A computer *per se* is not good for the creative endeavor, but paper and pen *are*. 
 
 One plans a narrative because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they'll listen.
 
