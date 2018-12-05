@@ -18,18 +18,18 @@ twitter_card:
 <div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-notes.jpeg" alt="Notes" width="" height="" border="0" /><br>
 </div>
 
-I like to do presentations. I really do. It's not my favorite thing, but I sure like to inspire others from the work I do. 
+I like to do presentations. I really do. It's not my favorite thing, but I sure love inspiring others from the work I do. 
 
 Ever since I learned of many creative ways to prepare a presentation, I've liked to undertake the task with a sense of commitment and a great dose of creativity. 
 
-I read the [Presentation Zen][1] book. The [The Non-Designer's Design Book][2]. I learned about [Sketchnotes][3], I also read about [academic presentations][4] and [cooking ideas][5], and many other things. Not in a single strecht, but as a constant search for getting better at something I value. So I've come to realize a couple of things. A presentation is *definitely* not prepared in the computer or presentation software. A computer *per se* is not good for the creative endeavour, but paper and pen *is*. 
+I read the [Presentation Zen][1] book. The [The Non-Designer's Design Book][2]. I learned about [Sketchnotes][3], I also read about [academic presentations][4] and [cooking ideas][5], and many other things. Not in a single stretch, but as a constant search for getting better at something I value. So I've come to realize a couple of things. A presentation is *definitely* not prepared in the computer or presentation software. A computer *per se* is not good for the creative endeavor, but paper and pen *is*. 
 
-One plans a narrative, because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they'll listen.
+One plans a narrative because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they'll listen.
 
 
 <div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-three-things.jpeg" alt="Three things" width="" height="" border="0" /><br></div>
 
-However I like to include my own things. Give it a personal touch. When I prepare the presentation I doodle and draw to get an idea of the picture or image I'd like to include in my slide. But I've often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using [paper][6] and I import it to Keynote. They're just doodles, but (I think) because it's different from what everyone does, people pay attention. And they get the idea.
+However, I like to include my own things. Give it a personal touch. When I prepare the presentation, I doodle and draw to get an idea of the picture or image I'd like to include in my slide. But I've often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using [paper][6], and I import it to Keynote. They're just doodles, but (I think) because it's different from what everyone does, people pay attention. And they get the idea.
 
 <div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-different-people.jpeg" alt="" width="" height="" border="0" /><br>
 </div>
