@@ -4,7 +4,7 @@
   <title><![CDATA[Category: automation | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/automation/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2018-12-05T08:16:51-05:00</updated>
+  <updated>2018-12-06T09:30:31-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -143,7 +143,7 @@ for week in monthcal:
 
 <p>As you can see it works. However, by now you’re wondering, but what about holidays. The script should be smart enough to exclude holidays. I am implementing this, but I’ll leave it for a future post. When rendered looks something like this:</p>
 
-<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br /></div>
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br /></div>
 
 <div class="footnotes">
   <ol>
