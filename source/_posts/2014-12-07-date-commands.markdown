@@ -15,7 +15,7 @@ I was mainly interested in the first one because I often have to do that calcula
 
 <!-- more -->
 
-<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/Screenshot-date-commands-2014-12-07.jpg" alt="" width="" height="" border="0" /><br>
 This is how old I am in days.</div>
 
 I thought it would be something useful to have on my iPhone so I turned it into a [Pythonista](http://omz-software.com/pythonista/ "Pythonista") script that I run from [Drafts](http://agiletortoise.com/drafts/ "Drafts - Agile Tortoise"). If you want to know exactly what the script does go to [Dr. Drang's post][1], I just modified it a bit so that it runs from Drafts when you enter a date in the following format `DD MM YY` where `YY` is optional, it assumes current year. 
