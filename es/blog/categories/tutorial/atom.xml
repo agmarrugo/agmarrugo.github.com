@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tutorial | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/tutorial/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2018-12-06T10:00:53-05:00</updated>
+  <updated>2020-02-16T22:09:02-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Razonamiento Bayesiano o la incertidumbre en una trinchera]]></title>
     <link href="http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/"/>
-    <updated>2018-04-29T22:34:00-05:00</updated>
+    <updated>2018-04-29T22:34:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano</id>
     <content type="html"><![CDATA[<p>El otro día estaba en clase comentándole a mis estudiantes sobre la importancia de darle inteligencia a las máquinas. Evidentemente, no es el tipo de inteligencia que tenemos nosotros, sino más bien la capacidad para responder ante situaciones cambiantes y por supuesto, hacerlo de una manera eficiente y oportuna. Hoy en día, se les da inteligencia a las máquinas usando técnicas de inteligencia artificial, que han sido derivadas a partir de métodos estadísticos que nos permiten lidiar con la incertidumbre.</p>
 

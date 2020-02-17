@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2018-12-06T10:00:53-05:00</updated>
+  <updated>2020-02-16T22:09:02-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[El mundo de Alo y Nico]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/09/20/el-mundo-de-alo-y-nico/"/>
-    <updated>2015-09-20T22:07:00-05:00</updated>
+    <updated>2015-09-20T22:07:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/09/20/el-mundo-de-alo-y-nico</id>
     <content type="html"><![CDATA[<p>Hace unas semanas mi esposa revivió <a href="http://micriaturita.blogspot.com.co/" title="El mundo de Alo y Nico">un blog</a> que había creado en el 2011 y al que no le había dedicado más que una entrada. El blog, que lleva por título <em>El mundo de Alo y Nico</em>, tiene la intención de documentar un poco nuestras vivencias en lo que respecta a criar a nuestros hijos. Nuestras decisiones y reflexiones. </p>
 
@@ -28,7 +28,7 @@
   <entry>
     <title type="html"><![CDATA[Sobre el formato electrónico y los dispositivos móviles]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/10/28/el-formato-electronico-y-los-dispositivos-moviles/"/>
-    <updated>2012-10-28T00:36:00-05:00</updated>
+    <updated>2012-10-28T00:36:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/10/28/el-formato-electronico-y-los-dispositivos-moviles</id>
     <content type="html"><![CDATA[<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/8128869627/" title="A brilliant novel in the works"><img src="http://farm9.staticflickr.com/8044/8128869627_e2175169fd.jpg" width="500" height="375" alt="20121027-PA277282" /></a></div>
 
@@ -75,7 +75,7 @@
   <entry>
     <title type="html"><![CDATA[Sobre la suscripción]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/10/07/suscripcion/"/>
-    <updated>2012-10-07T23:47:00-05:00</updated>
+    <updated>2012-10-07T23:47:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/10/07/suscripcion</id>
     <content type="html"><![CDATA[<p>Suscribirte a este blog es muy fácil, puedes hacerlo vía RSS o por email. Estas opciones están dispuestas en la parte inferior de la barra lateral. </p>
 
@@ -97,7 +97,7 @@
   <entry>
     <title type="html"><![CDATA[¿Por qué un blog?]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/08/25/por-que-un-blog/"/>
-    <updated>2012-08-25T21:31:00-05:00</updated>
+    <updated>2012-08-25T21:31:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/08/25/por-que-un-blog</id>
     <content type="html"><![CDATA[<div class="air" style="width:225px"><a href="http://www.flickr.com/photos/copiancestral/7883291906/" title="Seated Woman with Blog, after Picasso by Mike Licht on Flickr"><img src="http://farm9.staticflickr.com/8443/7883291906_479ae82a40_n.jpg" width="225" height="240" alt="Seated Woman with Blog, after Picasso" /></a><br />
 photo by Mike Licht. </div>
@@ -133,7 +133,7 @@ photo by Mike Licht. </div>
   <entry>
     <title type="html"><![CDATA[Hola Mundo]]></title>
     <link href="http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo/"/>
-    <updated>2012-08-12T12:43:00-05:00</updated>
+    <updated>2012-08-12T12:43:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2012/08/12/hola-mundo</id>
     <content type="html"><![CDATA[<p>Este es mi primer post en este blog implementado en <a href="http://octopress.org/" title="Octopress">octopress</a>.</p>
 ]]></content>

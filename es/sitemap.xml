@@ -108,7 +108,7 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2016/06/11/burbujas/</loc>
-        <lastmod>2016-06-11T05:58:08-05:00</lastmod>
+        <lastmod>2016-06-11T06:58:08-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2016/08/20/haciendole-espacio-a-la-ficcion/</loc>
@@ -120,19 +120,19 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2017/04/08/director-o-mentor/</loc>
-        <lastmod>2017-09-07T13:05:29-05:00</lastmod>
+        <lastmod>2017-09-07T14:05:29-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2017/05/30/mi-lengua/</loc>
-        <lastmod>2017-05-30T22:31:15-05:00</lastmod>
+        <lastmod>2017-05-30T23:31:15-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion/</loc>
-        <lastmod>2017-06-03T00:08:45-05:00</lastmod>
+        <lastmod>2017-06-03T01:08:45-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2017/07/28/la-ultima-hoja/</loc>
-        <lastmod>2017-08-14T16:48:00-05:00</lastmod>
+        <lastmod>2017-08-14T17:48:00-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2018/02/20/como-hacer-que-las-cosas-sucedan/</loc>
@@ -140,30 +140,34 @@
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2018/02/23/escribiendo-con-un-proposito/</loc>
-        <lastmod>2018-02-23T23:55:36-05:00</lastmod>
+        <lastmod>2020-02-16T22:03:08-05:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/</loc>
-        <lastmod>2018-04-30T10:06:20-05:00</lastmod>
+        <lastmod>2018-04-30T11:06:20-04:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//blog/2018/05/16/sobre-el-discurso-academico/</loc>
-        <lastmod>2018-05-16T22:43:05-05:00</lastmod>
+        <lastmod>2018-05-16T23:43:05-04:00</lastmod>
     </url>
     <url>
-        <loc>http://andresmarrugo.net/es//about/</loc>
-        <lastmod>2017-04-09T00:02:18-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://andresmarrugo.net/es//blog/archives/</loc>
-        <lastmod>2018-12-06T09:59:37-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://andresmarrugo.net/es//docencia/</loc>
-        <lastmod>2017-04-08T23:55:51-05:00</lastmod>
+        <loc>http://andresmarrugo.net/es//blog/2020/02/16/articulo-perfecto/</loc>
+        <lastmod>2020-02-16T22:07:13-05:00</lastmod>
     </url>
     <url>
         <loc>http://andresmarrugo.net/es//</loc>
-        <lastmod>2018-12-06T09:59:37-05:00</lastmod>
+        <lastmod>2020-02-16T22:07:13-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://andresmarrugo.net/es//docencia/</loc>
+        <lastmod>2017-04-09T00:55:51-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://andresmarrugo.net/es//about/</loc>
+        <lastmod>2017-04-09T01:02:18-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://andresmarrugo.net/es//blog/archives/</loc>
+        <lastmod>2020-02-16T22:07:13-05:00</lastmod>
     </url>
 </urlset>

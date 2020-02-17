@@ -4,7 +4,7 @@
   <title><![CDATA[andres marrugo]]></title>
   <link href="http://andresmarrugo.net/es//atom.xml" rel="self"/>
   <link href="http://andresmarrugo.net/es//"/>
-  <updated>2018-12-06T10:00:53-05:00</updated>
+  <updated>2020-02-16T22:09:02-05:00</updated>
   <id>http://andresmarrugo.net/es//</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -14,9 +14,37 @@
 
   
   <entry>
+    <title type="html"><![CDATA[El artículo perfecto]]></title>
+    <link href="http://andresmarrugo.net/es//blog/2020/02/16/articulo-perfecto/"/>
+    <updated>2020-02-16T21:59:00-05:00</updated>
+    <id>http://andresmarrugo.net/es//blog/2020/02/16/articulo-perfecto</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>Lo perfecto es enemigo de lo bueno</p>
+
+  <p>– Voltaire</p>
+</blockquote>
+
+<p>A veces queremos que ese artículo en el que llevamos un año trabajando quede impecable. Lo leemos y lo volvemos a leer, ponemos una coma y quitamos dos. Reescribimos una frase y eliminamos otra. Y seguimos haciéndolo porque el resultado debe ser perfecto. Pero la realidad es que lo perfecto no existe y el tiempo que podemos dedicarle a algo es limitado. Para evitar entrar en este remolino de edición sin fín, debemos tomar conciencia de que hacer algo, en este caso un artículo, implica hacerlo de la mejor manera en el tiempo y recursos que tenemos disponibles. </p>
+
+<p>Lo anterior no implica que debamos ser mediocres con nuestra escritura. En realidad quiere decir que debemos hacer el mejor uso de nuestros recursos. También implica pedir la opinión de otros, tomar la retroalimentación, hacer los ajustes y seguir adelante. Esta es, tal vez, la lección más dura que se aprende al culminar un doctorado. En algún momento hay que darle corte a esa investigación y convertirla en un libro. </p>
+
+<!-- more -->
+
+<p>Es por eso que es importante comenzar con un borrador lo antes posible y evitar que las fechas de entrega nos alcancen sin estar preparados. Un buen artículo no se escribe en una noche, ni tampoco una buena tesis en un mes.  Siempre estaremos añorando un día más o una semana más de plazo. Sin embargo, si comenzamos pronto, ese tiempo adicional – aunque deseable – en realidad no es necesario. Por lo tanto, debemos ser honestos con nosotros mismos y declarar como nos recomiendan Booth et al., en “<a href="https://www.amazon.com/-/es/Wayne-C-Booth/dp/022623973X/ref=sr_1_1?keywords=the+craft+of+research&amp;qid=1581907644&amp;sr=8-1" title="Amazon.com: The Craft of Research, Fourth Edition (Chicago Guides to Writing, Editing, and Publishing) (9780226239736): Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald: Books">The Craft of Research</a>”:</p>
+
+<blockquote>
+  <p>That perfect paper has never been written and never will be. All you can do is to make yours as good as you can in the time available. When you’ve done that, you can say to yourself: Reader, after my best efforts, here’s what I believe—not the whole or final truth, but a truth important to me and I hope to you. I have tested and supported that truth as fully as time and my abilities allow, so that you might find my argument strong enough to consider, perhaps to accept, maybe even to change what you believe.</p>
+</blockquote>
+
+<p>Ahí está el secreto. En conseguir que nuestro argumento sea lo suficientemente sólido para convencer a nuestro lector, sea que concuerde o no, pero que lo logremos convencer. </p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Sobre el discurso académico]]></title>
     <link href="http://andresmarrugo.net/es//blog/2018/05/16/sobre-el-discurso-academico/"/>
-    <updated>2018-05-16T22:38:00-05:00</updated>
+    <updated>2018-05-16T22:38:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2018/05/16/sobre-el-discurso-academico</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/calvin-essay-writing.gif" alt="" width="" height="" border="0" /><br />
 Calvin and Hobbes by Bill Watterson.</div>
@@ -43,7 +71,7 @@ Calvin and Hobbes by Bill Watterson.</div>
   <entry>
     <title type="html"><![CDATA[Razonamiento Bayesiano o la incertidumbre en una trinchera]]></title>
     <link href="http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano/"/>
-    <updated>2018-04-29T22:34:00-05:00</updated>
+    <updated>2018-04-29T22:34:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2018/04/29/razonamiento-bayesiano</id>
     <content type="html"><![CDATA[<p>El otro día estaba en clase comentándole a mis estudiantes sobre la importancia de darle inteligencia a las máquinas. Evidentemente, no es el tipo de inteligencia que tenemos nosotros, sino más bien la capacidad para responder ante situaciones cambiantes y por supuesto, hacerlo de una manera eficiente y oportuna. Hoy en día, se les da inteligencia a las máquinas usando técnicas de inteligencia artificial, que han sido derivadas a partir de métodos estadísticos que nos permiten lidiar con la incertidumbre.</p>
 
@@ -184,7 +212,7 @@ photo by <a href="https://www.publicdomainpictures.net/view-image.php?image=1720
   <entry>
     <title type="html"><![CDATA[La última hoja]]></title>
     <link href="http://andresmarrugo.net/es//blog/2017/07/28/la-ultima-hoja/"/>
-    <updated>2017-07-28T09:00:00-05:00</updated>
+    <updated>2017-07-28T09:00:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2017/07/28/la-ultima-hoja</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"> <img src="http://andresmarrugo.net/es/images/inflection-points.png" alt="" width="" height="" border="0" /> <br />
 Inflection points.</div>
@@ -213,7 +241,7 @@ Inflection points.</div>
   <entry>
     <title type="html"><![CDATA[Nuestra contribución]]></title>
     <link href="http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion/"/>
-    <updated>2017-06-02T23:22:00-05:00</updated>
+    <updated>2017-06-02T23:22:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2017/06/02/nuestra-contribucion</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/dn13599-1_567.jpg" alt="" width="" height="" border="0" /><br />
 <em>Unravelling Boléro</em> por Anne Adams.</div>
@@ -236,7 +264,7 @@ Inflection points.</div>
   <entry>
     <title type="html"><![CDATA[Mi lengua, mi historia]]></title>
     <link href="http://andresmarrugo.net/es//blog/2017/05/30/mi-lengua/"/>
-    <updated>2017-05-30T22:16:00-05:00</updated>
+    <updated>2017-05-30T22:16:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2017/05/30/mi-lengua</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/4356466590_7da09099d6.jpg" alt="" width="" height="" border="0" /><br />
 photo by  <a href="http://www.flickr.com/photos/85665099@N00/4356466590">Irene Chaparro.</a></div>
@@ -253,7 +281,7 @@ photo by  <a href="http://www.flickr.com/photos/85665099@N00/4356466590">Irene C
   <entry>
     <title type="html"><![CDATA[Director o mentor ]]></title>
     <link href="http://andresmarrugo.net/es//blog/2017/04/08/director-o-mentor/"/>
-    <updated>2017-04-08T23:23:00-05:00</updated>
+    <updated>2017-04-08T23:23:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2017/04/08/director-o-mentor</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/640px-Apprenticeship.jpg" alt="Apprenticeship" width="" height="" border="0" /><br />
 pintura por Louis-Emile Adan, 1914.</div>
@@ -305,7 +333,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[Haci&eacute;ndole espacio a la ficción]]></title>
     <link href="http://andresmarrugo.net/es//blog/2016/08/20/haciendole-espacio-a-la-ficcion/"/>
-    <updated>2016-08-20T22:57:00-05:00</updated>
+    <updated>2016-08-20T22:57:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2016/08/20/haciendole-espacio-a-la-ficcion</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/photo-audiobook-mario-benedetti.jpg" alt="" width="" height="" border="0" /><br />
 </div>
@@ -328,7 +356,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[Burbujas]]></title>
     <link href="http://andresmarrugo.net/es//blog/2016/06/11/burbujas/"/>
-    <updated>2016-06-11T12:41:00-05:00</updated>
+    <updated>2016-06-11T12:41:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2016/06/11/burbujas</id>
     <content type="html"><![CDATA[<p>En uno de los últimos episodios de <a href="https://youarenotsosmart.com/2016/05/19/yanss-076-the-genetic-fallacy/" title="YANSS 076 – The Genetic Fallacy – You Are Not So Smart">You Are Not So Smart Podcast</a> en que discutían sobre falacias lógicas y la argumentación, tocaron un tema que creo que es relevante ahora más que nunca. Además el ejemplo que pusieron es tan real que me dejó perplejo. </p>
 
@@ -344,7 +372,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[Que nos dejen tranquilos]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/10/19/que-nos-dejen-tranquilos/"/>
-    <updated>2015-10-19T21:09:00-05:00</updated>
+    <updated>2015-10-19T21:09:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/10/19/que-nos-dejen-tranquilos</id>
     <content type="html"><![CDATA[<p>En estos días escribí algo interesante en el <a href="http://micriaturita.blogspot.com.co/2015/10/que-nos-dejen-tranquilos.html">Mundo de Alo y Nico.</a> Te recomiendo que lo leas. Con esa entrada no quise decir que somos los padres perfectos y que todos deben hacer las cosas como nosotros. Sólo he puesto allá afuera lo que nos ha funcionado y lo que no, cada quien hace lo que crea conveniente.</p>
 ]]></content>
@@ -353,7 +381,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[Estrés académico]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/09/26/estres-academico/"/>
-    <updated>2015-09-26T06:54:00-05:00</updated>
+    <updated>2015-09-26T06:54:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/09/26/estres-academico</id>
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/es/images/paper-conference.png" alt="Estres academico" width="" height="" border="0" /><br /></div>
 
@@ -389,7 +417,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[El mundo de Alo y Nico]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/09/20/el-mundo-de-alo-y-nico/"/>
-    <updated>2015-09-20T22:07:00-05:00</updated>
+    <updated>2015-09-20T22:07:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/09/20/el-mundo-de-alo-y-nico</id>
     <content type="html"><![CDATA[<p>Hace unas semanas mi esposa revivió <a href="http://micriaturita.blogspot.com.co/" title="El mundo de Alo y Nico">un blog</a> que había creado en el 2011 y al que no le había dedicado más que una entrada. El blog, que lleva por título <em>El mundo de Alo y Nico</em>, tiene la intención de documentar un poco nuestras vivencias en lo que respecta a criar a nuestros hijos. Nuestras decisiones y reflexiones. </p>
 
@@ -401,7 +429,7 @@ pintura por Louis-Emile Adan, 1914.</div>
   <entry>
     <title type="html"><![CDATA[Plantilla LaTeX en Overleaf para informes de laboratorio]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf/"/>
-    <updated>2015-08-29T01:37:00-05:00</updated>
+    <updated>2015-08-29T01:37:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/08/29/plantilla-latex-overleaf</id>
     <content type="html"><![CDATA[<p>Una de las grandes barreras de entrada a LaTeX era lo relacionado con la instalación y compilación de documentos. LaTeX técnicamente no es un lenguaje de programación, pero para efectos prácticos es indistinguible de uno. Y esto complica un poco su utilización al principio, muchos abandonan y regresan a <em>seguir peleando con MS Word.</em> <!-- more --> (Para quien esté perdido, <a href="https://es.wikipedia.org/wiki/LaTeX" title="LaTeX - Wikipedia, la enciclopedia libre">“LaTeX es un es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica”</a>. Hace no mucho escribí <a href="http://andresmarrugo.net/es/blog/2014/02/17/un-cv-moderno/" title="Un cv moderno - andres marrugo">una entrada sobre cómo creo mi cv en LaTeX</a> – la calidad es sin igual.)</p>
 
@@ -420,7 +448,7 @@ Interfaz de Overleaf.</div>
   <entry>
     <title type="html"><![CDATA[De cero a uno]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno/"/>
-    <updated>2015-07-25T01:07:00-05:00</updated>
+    <updated>2015-07-25T01:07:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/07/25/de-cero-a-uno</id>
     <content type="html"><![CDATA[<div class="aic" style="width:256px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/stair-1-2.jpg" alt="Stairs" width="" height="" border="0" /><br />
 </div>
@@ -451,7 +479,7 @@ He decidido centrarme en algunas cosas más elementales, trabajar con las uñas 
   <entry>
     <title type="html"><![CDATA[Hobbies y definirse uno mismo]]></title>
     <link href="http://andresmarrugo.net/es//blog/2015/03/30/hobbies/"/>
-    <updated>2015-03-30T23:57:00-05:00</updated>
+    <updated>2015-03-30T23:57:00-04:00</updated>
     <id>http://andresmarrugo.net/es//blog/2015/03/30/hobbies</id>
     <content type="html"><![CDATA[<blockquote>
   <p>“Their passion and their enthusiasm for something in their lives tends to be a good indicator,” […] “You show me somebody who doesn’t have a hobby and I’ll show you someone who is not very creative. It’s about having passion about life and making things.”</p>
@@ -531,42 +559,6 @@ El Marciano por Andy Weir. </div>
     </li>
     <li id="fn:fn2">
       <p>Yo la estoy leyendo en inglés, pero por lo que he leído la versión en español está muy bien traducida y se mantiene fiel al original.<a href="#fnref:fn2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Un mundo extraño]]></title>
-    <link href="http://andresmarrugo.net/es//blog/2014/04/17/un-mundo-extrano/"/>
-    <updated>2014-04-17T23:54:00-05:00</updated>
-    <id>http://andresmarrugo.net/es//blog/2014/04/17/un-mundo-extrano</id>
-    <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Photo%2013-04-14%2020%2059%2019.jpg" alt="" width="460" height="" border="0" /><br />
-Alejo</div>
-
-<p>Vivir en un mundo que gira a la derecha debe ser incómodo y en ocasiones extraño. Aproximadamente <a href="http://es.wikipedia.org/wiki/Zurdo#Demograf.C3.ADa" title="Zurdera - Wikipedia, la enciclopedia libre">el 10 por ciento de la población del mundo es zurda versus un aplastante 90 por ciento de diestros</a>. Evidentemente, ser zurdo es poco común, pero además todavía no se entiende bien el por qué de la dominancia de un lado del cuerpo o la destreza<sup id="fnref:fn1"><a href="#fn:fn1" rel="footnote">1</a></sup> de una de las dos manos. </p>
-
-<p>Mi hijo mayor resultó ser zurdo (los dos padres somos diestros). A sus casi tres años de edad ya le comienza a costar un poco algunas cosas de la vida cotidiana. <em>Todo gira a la derecha</em> y lo natural para él es girar las cosas hacia la izquierda. Desde el sacapuntas, una cerradura, una tapa o darle cuerda a los juguetes (todavía no puede) le cuesta todo y se nota su frustración. Apenas comienza a familiarizarse con la escritura, pero supongo que eso será otro reto, especialmente porque esta lengua se escribe de izquierda a derecha, mejor adaptada a – oh, sorpresa – los diestros. El día de mañana cuando comience a hacer otras actividades<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">2</a></sup> de la vida cotidiana se irá dando cuenta de lo incómodo que es ser zurdo en este mundo, pero eso mismo le permitirá adaptarse mucho mejor a ese tipo de situaciones que la mayoría de las personas. A lo que me refiero es que esas mismas incomodidades seguro le servirán de entrenamiento para adaptarse mucho mejor al mundo. El mundo no esta pensado para él y él tendrá que aprender a vivir en un mundo así. </p>
-
-<!-- more -->
-
-<p>Todo esto no serían más que simples observaciones mías, escritas en mi diario, sino fuera por un <a href="http://www.radiolab.org/story/whats-left-when-youre-right/" title="What's Left When You're Right? - Radiolab">episodio de radiolab</a> que escuché esta semana. En él exploran una de las hipótesis sobre la existencia de los zurdos – la tal llamada Hipótesis <a href="http://www.scq.ubc.ca/the-fighting-hypothesis-stability-of-polymorphism-in-human-handedness/" title="THE FIGHTING HYPOTHESIS: STABILITY OF POLYMORPHISM IN HUMAN HANDEDNESS | Science Creative Quarterly">Faurie-Raymond</a> o hipótesis de la pelea. Es una de las explicaciones más radicales que he escuchado, pero que tiene cierto sentido. Los autores explican que históricamente las peleas han sido mano a mano o con armas de corto alcance. Al ser los diestros mayoría, es poco probable que un diestro se haya enfrentado muchas veces a un zurdo. En el combate esto le da una ventaja al zurdo porque el diestro está en una situación incómoda. </p>
-
-<p>El argumento se extiende a día de hoy con situaciones como los deportes en que la dominancia de un extremo del cuerpo diferente al de la mayoría de personas puede llegar a ser una ventaja significativa. Por ejemplo, el tenis<sup id="fnref:fn3"><a href="#fn:fn3" rel="footnote">3</a></sup>, la esgrima, o incluso el fútbol. Los investigadores encuentran que existe una correlación en esto y por ejemplo, a pesar de ser un 10 por ciento los zurdos en el mundo, en los deportes de nivel internacional superan el 30 por ciento de los jugadores. No es secreto que los zurdos son claramente apreciados en muchos deportes. </p>
-
-<p>Esta es una de esas experiencias que si no las vives difícilmente se te ocurrirán. Con mi esposa hemos estado enumerando actividades cotidianas en donde se asume que la persona es diestra y cogerá/girará/jalará el objeto con la mano derecha. Tras esta vivencia y reflexión esa minoría ya no es invisible para mí y simpatizo con sus dificultades. Sólo cuando se conoce o se vive la historia de primera mano es cuando nuestro mundo y nuestra percepción cambian. Es como nos advierte la escritora nigeriana <a href="http://www.ted.com/talks/chimamanda_adichie_the_danger_of_a_single_story/transcript" title="Chimamanda Ngozi Adichie: The danger of a single story | Talk Video | TED.com">Chimamanda Adichie sobre el riesgo de conocer una sola historia de una persona</a> o un pueblo, esto nos conlleva a tener un pobre entendimiento de su situación o incluso a desconocerla del todo. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>Que paradójicamente viene del latín <em>dexter</em> que quiere decir derecha. <a href="#fnref:fn1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:fn2">
-      <p>Hasta los cuchillos de cocina y las tijeras vienen diseñados para diestros, los hay también para zurdos, pero son poco comunes. <a href="#fnref:fn2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:fn3">
-      <p>Es bien sabido que a Rafa Nadal su tío lo instruyó para que jugará con la izquierda para que tuviera ventaja sobre sus oponentes. <a href="#fnref:fn3" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
