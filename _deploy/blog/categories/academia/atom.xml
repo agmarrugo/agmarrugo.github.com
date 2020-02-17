@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academia | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/academia/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2018-04-30T10:07:20-05:00</updated>
+  <updated>2018-12-06T10:01:01-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -14,6 +14,29 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Attending LAOP]]></title>
+    <link href="http://agmarrugo.github.com/blog/2018/11/20/attending-laop/"/>
+    <updated>2018-11-20T23:31:00-05:00</updated>
+    <id>http://agmarrugo.github.com/blog/2018/11/20/attending-laop</id>
+    <content type="html"><![CDATA[<p>Last week I attended the OSA Latin America Optics and Photonics Conference in Lima, Peru. I had a great time, but above all, this was my first conference, since I started my <a href="http://opilab.utb.edu.co/" title="OPI∙Lab — Laboratorio de Óptica y Procesamiento de Imágenes.">lab</a>, in which I didn’t feel so out of place. Let me elaborate. I knew several people that were attending the conference, I knew the work of some of them, and I was also comfortable talking to old and new acquaintances. What I felt was more reassuring, was presenting some of the work we’ve been doing in our lab for the past two years. I was proud to be presenting the work of my students, what we have accomplished with the available resources. </p>
+
+<p>After starting from scratch about three years ago, we are now at a position to start contributing to the greater conversation in science and technology. During the conference, I took the time to finish a revision on a paper we had submitted to <a href="https://www.osapublishing.org/ao/home.cfm" title="OSA | Applied Optics">Applied Optics</a> from the first results of my Ph.D. student. It is his first journal paper, and it is my first paper as a Ph.D. advisor. Exciting times! The day before traveling back to Colombia we found out it was <a href="https://www.osapublishing.org/ao/upcoming_pdf.cfm?id=346098" title="OSA | Early Posting access">accepted</a>. An accepted paper is always something nice to celebrate, but each acceptance has a unique story, which only the authors know. We know. </p>
+
+<p>At the conference, I met many colleagues working in different fields of optics, but I had the pleasure of meeting Dr. Arti Agrawal from the University of Technology Sidney. She is a theoretical physicist working on modeling and simulation in photonics. Amazing stuff. However, we met at a lunch organized by the conference for early career professionals and Ph.D. students about preparing presentations. I was amazed by the involvement of the OSA embassadors which were basically young professionals as well. Dr. Arti was overseeing the session and made insightful comments from time to time. I remembered when I was preparing for my Ph.D. defense several years ago. It seemed quite a challenge back then. I read many books about presentations and was quite mesmerized by the many ways one could go about producing a rich and entertaining presentation. But it takes time and practice. Actually, this is something I’ve written <a href="http://andresmarrugo.net/blog/2017/02/12/how-i-do-presentations/" title="How I do Presentations - andres marrugo">about before here</a>.</p>
+
+<p>I later had the opportunity to talk again with Dr. Arti. This time about a work I was presenting. She was inquiring about the type of optimization approach we had used, and why did we think it was the right one. As it often is the case, we had not explored other optimization approaches, and we used this one because we knew it and we thought it could give us the results we wanted. It mostly did, but we are now looking into doing something more general that avoids optimization loops. Let’s see how it goes. </p>
+
+<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2018-11-20-laop.jpg" alt="Notes" width="" height="" border="0" /><br />
+</div>
+
+<p>Overall I had a great time in Lima. The food was fantastic and the organization of the event went quite well. Mostly, I enjoyed the networking possibilities that these events offer, as well as presenting our work and getting feedback from the community. My second presentation was the last day of the conference in the last session. In the photo, the final presenters in the session for 3D imaging. </p>
+
+<p>I came back to Cartagena and talked with my students about the fascinating new topics being presented at LAOP, like <a href="https://www.osa.org/en-us/meetings/topical_meetings/osa_latin_america_optics_photonics_conference/program/plenary_speakers/" title="Plenary Speakers | Meetings &amp; Exhibits | The Optical Society">Deep Learning in Optics</a>, and also about several people working in optical metrology in the region. Exciting times for Latin America. </p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[How I do Presentations]]></title>
     <link href="http://agmarrugo.github.com/blog/2017/02/12/how-i-do-presentations/"/>
     <updated>2017-02-12T22:23:00-05:00</updated>
@@ -21,17 +44,17 @@
     <content type="html"><![CDATA[<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-notes.jpeg" alt="Notes" width="" height="" border="0" /><br />
 </div>
 
-<p>I like to do presentations. I really do. It’s not my favorite thing, but I sure like to inspire others from the work I do. </p>
+<p>I like to do presentations. I really do. It’s not my favorite thing, but I sure love inspiring others from the work I do. </p>
 
 <p>Ever since I learned of many creative ways to prepare a presentation, I’ve liked to undertake the task with a sense of commitment and a great dose of creativity. </p>
 
-<p>I read the <a href="https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0321811984" title="Presentation Zen: Simple Ideas on Presentation Design and Delivery (2nd Edition) (Voices That Matter): Garr Reynolds: 8601419413515: Amazon.com: Books">Presentation Zen</a> book. The <a href="https://www.amazon.com/Non-Designers-Design-Book-Non-Designers-ebook/dp/B00PWDFWEE/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1486955341&amp;sr=1-1&amp;keywords=design+book+robin" title="The Non-Designer's Design Book (Non Designer's Design Book) - Kindle edition by Robin Williams. Arts &amp; Photography Kindle eBooks @ Amazon.com.">The Non-Designer’s Design Book</a>. I learned about <a href="https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_sc_1?s=books&amp;ie=UTF8&amp;qid=1486955391&amp;sr=1-1-spell&amp;keywords=sketchnots" title="The Sketchnote Handbook: the illustrated guide to visual note taking: Mike Rohde: 8601300203768: Amazon.com: Books">Sketchnotes</a>, I also read about <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" title="Giving an Academic Talk">academic presentations</a> and <a href="http://5by5.tv/mpu/82" title="5by5 | Mac Power Users #82: Cooking Ideas">cooking ideas</a>, and many other things. Not in a single strecht, but as a constant search for getting better at something I value. So I’ve come to realize a couple of things. A presentation is <em>definitely</em> not prepared in the computer or presentation software. A computer <em>per se</em> is not good for the creative endeavour, but paper and pen <em>is</em>. </p>
+<p>I read the <a href="https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0321811984" title="Presentation Zen: Simple Ideas on Presentation Design and Delivery (2nd Edition) (Voices That Matter): Garr Reynolds: 8601419413515: Amazon.com: Books">Presentation Zen</a> book. The <a href="https://www.amazon.com/Non-Designers-Design-Book-Non-Designers-ebook/dp/B00PWDFWEE/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1486955341&amp;sr=1-1&amp;keywords=design+book+robin" title="The Non-Designer's Design Book (Non Designer's Design Book) - Kindle edition by Robin Williams. Arts &amp; Photography Kindle eBooks @ Amazon.com.">The Non-Designer’s Design Book</a>. I learned about <a href="https://www.amazon.com/Sketchnote-Handbook-illustrated-visual-taking/dp/0321857895/ref=sr_1_sc_1?s=books&amp;ie=UTF8&amp;qid=1486955391&amp;sr=1-1-spell&amp;keywords=sketchnots" title="The Sketchnote Handbook: the illustrated guide to visual note taking: Mike Rohde: 8601300203768: Amazon.com: Books">Sketchnotes</a>, I also read about <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" title="Giving an Academic Talk">academic presentations</a> and <a href="http://5by5.tv/mpu/82" title="5by5 | Mac Power Users #82: Cooking Ideas">cooking ideas</a>, and many other things. Not in a single stretch, but as a constant search for getting better at something I value. So I’ve come to realize a couple of things. A presentation is <em>definitely</em> not prepared in the computer or presentation software. A computer <em>per se</em> is not good for the creative endeavor, but paper and pen <em>are</em>. </p>
 
-<p>One plans a narrative, because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they’ll listen.</p>
+<p>One plans a narrative because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they’ll listen.</p>
 
 <div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-three-things.jpeg" alt="Three things" width="" height="" border="0" /><br /></div>
 
-<p>However I like to include my own things. Give it a personal touch. When I prepare the presentation I doodle and draw to get an idea of the picture or image I’d like to include in my slide. But I’ve often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using <a href="https://www.fiftythree.com/" title="Paper &amp; Pencil by FiftyThree">paper</a> and I import it to Keynote. They’re just doodles, but (I think) because it’s different from what everyone does, people pay attention. And they get the idea.</p>
+<p>However, I like to include my own things. Give it a personal touch. When I prepare the presentation, I doodle and draw to get an idea of the picture or image I’d like to include in my slide. But I’ve often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using <a href="https://www.fiftythree.com/" title="Paper &amp; Pencil by FiftyThree">paper</a>, and I import it to Keynote. They’re just doodles, but (I think) because it’s different from what everyone does, people pay attention. And they get the idea.</p>
 
 <div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-different-people.jpeg" alt="" width="" height="" border="0" /><br />
 </div>
