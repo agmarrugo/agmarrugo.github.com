@@ -4,7 +4,7 @@
   <title><![CDATA[Category: automation | andres marrugo]]></title>
   <link href="http://agmarrugo.github.com/blog/categories/automation/atom.xml" rel="self"/>
   <link href="http://agmarrugo.github.com/"/>
-  <updated>2018-12-06T10:01:01-05:00</updated>
+  <updated>2020-03-02T23:29:36-05:00</updated>
   <id>http://agmarrugo.github.com/</id>
   <author>
     <name><![CDATA[Andres Marrugo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Group Images by Person]]></title>
     <link href="http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person/"/>
-    <updated>2016-06-09T23:49:00-05:00</updated>
+    <updated>2016-06-09T23:49:00-04:00</updated>
     <id>http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person</id>
     <content type="html"><![CDATA[<p>These are basically notes for my future self, but it may <em>sort of</em> work out for someone else, so here it is. I’m currently working on a project in which we obtain a large number of images all stored within a single folder. However, it would be ideal to store them on separate folders. The file names are like this <code>export0_Lastname_FirstName_1.jpg</code>, and there are several files per person.</p>
 
@@ -158,7 +158,7 @@ for week in monthcal:
   <entry>
     <title type="html"><![CDATA[Grading lab reports workflow]]></title>
     <link href="http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow/"/>
-    <updated>2015-10-19T22:31:00-05:00</updated>
+    <updated>2015-10-19T22:31:00-04:00</updated>
     <id>http://agmarrugo.github.com/blog/2015/10/19/grading-lab-reports-workflow</id>
     <content type="html"><![CDATA[<div class="aic" style="width:320px"><a href="https://www.flickr.com/photos/50652826@N03/22134710389"><img src="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" alt="Grades 2 CSV with Python." width="320px" height="" border="0" /></a></div>
 
@@ -337,7 +337,7 @@ This is how old I am in days.</div>
   <entry>
     <title type="html"><![CDATA[Convert Image to PDF with Automator and Imagemagick]]></title>
     <link href="http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick/"/>
-    <updated>2012-10-18T22:30:00-05:00</updated>
+    <updated>2012-10-18T22:30:00-04:00</updated>
     <id>http://agmarrugo.github.com/blog/2012/10/18/image-to-pdf-with-automator-and-imagemagick</id>
     <content type="html"><![CDATA[<p>I often use <a href="http://www.imagemagick.org/script/index.php">Imagemagick</a> for image manipulation<sup id="fnref:fn2"><a href="#fn:fn2" rel="footnote">1</a></sup>. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following</p>
 

@@ -106,7 +106,7 @@
     </url>
     <url>
         <loc>http://agmarrugo.github.com/blog/2014/06/19/a-cv-for-my-thesis/</loc>
-        <lastmod>2017-09-15T08:50:48-05:00</lastmod>
+        <lastmod>2017-09-15T09:50:48-04:00</lastmod>
     </url>
     <url>
         <loc>http://agmarrugo.github.com/blog/2014/12/07/date-commands/</loc>
@@ -134,7 +134,7 @@
     </url>
     <url>
         <loc>http://agmarrugo.github.com/blog/2016/06/09/group-images-by-person/</loc>
-        <lastmod>2016-06-09T16:59:58-05:00</lastmod>
+        <lastmod>2016-06-09T17:59:58-04:00</lastmod>
     </url>
     <url>
         <loc>http://agmarrugo.github.com/blog/2017/02/12/how-i-do-presentations/</loc>
@@ -145,15 +145,19 @@
         <lastmod>2018-12-04T23:45:31-05:00</lastmod>
     </url>
     <url>
-        <loc>http://agmarrugo.github.com/about/</loc>
-        <lastmod>2017-04-09T00:04:04-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://agmarrugo.github.com/blog/archives/</loc>
-        <lastmod>2018-12-06T09:48:18-05:00</lastmod>
+        <loc>http://agmarrugo.github.com/blog/2020/03/02/nothing-besides-remains/</loc>
+        <lastmod>2020-03-02T23:27:39-05:00</lastmod>
     </url>
     <url>
         <loc>http://agmarrugo.github.com/</loc>
-        <lastmod>2018-12-06T09:48:18-05:00</lastmod>
+        <lastmod>2020-03-02T23:27:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agmarrugo.github.com/about/</loc>
+        <lastmod>2017-04-09T01:04:04-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agmarrugo.github.com/blog/archives/</loc>
+        <lastmod>2020-03-02T23:27:39-05:00</lastmod>
     </url>
 </urlset>
