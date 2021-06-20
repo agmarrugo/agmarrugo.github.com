@@ -149,15 +149,15 @@
         <lastmod>2020-03-02T23:27:39-05:00</lastmod>
     </url>
     <url>
-        <loc>http://agmarrugo.github.com/</loc>
-        <lastmod>2020-03-02T23:27:39-05:00</lastmod>
-    </url>
-    <url>
         <loc>http://agmarrugo.github.com/about/</loc>
         <lastmod>2017-04-09T00:04:04-05:00</lastmod>
     </url>
     <url>
         <loc>http://agmarrugo.github.com/blog/archives/</loc>
+        <lastmod>2020-03-02T23:27:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agmarrugo.github.com/</loc>
         <lastmod>2020-03-02T23:27:39-05:00</lastmod>
     </url>
 </urlset>
