@@ -41,14 +41,14 @@
 /* Keep homepage and list-card covers compact without cropping or stretching. */
 .post-entry .entry-cover {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .post-entry .entry-cover img {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 280px;
+  max-height: 320px;
   object-fit: contain;
 }
 
