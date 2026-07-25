@@ -6,6 +6,11 @@ author: Andres Marrugo
 comments: true
 categories: [email, writing]
 draft: false
+cover:
+  image: "https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2756494307.jpg"
+  alt: "Text editing."
+  relative: false
+  hiddenInSingle: true
 ---
 
 <div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_2756494307.jpg" alt="Text editing."><br>

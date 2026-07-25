@@ -6,6 +6,11 @@ author: Andres Marrugo
 comments: true
 categories: [mac, automation]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8045/8099954950_8d97fab95f.jpg"
+  alt: "to-pdf-automator-script"
+  relative: false
+  hiddenInSingle: true
 ---
 
 I often use [Imagemagick](http://www.imagemagick.org/script/index.php) for image manipulation[^fn2]. However, for simple conversion of an image to another format or similar things I have to go to the terminal and type something like the following
@@ -21,7 +26,7 @@ Which is quite simple, and much better than opening preview -> export[^fn1]->sel
 It would take the selected finder items, mainly images in ``png``, ``jpeg``, or whatever, and convert all of them to ``pdf``. Simple. <!--more-->  The automator service is shown in the following image. It does exactly what I've described.
 
 
-<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/8099954950/" title="to-pdf-automator-script by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8045/8099954950_8d97fab95f.jpg" width="500" height="252" alt="to-pdf-automator-script"></a><br>
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/8099954950/" title="to-pdf-automator-script by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8045/8099954950_8d97fab95f.jpg" width="500" height="252" alt="to-pdf-automator-script"></a><br>
 Automator service.</div>
 
 

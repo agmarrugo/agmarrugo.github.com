@@ -6,9 +6,14 @@ url: /blog/2012/10/07/spanish-keyboard-and-aperture/
 comments: true
 categories: mac
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8030/8060866808_dc3b5dc915_n.jpg"
+  alt: "20121007-PA077266"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="aic" style="width:320px"><a href="http://www.flickr.com/photos/copiancestral/8060866808/" title="Mac keyboard by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8030/8060866808_dc3b5dc915_n.jpg" width="320" height="240" alt="20121007-PA077266"></a><br>
+<div class="aic" style="width:320px"><a href="http://www.flickr.com/photos/copiancestral/8060866808/" title="Mac keyboard by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8030/8060866808_dc3b5dc915_n.jpg" width="320" height="240" alt="20121007-PA077266"></a><br>
 My new keyboard.</div>
 It's been quite a while since I've grown accustomed to switching back and forth between an english keyboard at home and a spanish keyboard at work. Like anything, at first it takes a while to get fully accustomed, but all in all it isn't too bad. This week my English keyboard at home died, so I bought a new one this time in Spanish, because that was what they had at the store. 
 
@@ -20,7 +25,7 @@ It just so happens that in some applications, in my case Apple Aperture there ar
 
 For some unknown reason Aperture doesn't recognize this double key shortcut as the single key shortcut I'm trying to reproduce. As a matter of fact it assumes I'm pressing (``⌥ ` ``), where the back-tick is the other character sharing the same key as the left square bracket.[^fn2]
 
-<div class="aic" style="width:150px"><a href="http://www.flickr.com/photos/copiancestral/8060947094/" title="Square bracket by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8034/8060947094_174fee44ff_q.jpg" width="150" height="150" alt="Square bracket"></a><br>
+<div class="aic" style="width:150px"><a href="http://www.flickr.com/photos/copiancestral/8060947094/" title="Square bracket by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8034/8060947094_174fee44ff_q.jpg" width="150" height="150" alt="Square bracket"></a><br>
 Square bracket on spanish keyboard.</div>
 
 I have googled a bit about this topic and in an [apple discussion][apple] this was somewhat discussed, but to no great length. And the only solution for the time being is to go to ``'Aperture' > 'Commands' > 'Customize...'``. But I'm still not comfortable changing the default commands in Aperture. I really liked the single key shortcuts for rotating an image and stuff like that. Let's see how this ends up.

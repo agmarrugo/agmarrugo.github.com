@@ -13,6 +13,11 @@ twitter_card:
     type: summary
     image: http://andresmarrugo.net/images/Screen%20Shot%202016-01-30%20at%2000.44.53.png
 draft: false
+cover:
+  image: "/images/Screen%20Shot%202016-01-30%20at%2000.43.36.png"
+  alt: "Get Fridays"
+  relative: false
+  hiddenInSingle: true
 ---
 
 So, I was preparing my clases for the upcoming semester and I wanted to produce an outline of the lectures with the corresponding date and topic. For instance I have a class that's once a week every Friday. I could look up the calendar and write every date, which is what I initially did. But then I though, I could write a script for this. And that's when I entered the rabbit hole.[^fn1]
@@ -80,4 +85,4 @@ The script will produce this:
 
 As you can see it works. However, by now you're wondering, but what about holidays. The script should be smart enough to exclude holidays. I am implementing this, but I'll leave it for a future post. When rendered looks something like this:
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br></div>
+<div class="aic" style="width:460px"><img src="/images/Screen%20Shot%202016-01-30%20at%2000.43.36.png" alt="" width="" height="" border="0" /><br></div>

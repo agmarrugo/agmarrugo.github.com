@@ -13,6 +13,11 @@ twitter_card:
     type: summary
     image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-06-09%20at%2023.53.02.png
 draft: false
+cover:
+  image: "https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-06-09%20at%2023.53.02.png"
+  alt: "Group Images by Person"
+  relative: false
+  hiddenInSingle: false
 ---
 
 These are basically notes for my future self, but it may *sort of* work out for someone else, so here it is. I'm currently working on a project in which we obtain a large number of images all stored within a single folder. However, it would be ideal to store them on separate folders. The file names are like this ``export0_Lastname_FirstName_1.jpg``, and there are several files per person.

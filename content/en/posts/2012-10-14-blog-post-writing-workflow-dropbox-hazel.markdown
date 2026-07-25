@@ -6,6 +6,11 @@ url: /blog/2012/10/15/blog-post-writing-workflow-dropbox-hazel/
 comments: true
 categories: [mac, blogging]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8038/7913589162_551eed930a.jpg"
+  alt: "drafts-move-to-posts-hazel"
+  relative: false
+  hiddenInSingle: true
 ---
 
 It may seem that, for the most part, I've been blogging about blogging. No matter how pointless it seems, I *do* think that this could prove useful to someone, in the same way I have benefited from others while setting up this site[^foo2].
@@ -57,11 +62,11 @@ Ideally I would like to change the ``published: false`` to ``true`` and have it 
 
 There are actually two Hazel rules for this. It first monitors the ``_drafts`` folder for files whose content contains the phrase ``published: true``. When this happens the file gets moved to the folder ``_posts``.
 
-<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7913589162/" title="drafts-move-to-posts-hazel by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8038/7913589162_551eed930a.jpg" width="500" height="243" alt="drafts-move-to-posts-hazel"></a><br>Move file to _posts folder.</div>
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7913589162/" title="drafts-move-to-posts-hazel by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8038/7913589162_551eed930a.jpg" width="500" height="243" alt="drafts-move-to-posts-hazel"></a><br>Move file to _posts folder.</div>
 
 Then the second rule is for the ``_posts`` folder. If the extension is ``text`` (which means it was a draft that recently got moved) it will run a shell script.
 
-<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7913591478/" title="posts-modify-latest-post-hazel by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8458/7913591478_f75d933161.jpg" width="500" height="356" alt="posts-modify-latest-post-hazel"></a><br>Modify latest post.</div>
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7913591478/" title="posts-modify-latest-post-hazel by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8458/7913591478_f75d933161.jpg" width="500" height="356" alt="posts-modify-latest-post-hazel"></a><br>Modify latest post.</div>
 
 
 The shell script is the following. What it does is to replace the date with the current date -- you see, several days could've passed since I created the draft -- in both the yaml header and the file name. And the other thing it does is to change the extension to ``.markdown``.  

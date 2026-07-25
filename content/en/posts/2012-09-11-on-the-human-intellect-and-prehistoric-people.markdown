@@ -6,9 +6,14 @@ url: /blog/2012/09/11/on-the-human-intellect-and-prehistoric-people/
 comments: true
 categories: [life, book]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8441/7977735786_aecd77b178.jpg"
+  alt: "Lascaux"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7977735786/" title="Lascaux by JackVersloot, on Flickr"><img src="http://farm9.staticflickr.com/8441/7977735786_aecd77b178.jpg" width="500" height="333" alt="Lascaux"></a><br>
+<div class="aic" style="width:500px"><a href="http://www.flickr.com/photos/copiancestral/7977735786/" title="Lascaux by JackVersloot, on Flickr"><img src="https://farm9.staticflickr.com/8441/7977735786_aecd77b178.jpg" width="500" height="333" alt="Lascaux"></a><br>
 photo by JackVersloot.</div>
 
 I recently finished reading ["The Clan of the Cave Bear"](http://en.wikipedia.org/wiki/The_Clan_of_the_Cave_Bear) by [Jean M. Auel](http://en.wikipedia.org/wiki/Jean_M._Auel). It is a beautiful story of the human struggle for survival. In the time of mammoths and cave lions, a young human girl finds herself orphan because of an earthquake. Her survival instincts are put to test at their maximum, but she knows very little of surviving on her own. This desolate picture changes when she is rescued by a group of Neanderthals, the "clan of the cave bear". She looks like them a bit, but at the same time she is too different to be accepted without it raising a few concerns. 

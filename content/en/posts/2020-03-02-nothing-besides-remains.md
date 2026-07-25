@@ -14,6 +14,11 @@ twitter_card:
     image: http://andresmarrugo.net/images/photo2.jpg
 use_math: false
 draft: false
+cover:
+  image: "/images/photo2.jpg"
+  alt: "Nothing Besides Remains"
+  relative: false
+  hiddenInSingle: false
 ---
 
 As I was scrolling through twitter, I happened to come across this beautiful thread that spoke of the lessons learned by a researcher while contemplating his research in the grand scheme of things. Though he was passionate about his research and the questions he was trying to answer, there would come a time when future researchers - with the advantage of hindsight - would contemplate his work as obsolete and irrelevant. But the truth is that we all have to come to terms with this situation. 

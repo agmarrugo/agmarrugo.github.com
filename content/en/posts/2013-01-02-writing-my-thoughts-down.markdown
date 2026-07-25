@@ -6,6 +6,11 @@ author: Andres Marrugo
 comments: true
 categories: [writing, thoughts, life]
 draft: false
+cover:
+  image: "https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_3989921751.jpg"
+  alt: "iPod touch"
+  relative: false
+  hiddenInSingle: true
 ---
 
 <div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_3989921751.jpg" alt="iPod touch"><br>

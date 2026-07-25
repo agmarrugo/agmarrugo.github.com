@@ -6,9 +6,14 @@ author: Andres Marrugo
 comments: true
 categories: [thoughts, book]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8442/8021150733_abdaa02811.jpg"
+  alt: "Selbstporträt"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="aic" style="width:258px"><a href="http://www.flickr.com/photos/copiancestral/8021150733/" title="Selbstporträt by Vincent van Gogh, on Flickr"><img src="http://farm9.staticflickr.com/8442/8021150733_abdaa02811.jpg" width="258" height="320" alt="Selbstporträt"></a><br>
+<div class="aic" style="width:258px"><a href="http://www.flickr.com/photos/copiancestral/8021150733/" title="Selbstporträt by Vincent van Gogh, on Flickr"><img src="https://farm9.staticflickr.com/8442/8021150733_abdaa02811.jpg" width="258" height="320" alt="Selbstporträt"></a><br>
 selbstporträt by Vincent van Gogh .</div>
 
 > I think that everybody, to get the screaming out of their heads do different things […] beautiful losers and genius lunatics […] there are people who make things that we really, really admire, and love and feel some kind of a resonance with because the work itself is fantastic, but there's another level to what they make when you know the backstory […] There are a lot of people whose work I admire that I think partly what brought me to them, in some ways, is knowing that backstory. 

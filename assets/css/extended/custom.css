@@ -9,5 +9,40 @@
 }
 
 .post-content img {
+  display: block;
+  max-width: 100%;
   height: auto;
+  object-fit: contain;
+}
+
+/* Octopress posts used fixed-width alignment wrappers. Keep their alignment
+   while allowing the wrapper and its image to shrink on narrow screens. */
+.post-content .aic,
+.post-content .ail,
+.post-content .air,
+.post-content figure {
+  box-sizing: border-box;
+  max-width: 100% !important;
+}
+
+.post-content .aic {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.post-content .air {
+  margin-left: auto;
+}
+
+.post-content a > img {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .post-content .ail,
+  .post-content .air {
+    float: none !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

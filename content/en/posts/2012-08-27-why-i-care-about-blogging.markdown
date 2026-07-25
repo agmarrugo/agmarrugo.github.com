@@ -6,9 +6,14 @@ url: /blog/2012/08/27/why-i-care-about-blogging/
 comments: true
 categories: [blogging, life]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8313/7890587640_f1ddb21e38_n.jpg"
+  alt: "Blogging Fun!"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="ail" style="width:247px"><a href="http://www.flickr.com/photos/copiancestral/7890587640/" title="Blogging Fun! by Mike Licht, on Flickr"><img src="http://farm9.staticflickr.com/8313/7890587640_f1ddb21e38_n.jpg" width="247" height="320" alt="Blogging Fun!"></a><br>
+<div class="ail" style="width:247px"><a href="http://www.flickr.com/photos/copiancestral/7890587640/" title="Blogging Fun! by Mike Licht, on Flickr"><img src="https://farm9.staticflickr.com/8313/7890587640_f1ddb21e38_n.jpg" width="247" height="320" alt="Blogging Fun!"></a><br>
 photo by Mike Licht. </div>
 
 It's been about two and a half years since I started blogging. It was on a blog called [Between the Candle and the Star (BTCATS)](copiancestral.wordpress.com) which I still keep, but feel I'll be leaving aside indefinitely[^foo], and continue my writing on this site. 

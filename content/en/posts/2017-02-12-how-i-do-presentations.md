@@ -13,9 +13,14 @@ twitter_card:
     type: summary
     image: http://andresmarrugo.net/images/2017-02-12-notes.jpeg
 draft: false
+cover:
+  image: "/images/2017-02-12-notes.jpeg"
+  alt: "Notes"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-notes.jpeg" alt="Notes" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="/images/2017-02-12-notes.jpeg" alt="Notes" width="" height="" border="0" /><br>
 </div>
 
 I like to do presentations. I really do. It's not my favorite thing, but I sure love inspiring others from the work I do. 
@@ -27,17 +32,17 @@ I read the [Presentation Zen][1] book. The [The Non-Designer's Design Book][2]. 
 One plans a narrative because people like to hear stories; even about how you deconvolved an image using total variation regularization. If you tell it right, they'll listen.
 
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-three-things.jpeg" alt="Three things" width="" height="" border="0" /><br></div>
+<div class="aic" style="width:460px"><img src="/images/2017-02-12-three-things.jpeg" alt="Three things" width="" height="" border="0" /><br></div>
 
 However, I like to include my own things. Give it a personal touch. When I prepare the presentation, I doodle and draw to get an idea of the picture or image I'd like to include in my slide. But I've often found that my doodle is even better at getting the message through than a picture I can download from the internet. So I draw it on my phone using [paper][6], and I import it to Keynote. They're just doodles, but (I think) because it's different from what everyone does, people pay attention. And they get the idea.
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-different-people.jpeg" alt="" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="/images/2017-02-12-different-people.jpeg" alt="" width="" height="" border="0" /><br>
 </div>
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-psfs.jpeg" alt="" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="/images/2017-02-12-psfs.jpeg" alt="" width="" height="" border="0" /><br>
 </div>
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2017-02-12-thank_you.jpeg" alt="" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="/images/2017-02-12-thank_you.jpeg" alt="" width="" height="" border="0" /><br>
 </div>
 
 [1]: https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0321811984 "Presentation Zen: Simple Ideas on Presentation Design and Delivery (2nd Edition) (Voices That Matter): Garr Reynolds: 8601419413515: Amazon.com: Books"

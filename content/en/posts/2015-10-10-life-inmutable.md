@@ -13,6 +13,11 @@ twitter_card:
     type: summary
     image: https://farm1.staticflickr.com/724/22093344571_5a128fb7da.jpg
 draft: false
+cover:
+  image: "https://farm1.staticflickr.com/724/22093344571_5a128fb7da.jpg"
+  alt: "Life immutable."
+  relative: false
+  hiddenInSingle: true
 ---
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/copiancestral/22093344571/in/datetaken/" title="Life immutable."><img src="https://farm1.staticflickr.com/724/22093344571_5a128fb7da.jpg" width="500" height="379" alt="Life immutable."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

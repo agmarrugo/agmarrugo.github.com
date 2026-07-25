@@ -14,6 +14,11 @@ twitter_card:
     image: http://andresmarrugo.net/images/2018-11-20-laop.jpg
 use_math: false
 draft: false
+cover:
+  image: "/images/2018-11-20-laop.jpg"
+  alt: "Notes"
+  relative: false
+  hiddenInSingle: true
 ---
 
 Last week I attended the OSA Latin America Optics and Photonics Conference in Lima, Peru. I had a great time, but above all, this was my first conference, since I started my [lab][lab], in which I didn’t feel so out of place. Let me elaborate. I knew several people that were attending the conference, I knew the work of some of them, and I was also comfortable talking to old and new acquaintances. What I felt was more reassuring, was presenting some of the work we’ve been doing in our lab for the past two years. I was proud to be presenting the work of my students, what we have accomplished with the available resources. 
@@ -24,7 +29,7 @@ At the conference, I met many colleagues working in different fields of optics, 
 
 I later had the opportunity to talk again with Dr. Arti. This time about a work I was presenting. She was inquiring about the type of optimization approach we had used, and why did we think it was the right one. As it often is the case, we had not explored other optimization approaches, and we used this one because we knew it and we thought it could give us the results we wanted. It mostly did, but we are now looking into doing something more general that avoids optimization loops. Let’s see how it goes. 
 
-<div class="aic" style="width:460px"><img src="http://andresmarrugo.net/images/2018-11-20-laop.jpg" alt="Notes" width="" height="" border="0" /><br>
+<div class="aic" style="width:460px"><img src="/images/2018-11-20-laop.jpg" alt="Notes" width="" height="" border="0" /><br>
 </div>
 
 Overall I had a great time in Lima. The food was fantastic and the organization of the event went quite well. Mostly, I enjoyed the networking possibilities that these events offer, as well as presenting our work and getting feedback from the community. My second presentation was the last day of the conference in the last session. In the photo, the final presenters in the session for 3D imaging. 

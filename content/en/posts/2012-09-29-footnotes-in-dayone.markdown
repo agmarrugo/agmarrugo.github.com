@@ -6,6 +6,11 @@ author: Andres Marrugo
 comments: true
 categories: mac
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8035/8036868919_3bda9b43d3_z.jpg"
+  alt: "Day One footnote"
+  relative: false
+  hiddenInSingle: true
 ---
 
 My favorite journaling app, [Day One](http://dayoneapp.com/), just got updated to [version 1.7.2, and it includes some really great new features](http://dayoneapp.com/about/release-notes-mac/).
@@ -29,7 +34,7 @@ And the footnote which I add (manually again) at the end of the entry with a hor
 
 It looks like this on the Mac
 
-<a href="http://www.flickr.com/photos/copiancestral/8036868919/" title="Day One footnote by copiancestral, on Flickr"><img src="http://farm9.staticflickr.com/8035/8036868919_3bda9b43d3_z.jpg" width="602" height="241" alt="Day One footnote"></a>
+<a href="http://www.flickr.com/photos/copiancestral/8036868919/" title="Day One footnote by copiancestral, on Flickr"><img src="https://farm9.staticflickr.com/8035/8036868919_3bda9b43d3_z.jpg" width="602" height="241" alt="Day One footnote"></a>
 
 It's not an optimal solution (in the automation sense), but I've found that most of my Day One entries have one or two footnotes, so it's not really a big deal. I think it's totally worth the effort. 
 

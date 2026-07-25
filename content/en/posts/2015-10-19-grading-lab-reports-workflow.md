@@ -13,6 +13,11 @@ twitter_card:
     type: summary
     image: https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg
 draft: false
+cover:
+  image: "https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg"
+  alt: "Grades 2 CSV with Python."
+  relative: false
+  hiddenInSingle: true
 ---
 
 <div class="aic" style="width:320px"><a href="https://www.flickr.com/photos/50652826@N03/22134710389"><img src="https://farm6.staticflickr.com/5721/22134710389_db6f90e967.jpg" alt="Grades 2 CSV with Python." width="320px" height="" border="0" /></a></div>

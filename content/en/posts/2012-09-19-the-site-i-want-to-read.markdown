@@ -6,9 +6,14 @@ author: Andres Marrugo
 comments: true
 categories: [blogging, writing, life]
 draft: false
+cover:
+  image: "https://farm9.staticflickr.com/8313/8004479709_2bfe1eb43a_n.jpg"
+  alt: "a day in the life of striatic ~ end of day accident"
+  relative: false
+  hiddenInSingle: true
 ---
 
-<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8004479709/" title="a day in the life of striatic ~ end of day accident by striatic, on Flickr"><img src="http://farm9.staticflickr.com/8313/8004479709_2bfe1eb43a_n.jpg" width="240" height="320" alt="a day in the life of striatic ~ end of day accident"></a><br>
+<div class="aic" style="width:240px"><a href="http://www.flickr.com/photos/copiancestral/8004479709/" title="a day in the life of striatic ~ end of day accident by striatic, on Flickr"><img src="https://farm9.staticflickr.com/8313/8004479709_2bfe1eb43a_n.jpg" width="240" height="320" alt="a day in the life of striatic ~ end of day accident"></a><br>
 photo by striatic.</div>
 
 If there's something I learned from the famous talk "[149 Surprising Ways to Turbocharge Your Blog With Credibility!](http://www.43folders.com/2009/03/25/blogs-turbocharged)" by [John Gruber](http://daringfireball.net/) and [Merlin Mann](http://www.merlinmann.com/),  was that one should make a great effort to write as if the people you admire we're going to read your work. This is true even if the people you admire are fictional, or like in Gruber's case, an idealized version of himself. 
