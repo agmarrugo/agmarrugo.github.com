@@ -3,7 +3,11 @@ title: "On Suffering"
 date: 2026-07-24
 draft: false
 description: "A reflection on conscience, suffering, and the meaning we create through our actions while reading Crime and Punishment."
-image: "/images/monk-by-the-sea.jpg"
+cover:
+  image: "/images/monk-by-the-sea.jpg"
+  alt: "The Monk by the Sea by Caspar David Friedrich"
+  caption: "Caspar David Friedrich, *The Monk by the Sea*"
+  relative: false
 tags:
   - Dostoyevsky
   - Crime and Punishment
