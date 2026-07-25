@@ -11,7 +11,6 @@ tags:
   - commonplace
 ---
 
-# On Suffering
 
 I have been reading *Crime and Punishment* by Fyodor Dostoyevsky over the past few weeks. More than a novel, it is a psychological journey. Dostoyevsky manages to place the reader inside the mind of a person enduring what seems like an endless internal conflict. Perhaps the greatest punishment we can receive is the one we impose upon ourselves, and Rodion Raskolnikov has done so in many ways.
 
