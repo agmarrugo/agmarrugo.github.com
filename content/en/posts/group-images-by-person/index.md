@@ -6,17 +6,11 @@ url: /blog/2016/06/09/group-images-by-person/
 author: Andres Marrugo
 comments: true
 categories: [automation]
-facebook:
-    image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-06-09%20at%2023.53.02.png
-twitter_card:
-    creator: agmarrugo
-    type: summary
-    image: https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-06-09%20at%2023.53.02.png
 draft: false
 cover:
-  image: "https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202016-06-09%20at%2023.53.02.png"
+  image: "group-images-by-person.png"
   alt: "Group Images by Person"
-  relative: false
+  relative: true
   hiddenInSingle: false
 ---
 
