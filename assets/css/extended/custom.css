@@ -38,6 +38,20 @@
   max-width: 100%;
 }
 
+/* Keep homepage and list-card covers compact without cropping or stretching. */
+.post-entry .entry-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.post-entry .entry-cover img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
+}
+
 @media (max-width: 640px) {
   .post-content .ail,
   .post-content .air {
