@@ -1,0 +1,167 @@
+baseURL: https://andresmarrugo.net/
+title: Andres Marrugo
+theme:
+  - PaperMod
+timeZone: America/Bogota
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+canonifyURLs: false
+
+pagination:
+  pagerSize: 10
+  path: blog/page
+
+permalinks:
+  taxonomy:
+    categories: /blog/categories/
+    tags: /tags/
+  term:
+    categories: /blog/categories/:slug/
+    tags: /tags/:slug/
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputFormats:
+  RSS:
+    baseName: atom
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  term:
+    - HTML
+    - RSS
+
+languages:
+  en:
+    locale: en-US
+    label: English
+    contentDir: content/en
+    weight: 1
+    title: Andres Marrugo
+    params:
+      languageAltTitle: English
+      homeInfoParams:
+        Title: Andres Marrugo
+        Content: Essays and notes about academia, technology, writing, and life.
+    menu:
+      main:
+        - name: About
+          url: /about/
+          weight: 10
+        - name: Archives
+          url: /blog/archives/
+          weight: 20
+        - name: Categories
+          url: /blog/categories/
+          weight: 30
+        - name: Search
+          url: /search/
+          weight: 40
+  es:
+    locale: es-CO
+    label: Español
+    contentDir: _spanish/content/es
+    weight: 2
+    title: Andres Marrugo
+    params:
+      languageAltTitle: Español
+      homeInfoParams:
+        Title: Andres Marrugo
+        Content: Ensayos y notas sobre academia, tecnología, escritura y la vida.
+    menu:
+      main:
+        - name: Acerca de
+          url: /es/about/
+          weight: 10
+        - name: Docencia
+          url: /es/docencia/
+          weight: 20
+        - name: Archivo
+          url: /es/blog/archives/
+          weight: 30
+        - name: Categorías
+          url: /es/blog/categories/
+          weight: 40
+        - name: Buscar
+          url: /es/search/
+          weight: 50
+
+params:
+  env: production
+  description: Personal blog by Andres Marrugo
+  author: Andres Marrugo
+  defaultTheme: auto
+  disableThemeToggle: false
+  displayFullLangName: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: true
+  mainSections:
+    - posts
+  socialIcons:
+    - name: github
+      title: GitHub
+      url: https://github.com/agmarrugo
+    - name: x
+      title: X / Twitter
+      url: https://x.com/agmarrugo
+    - name: rss
+      title: RSS
+      url: /atom.xml
+  assets:
+    disableHLJS: true
+    favicon: /favicon.png
+  editPost:
+    URL: https://github.dev/agmarrugo/agmarrugo.github.com/blob/source
+    Text: Edit this post
+    appendFilePath: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      footnote: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: github
+
+services:
+  disqus:
+    shortname: andresmarrugo
+  googleAnalytics:
+    id: UA-34225633-1
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+minify:
+  disableXML: true
+  minifyOutput: true

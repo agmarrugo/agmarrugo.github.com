@@ -1,0 +1,13 @@
+/* Preserve comfortable rendering for legacy posts with wide code and tables. */
+.post-content pre {
+  overflow-x: auto;
+}
+.post-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.post-content img {
+  height: auto;
+}
