@@ -155,7 +155,7 @@ If everything is well formated in the input file. The output is a nicely formatt
 
 Which looks like this when viewed as a spreadsheet:
 
-<div class="aic" style="width:600px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screen%20Shot%202015-10-14%20at%2000.31.02.png" alt="" width="" height="" border="0" /><br></div>
+<div class="aic" style="width:600px"><img src="/images/grading-lab-reports.png" alt="" width="" height="" border="0" /><br></div>
 
 You might be wondering, but why go through all this trouble. Because I can, but mostly because I find spreadsheets useful, but I don't like typing data into them. I find it more productive to write continuously in a plain text file. I can use Textexpander and other tools more easily. And finally, why not let the computer do the work it's supposed to do - I'm no monkey.
 

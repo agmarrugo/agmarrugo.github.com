@@ -7,13 +7,13 @@ comments: true
 categories: life
 draft: false
 cover:
-  image: "https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_5731336614.jpg"
+  image: "/images/perils-talking-too-much.jpg"
   alt: " The Perils of Talking Too Much"
   relative: false
   hiddenInSingle: true
 ---
 
-<div class="aic" style="width:500px"><img src="https://dl.dropboxusercontent.com/u/5279729/blog-pics/medium_5731336614.jpg" alt=""><br>
+<div class="aic" style="width:500px"><img src="/images/perils-talking-too-much.jpg" alt=""><br>
 photo credit: <a href="http://www.flickr.com/photos/mkorsakov/5731336614/">mkorsakov</a> via <a href="http://photopin.com">photopin</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></div>
 
 All too often I see people who simply talk too much.[^fn1] Wether what they speak is nonsense or *even* meaningful things, there's a limit to how much one can tolerate. 
@@ -30,4 +30,3 @@ It is no surprise that by talking too much we may alienate our loved ones and fr
 [2]: http://www.martynemko.com/articles/do-you-talk-too-much_id1371 "Do You Talk Too Much?"
 
 [^fn1]: I used to be one of those, I know better now. 
-

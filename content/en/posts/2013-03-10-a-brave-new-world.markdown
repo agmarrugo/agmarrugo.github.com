@@ -12,7 +12,7 @@ draft: false
 
 <!--more-->
 
-*Occasionally I like to share and entry with my wife, which now Day One makes it so easy by offering the export to PDF option ([click here](https://dl.dropboxusercontent.com/u/5279729/blog-pics/Screenshot%202013-03-10%20at%2008.49.51.png) to see what the pdf looks like). Day One is an awesome app which inevitably has made me write more, reflect upon my thoughts and experiences both personal and with the people close to me. It has enabled something which I had lost, having conversations with myself, past and present, which I believe is part of being and feeling alive.*
+*Occasionally I like to share and entry with my wife, which now Day One makes it so easy by offering the export to PDF option ([click here](/images/day-one-export-pdf.png) to see what the pdf looks like). Day One is an awesome app which inevitably has made me write more, reflect upon my thoughts and experiences both personal and with the people close to me. It has enabled something which I had lost, having conversations with myself, past and present, which I believe is part of being and feeling alive.*
 
 ***
 
@@ -27,5 +27,4 @@ After a while he began to play going up and – with my help – down some stair
 After several tries he – out of pure accident – stumbled upon a solution to go down the stairs in a fairly safe way. Sliding on his buttocks. He doesn't speak yet, however I could sense in his eyes the satisfaction for having made a significant discovery, another way of doing things not known to him before. 
 
 I'm not making an argument for implying that he has a deep thought process like an adult, I know he doesn't. Yet that feeling of true discovery was as vivid in his eyes as I see it in adults. I would say it is even more powerful, because he doesn't  feel shame in expressing his feelings. He has no reason whatsoever to hide his ignorance. His discovery is genuine, as are his feelings. 
-
 
