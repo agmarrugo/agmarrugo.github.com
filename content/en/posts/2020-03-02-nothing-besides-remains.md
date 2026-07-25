@@ -16,9 +16,9 @@ use_math: false
 draft: false
 cover:
   image: "/images/photo2.jpg"
-  alt: "Nothing Besides Remains"
+  alt: "Andres Marrugo"
   relative: false
-  hiddenInSingle: false
+  hidden: true
 ---
 
 As I was scrolling through twitter, I happened to come across this beautiful thread that spoke of the lessons learned by a researcher while contemplating his research in the grand scheme of things. Though he was passionate about his research and the questions he was trying to answer, there would come a time when future researchers - with the advantage of hindsight - would contemplate his work as obsolete and irrelevant. But the truth is that we all have to come to terms with this situation. 
@@ -51,4 +51,4 @@ To this thread, someone replied with a quote from the famous poem Ozymandias by 
 > Of that colossal wreck, boundless and bare
 > The lone and level sands stretch far away
 
-He might have been mighty in his day. But all that remains from his empire is sand. So, let’s look at things in context. We know nothing will last forever. Let’s enjoy it while it lasts. If you are passionate about your craft. Keep doing it because you love it, not because you think someone in the future is going to find it useful. 
+He might have been mighty in his day. But all that remains from his empire is sand. So, let’s look at things in context. We know nothing will last forever. Let’s enjoy it while it lasts. If you are passionate about your craft. Keep doing it because you love it, not because you think someone in the future is going to find it useful.
