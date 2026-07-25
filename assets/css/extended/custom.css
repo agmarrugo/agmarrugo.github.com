@@ -52,6 +52,14 @@
   object-fit: contain;
 }
 
+@media (min-width: 641px) {
+  .post-entry .entry-cover img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+}
+
 @media (max-width: 640px) {
   .post-content .ail,
   .post-content .air {
