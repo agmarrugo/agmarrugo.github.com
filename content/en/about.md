@@ -2,63 +2,47 @@
 title: "About"
 url: /about/
 author: Andres Marrugo
-date: 2016-06-10T18:06:00-05:00
+date: 2026-09-08T23:08:00-05:00
 comments: false
 sharing: true
 footer: true
 ---
-
-My name is Andrés Marrugo, and I’m a professor of Mechatronics Engineering at the Tecnhological University of Bolívar in Cartagena, Colombia. My research interests are: digital image processing, medical imaging and computer vision.
-
-These days I spend most of my time either at work with teaching, research, and [meetings and stuff][meetings] or at home with my wife and my two sons. Becoming a father has been an amazing experience, it has changed my life and the way I look upon life itself. When I'm not being the *family guy* or the *professor*, I'm usually fiddling around at the terminal (doing nerdy stuff), editing photos/videos of my kids, cooking (I love to cook), writing on my journal, catching up on my favorite blogs and podcasts, and--of course--blogging[^foo].
-
-Since 2010 I've been blogging on [Between the Candle and the Star][wordpress] a blog hosted on [wordpress.com][wordpress 2]. It's been quite nice, even more in the last year because I've gotten into the habit of posting more frequently. However, I did feel it was time for a change to something more personal and customizable. That's one of the reasons why I changed to an [Octopress][octopress] powered site. 
-<!-- In some future post I'll go into further detail about this. -->
-
-
-
-## Contact me ##
-
-- **Email:** agmarrugo (at) gmail dot com
-- **Twitter personal:** [agmarrugo][twitter]
-- **Twitter professional:** [DrMarrugo][twitter2]
-
-## Other places you can find me online ##
-
-- [Google scholar profile](http://scholar.google.com/citations?user=TH8nMmUAAAAJ)
-- [Github](https://github.com/agmarrugo)
-- [Mendeley](http://www.mendeley.com/profiles/andres-marrugo/)
-- [Tumblr: Mil Una Palabras](http://milunapalabras.tumblr.com/)
-- [Wordpress.com: Between the Candle and the Star][wordpress]
-- [Research Gate][gate]
-- [Lab website](http://opilab.unitecnologica.edu.co)
-
-
-## About this site ##
-
-This site is built with [Jekyll](https://jekyllrb.com/) and published automatically by GitHub Actions. Every post is written in [Markdown][daringfireball]. The repository is public, so feel free [to check it out][github 2] if you want to see the source.
-
-This is a multilingual site without mixed language feeds: [andresmarrugo.net][andresmarrugo] is the English version and [andresmarrugo.net/es][andresmarrugo 2] is the Spanish version.
-
-The current design is based on the Royce Jekyll theme.
-
-
-[^foo]:  I also do other things, but this is no bio--is it?  
-
-[goapi]: http://www.goapi.upc.edu/
-[wordpress]: http://copiancestral.wordpress.com/
-[wordpress 2]: http://wordpress.com
-[andresmarrugo]: http://andresmarrugo.net/
-[andresmarrugo 2]: http://andresmarrugo.net/es
-[daringfireball]: http://daringfireball.net/projects/markdown/ "Daring Fireball: Markdown"
-[github]: https://github.com/
-[github 2]: https://github.com/agmarrugo/agmarrugo.github.com
-[melandri]: http://melandri.net/2012/07/23/darkstripes-octopress-theme-released/
-[melandri 2]: http://melandri.net/
-[octopress]: http://octopress.org/ "Octopress"
-[subtlepatterns]: http://subtlepatterns.com/3px-tile/
-[subtlepatterns 2]: http://subtlepatterns.com/
-[twitter]: https://twitter.com/agmarrugo
-[twitter2]: https://twitter.com/drmarrugo
-[meetings]: http://us1.campaign-archive2.com/?u=028de8672d5f9a229f15e9edf&id=ee59dab2a5&e=7ff32264cd "spare time is for work"
-[gate]: https://www.researchgate.net/profile/Andres_Marrugo "Andrés G Marrugo"
+My name is Andrés Marrugo. I am a professor, researcher, engineer, and, depending on the day, several other things that are harder to put on a business card.
+I live in Cartagena, Colombia, where I teach and do research at the Universidad Tecnológica de Bolívar. My academic work has wandered across optical metrology, 3D sensing, image processing, computer vision, medical imaging, and artificial intelligence. I trained first as a mechatronics engineer, although somewhere along the way I became convinced that I should have studied physics. I eventually found my way there through graduate work in photonics and optical engineering, so perhaps the detour was the path after all.
+For several years I also served in academic leadership at the university. That experience made me think much more seriously about education, what a university is for, what is worth teaching, and what it means to help someone learn. I have fewer certain answers to those questions than I once did. I consider that progress.
+Science is an important part of my life, but hardly the only one. I read a great deal, particularly fiction. Tolstoy, Chekhov, Dostoevsky, Austen, García Márquez, and many others have probably taught me as much about human beings as anything I have encountered in academic life. I also write, keep notebooks, collect passages from books, and occasionally attempt fiction of my own.
+At home I am a husband and a father. Becoming a father changed the scale against which I measure most things. Much of what interests me now, including education, curiosity, character, attention, and the strange business of becoming a person, is impossible for me to separate entirely from raising children.
+When I am not teaching, researching, reading, writing, or spending time with my family, I can often be found at a terminal doing something that seemed absolutely necessary five minutes earlier, taking photographs, cooking, listening to podcasts, or rearranging some small part of this website that nobody but me will ever notice.
+This blog is where many of those worlds meet.
+I write about science and technology, books and literature, universities and education, research, fatherhood, and whatever else has occupied my attention long enough to become a question. Some posts begin with something I have read. Others with something that happened in a classroom, a conversation with one of my children, a problem at work, or an idea I cannot quite leave alone.
+There is no grand theory connecting all of it. But I have come to believe that science, literature, teaching, and ordinary life share at least one demand. We have to learn to look carefully.
+And looking carefully takes time.
+## Elsewhere
+- **El Universal** — [my columns][eluniversal] for my hometown newspaper in Cartagena
+- **Medium** — [@agmarrugo][medium], where I republish some of my writing in Spanish
+- **Substack** — [Andrés Marrugo][substack], where I republish some of my writing in English
+- **X** — [@agmarrugo][twitter]
+- **GitHub** — [agmarrugo][github]
+- **Google Scholar** — [profile][scholar]
+- **ResearchGate** — [Andrés G. Marrugo][gate]
+- **Optics and Image Processing Lab** — [OPI-Lab][opilab]
+You can also reach me by email at **agmarrugo (at) gmail dot com**.
+## About this site
+I started blogging in 2010 on [Between the Candle and the Star][wordpress]. What began as another place on the internet gradually became something closer to a notebook, a place to work through ideas, preserve things worth remembering, and occasionally discover what I think by trying to write it down.
+This remains the home of my writing online. I sometimes republish pieces elsewhere. You can find some of my writing in Spanish on [Medium][medium] and in English on [Substack][substack]. I also write columns for [*El Universal*][eluniversal], my hometown newspaper in Cartagena.
+The machinery underneath has changed several times since then. The site now runs on [Hugo][hugo] using the [PaperMod][papermod] theme. It is built and published through GitHub Actions, and the source is available on [GitHub][source].
+The site is bilingual. [andresmarrugo.net][andresmarrugo] contains the English version and [andresmarrugo.net/es][andresmarrugo-es] the Spanish one.
+[andresmarrugo]: https://andresmarrugo.net/
+[andresmarrugo-es]: https://andresmarrugo.net/es
+[eluniversal]: https://www.eluniversal.com.co/autor/andres-marrugo-hernandez/
+[gate]: https://www.researchgate.net/profile/Andres-Marrugo
+[github]: https://github.com/agmarrugo
+[hugo]: https://gohugo.io/
+[medium]: https://medium.com/@agmarrugo
+[opilab]: https://opilab.github.io/
+[papermod]: https://github.com/adityatelange/hugo-PaperMod
+[scholar]: https://scholar.google.com/citations?user=TH8nMmUAAAAJ
+[source]: https://github.com/agmarrugo/agmarrugo.github.com
+[substack]: https://andresmarrugo.substack.com/
+[twitter]: https://x.com/agmarrugo
+[wordpress]: https://copiancestral.wordpress.com/
