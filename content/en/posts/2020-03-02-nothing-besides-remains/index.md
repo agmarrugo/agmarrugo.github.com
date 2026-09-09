@@ -29,21 +29,23 @@ So it all boils down to the mere revelation that we should be humble, but still 
 
 To this thread, someone replied with a quote from the famous poem Ozymandias by Percy Shelley.
 
-> Ozymandias
+> **Ozymandias**
 >
-> I met a traveller from an antique land
-> Who said: Two vast and trunkless legs of stone
-> Stand in the desert. Near them, on the sand,
-> Half sunk, a shattered visage lies, whose frown,
-> And wrinkled lip, and sneer of cold command,
-> Tell that its sculptor well those passions read
-> Which yet survive, stamped on these lifeless things,
-> The hand that mocked them and the heart that fed.
-> And on the pedestal these words appear:
-> "My name is Ozymandias, king of kings:
-> Look on my works, ye Mighty, and despair!"
-> Nothing beside remains. Round the decay
-> Of that colossal wreck, boundless and bare
+> I met a traveller from an antique land<br>
+> Who said: Two vast and trunkless legs of stone<br>
+> Stand in the desert. Near them, on the sand,<br>
+> Half sunk, a shattered visage lies, whose frown,<br>
+> And wrinkled lip, and sneer of cold command,<br>
+> Tell that its sculptor well those passions read<br>
+> Which yet survive, stamped on these lifeless things,<br>
+> The hand that mocked them and the heart that fed.<br>
+> And on the pedestal these words appear:<br>
+> "My name is Ozymandias, king of kings:<br>
+> Look on my works, ye Mighty, and despair!"<br>
+> Nothing beside remains. Round the decay<br>
+> Of that colossal wreck, boundless and bare<br>
 > The lone and level sands stretch far away
+>
+> — Percy Bysshe Shelley
 
 He might have been mighty in his day. But all that remains from his empire is sand. So, let’s look at things in context. We know nothing will last forever. Let’s enjoy it while it lasts. If you are passionate about your craft. Keep doing it because you love it, not because you think someone in the future is going to find it useful.
