@@ -58,7 +58,7 @@ The site is bilingual. [andresmarrugo.net][andresmarrugo] contains the English v
 [github]: https://github.com/agmarrugo
 [hugo]: https://gohugo.io/
 [medium]: https://medium.com/@agmarrugo
-[opilab]: https://opilab.github.io/
+[opilab]: https://opi-lab.github.io/
 [papermod]: https://github.com/adityatelange/hugo-PaperMod
 [scholar]: https://scholar.google.com/citations?user=TH8nMmUAAAAJ
 [source]: https://github.com/agmarrugo/agmarrugo.github.com
