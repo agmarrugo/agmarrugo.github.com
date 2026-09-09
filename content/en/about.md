@@ -34,6 +34,7 @@ And looking carefully takes time.
 - **Medium** — [@agmarrugo][medium], where I republish some of my writing in Spanish
 - **Substack** — [Andrés Marrugo][substack], where I republish some of my writing in English
 - **X** — [@agmarrugo][twitter]
+- **LinkedIn** — [Andrés Marrugo][linkedin]
 - **GitHub** — [agmarrugo][github]
 - **Google Scholar** — [profile][scholar]
 - **ResearchGate** — [Andrés G. Marrugo][gate]
@@ -52,11 +53,12 @@ The machinery underneath has changed several times since then. The site now runs
 The site is bilingual. [andresmarrugo.net][andresmarrugo] contains the English version and [andresmarrugo.net/es][andresmarrugo-es] the Spanish one.
 
 [andresmarrugo]: https://andresmarrugo.net/
-[andresmarrugo-es]: https://andresmarrugo.net/es
+[andresmarrugo-es]: https://andresmarrugo.net/es/
 [eluniversal]: https://www.eluniversal.com.co/autor/andres-marrugo-hernandez/
 [gate]: https://www.researchgate.net/profile/Andres-Marrugo
 [github]: https://github.com/agmarrugo
 [hugo]: https://gohugo.io/
+[linkedin]: https://co.linkedin.com/in/andr%C3%A9s-marrugo-838aa883
 [medium]: https://medium.com/@agmarrugo
 [opilab]: https://opi-lab.github.io/
 [papermod]: https://github.com/adityatelange/hugo-PaperMod
