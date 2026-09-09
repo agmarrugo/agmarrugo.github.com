@@ -6,19 +6,14 @@ url: /blog/2020/03/02/nothing-besides-remains/
 author: Andres Marrugo
 comments: true
 categories: [academia, life]
-facebook:
-    image: http://andresmarrugo.net/images/photo2.jpg
-twitter_card:
-    creator: agmarrugo
-    type: summary
-    image: http://andresmarrugo.net/images/photo2.jpg
 use_math: false
 draft: false
 cover:
-  image: "/images/photo2.jpg"
-  alt: "Andres Marrugo"
-  relative: false
-  hidden: true
+  image: "ozymandias-colossus.jpg"
+  alt: "The fallen Ozymandias colossus at the Ramesseum in Egypt"
+  caption: "[*Ramesseum in Egypt. The Ozymandias Colossus:*](https://www.flickr.com/photos/50979393@N00/32024528484) by [Christopher.Michel](https://www.flickr.com/photos/50979393@N00), licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)."
+  relative: true
+  hiddenInSingle: false
 ---
 
 As I was scrolling through twitter, I happened to come across this beautiful thread that spoke of the lessons learned by a researcher while contemplating his research in the grand scheme of things. Though he was passionate about his research and the questions he was trying to answer, there would come a time when future researchers - with the advantage of hindsight - would contemplate his work as obsolete and irrelevant. But the truth is that we all have to come to terms with this situation. 
