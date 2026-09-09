@@ -10,6 +10,8 @@ footer: true
 
 My name is Andrés Marrugo. I am a professor, researcher, engineer, and, depending on the day, several other things that are harder to put on a business card.
 
+![Andrés Marrugo speaking at a conference](/images/andres.jpg)
+
 I live in Cartagena, Colombia, where I teach and do research at the Universidad Tecnológica de Bolívar. My academic work has wandered across optical metrology, 3D sensing, image processing, computer vision, medical imaging, and artificial intelligence. I trained first as a mechatronics engineer, although somewhere along the way I became convinced that I should have studied physics. I eventually found my way there through graduate work in photonics and optical engineering, so perhaps the detour was the path after all.
 
 For several years I also served in academic leadership at the university. That experience made me think much more seriously about education, what a university is for, what is worth teaching, and what it means to help someone learn. I have fewer certain answers to those questions than I once did. I consider that progress.
