@@ -38,6 +38,15 @@
   max-width: 100%;
 }
 
+/* Match image captions to the quiet post metadata below each title. */
+.post-content figure > figcaption,
+.post-content figure > figcaption > p {
+  color: var(--secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
 /* Keep homepage and list-card covers compact without cropping or stretching. */
 .post-entry .entry-cover {
   display: flex;
