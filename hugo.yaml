@@ -31,12 +31,18 @@ taxonomies:
 outputFormats:
   RSS:
     baseName: atom
+  LatestPost:
+    mediaType: application/rss+xml
+    baseName: latest-post
+    isPlainText: true
+    notAlternative: true
 
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+    - LatestPost
   section:
     - HTML
     - RSS

@@ -1,0 +1,54 @@
+{{- $pages := where site.RegularPages "Section" "posts" -}}
+{{- $latest := first 1 (sort $pages "Date" "desc") -}}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.Title }} — Latest post</title>
+    <link>{{ site.Home.Permalink }}</link>
+    <description>{{ if eq site.Language.Lang "es" }}Última publicación de {{ site.Title }}{{ else }}Latest post from {{ site.Title }}{{ end }}</description>
+    <generator>Hugo</generator>
+    <language>{{ site.Language.Locale }}</language>
+    {{- with index $latest 0 }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "LatestPost" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+    {{- range $latest }}
+    {{- $page := . }}
+    {{- $content := string .Content }}
+    {{- range .Resources.ByType "image" }}
+      {{- $content = replace $content (printf "src=\"%s\"" .Name) (printf "src=\"%s\"" .Permalink) }}
+    {{- end }}
+    {{- $root := strings.TrimSuffix "/" site.BaseURL }}
+    {{- $content = replace $content "src=\"/" (printf "src=\"%s/" $root) }}
+    {{- $coverHTML := "" }}
+    {{- with .Params.cover.image }}
+      {{- $cover := string . }}
+      {{- $coverURL := $cover }}
+      {{- if strings.HasPrefix $cover "/" }}
+        {{- $coverURL = urls.AbsURL $cover }}
+      {{- else if not (or (strings.HasPrefix $cover "https://") (strings.HasPrefix $cover "http://")) }}
+        {{- $coverURL = urls.JoinPath $page.Permalink $cover }}
+      {{- end }}
+      {{- if not (strings.Contains $content $coverURL) }}
+        {{- $alt := default $page.Title $page.Params.cover.alt | transform.HTMLEscape }}
+        {{- $caption := $page.Params.cover.caption | transform.Markdownify }}
+        {{- $coverHTML = printf "<figure><img src=\"%s\" alt=\"%s\">" $coverURL $alt }}
+        {{- with $caption }}{{ $coverHTML = printf "%s<figcaption>%s</figcaption>" $coverHTML . }}{{ end }}
+        {{- $coverHTML = printf "%s</figure>\n" $coverHTML }}
+      {{- end }}
+    {{- end }}
+    {{- $note := cond (eq site.Language.Lang "es") "Publicado originalmente en" "Originally published at" }}
+    {{- $fullContent := printf "%s%s\n<p><em>%s <a href=\"%s\">andresmarrugo.net</a>.</em></p>" $coverHTML $content $note .Permalink }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <description>{{ with .Description }}{{ . | html }}{{ else }}{{ .Summary | html }}{{ end }}</description>
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" $fullContent) | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
