@@ -4,6 +4,8 @@ description: "Scenes you build yourself last longer"
 date: 2025-05-25T21:39:08.752-05:00
 url: /posts/2025-05-25-why-reading-fiction-is-different/
 author: Andres Marrugo
+categories: [book, life]
+tags: [fiction, reading]
 draft: false
 ---
 

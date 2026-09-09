@@ -4,6 +4,8 @@ description: "On Curiosity, Chance, and the Problems Worth Solving"
 date: 2026-06-05T17:05:57.270-05:00
 url: /posts/2026-06-05-me-and-my-research/
 author: Andres Marrugo
+categories: [academia, life]
+tags: [research, curiosity]
 draft: false
 cover:
   image: "cover.png"

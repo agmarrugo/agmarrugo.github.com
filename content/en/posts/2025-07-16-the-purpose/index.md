@@ -3,6 +3,8 @@ title: "The purpose"
 date: 2025-07-16T22:29:06.856-05:00
 url: /posts/2025-07-16-the-purpose/
 author: Andres Marrugo
+categories: [life, inspiration]
+tags: [purpose, curiosity]
 draft: false
 cover:
   image: "cover.jpeg"

@@ -4,6 +4,8 @@ description: "How writing by hand keeps our thoughts human in the age of AI."
 date: 2025-05-29T22:29:48.319-05:00
 url: /posts/2025-05-29-where-thought-begins/
 author: Andres Marrugo
+categories: [writing, life]
+tags: [handwriting, artificial intelligence]
 draft: false
 cover:
   image: "cover.png"

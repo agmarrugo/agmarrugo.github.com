@@ -3,6 +3,8 @@ title: "An archetype of human experience"
 date: 2025-08-10T21:01:36.429-05:00
 url: /posts/2025-08-10-an-archetype-of-human-experience/
 author: Andres Marrugo
+categories: [book, life]
+tags: [literature, novel]
 draft: false
 cover:
   image: "cover.jpeg"

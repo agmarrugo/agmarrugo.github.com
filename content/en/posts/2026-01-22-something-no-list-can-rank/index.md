@@ -3,6 +3,8 @@ title: "Something no list can rank"
 date: 2026-01-22T20:16:23.524-05:00
 url: /posts/2026-01-22-something-no-list-can-rank/
 author: Andres Marrugo
+categories: [book, life]
+tags: [literature, reading]
 draft: false
 cover:
   image: "cover.jpeg"

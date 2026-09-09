@@ -1,6 +1,7 @@
 ---
 title: "On Suffering"
 date: 2026-07-24
+categories: [book, life]
 draft: false
 description: "A reflection on conscience, suffering, and the meaning we create through our actions while reading Crime and Punishment."
 cover:
