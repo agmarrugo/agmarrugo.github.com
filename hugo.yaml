@@ -162,7 +162,7 @@ services:
   disqus:
     shortname: andresmarrugo
   googleAnalytics:
-    id: UA-34225633-1
+    id: G-RZXZNYTW2S
 
 caches:
   images:
