@@ -8,7 +8,7 @@ sharing: true
 footer: true
 ---
 
-My name is Andrés Marrugo. I am a professor, researcher, engineer, and, depending on the day, several other things that are harder to put on a business card.
+Hi, my name is Andrés Marrugo. I am a professor, researcher, engineer, and, depending on the day, several other things that are harder to put on a business card. To kindle in others the curiosity and courage to join the great conversation of humanity. Or, more plainly— To be the Gandalf to the Bilbo Bagginses of whatever corner I happen to be.
 
 ![Andrés Marrugo speaking at a conference](/images/andres.jpg)
 
