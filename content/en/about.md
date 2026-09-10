@@ -16,7 +16,7 @@ I live in Cartagena, Colombia, where I teach and do research at the Universidad 
 
 For several years I also served in academic leadership at the university. That experience made me think much more seriously about education, what a university is for, what is worth teaching, and what it means to help someone learn. I have fewer certain answers to those questions than I once did. I consider that progress.
 
-Science is an important part of my life, but hardly the only one. I read a great deal, particularly fiction. Tolstoy, Chekhov, Dostoevsky, Austen, García Márquez, and many others have probably taught me as much about human beings as anything I have encountered in academic life. I also write, keep notebooks, collect passages from books, and occasionally attempt fiction of my own.
+Science is an important part of my life, but hardly the only one. I read a great deal, particularly fiction. Tolstoy, Tolkien, Chekhov, Dostoevsky, Austen, García Márquez, and many others have probably taught me as much about human beings as anything I have encountered in academic life. I also write, keep notebooks, collect passages from books, and occasionally attempt fiction of my own.
 
 At home I am a husband and a father. Becoming a father changed the scale against which I measure most things. Much of what interests me now, including education, curiosity, character, attention, and the strange business of becoming a person, is impossible for me to separate entirely from raising children.
 
