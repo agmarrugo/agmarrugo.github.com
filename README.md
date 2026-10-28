@@ -25,3 +25,20 @@ In **Settings → Pages**, choose **GitHub Actions** as the publishing source.
 Install Hugo 0.161.1 or newer, initialize the PaperMod submodule, check out
 the Spanish repository at `_spanish`, copy its static files into `static/es`,
 and run `hugo server --buildDrafts`.
+
+## Poetry layout
+
+Set `layout: poetry` in a poem's front matter (in either language). Keep
+`description` for social cards; this layout omits its repetition below the title.
+Set `ShowReadingTime: false` and `ShowToc: false` for poems.
+
+Wrap the stanzas in `<div class="poetry-verse">`, using one `<p>` per
+stanza and explicit `<br>` line breaks. Close the wrapper, then add the
+closing ornament as `<div class="poetry-end" aria-hidden="true">☙</div>`.
+Place any artwork after the poem in `<figure class="poetry-art">` with
+its image and caption. Keep the image in the `cover` metadata for social
+cards, with `hiddenInSingle: true`.
+
+The layout uses a centered block of left-aligned Georgia text and a small,
+uncropped painting below it. Shared styles live in
+`assets/css/extended/poetry.css`; the template is `layouts/poetry.html`.

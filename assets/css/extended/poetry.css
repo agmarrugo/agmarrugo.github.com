@@ -1,0 +1,55 @@
+/* Poetry uses an opt-in layout; prose keeps PaperMod's normal styling. */
+.poetry .post-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 54px;
+}
+.poetry .breadcrumbs { justify-content: center; }
+.poetry .post-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 5vw, 42px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+.poetry .post-meta { font-size: 13px; }
+.poetry .poetry-verse {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+}
+.poetry .poetry-verse p { margin: 0 0 2em; }
+.poetry .poetry-verse p:last-child { margin-bottom: 0; }
+.poetry .poetry-end {
+  text-align: center;
+  margin: 38px 0 46px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  color: var(--secondary);
+  line-height: 1;
+}
+.poetry .post-content figure.poetry-art {
+  width: 300px;
+  margin: 0 auto 64px;
+}
+.poetry .poetry-art img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin: 0;
+}
+.poetry .post-content .poetry-art figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+}
+@media (max-width: 400px) {
+  .poetry .post-header { margin-top: 28px; margin-bottom: 42px; }
+  .poetry .poetry-verse { font-size: 18px; }
+}
