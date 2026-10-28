@@ -42,3 +42,12 @@ cards, with `hiddenInSingle: true`.
 The layout uses a centered block of left-aligned Georgia text and a small,
 uncropped painting below it. Shared styles live in
 `assets/css/extended/poetry.css`; the template is `layouts/poetry.html`.
+
+## List previews
+
+Homepage and list cards use the first 200 characters of rendered body text,
+excluding figures, captions, and the closing ornament. Line breaks become
+spaces. This is independent of social-card descriptions and manual summaries.
+Set `params.listExcerptLength` in `hugo.yaml` to change the character limit.
+The implementation is in `layouts/_partials/post_excerpt.html` and is used
+by `layouts/list.html` for both languages.

@@ -1,0 +1,13 @@
+{{- /* Extract body text before truncating, so captions never enter list previews. */ -}}
+{{- $text := .Content | replaceRE `(?is)<figure\b[^>]*>.*?</figure\s*>` " " -}}
+{{- $text = $text | replaceRE `(?is)<figcaption\b[^>]*>.*?</figcaption\s*>` " " -}}
+{{- $text = $text | replaceRE `(?is)<script\b[^>]*>.*?</script\s*>` " " -}}
+{{- $text = $text | replaceRE `(?is)<style\b[^>]*>.*?</style\s*>` " " -}}
+{{- $text = $text | replaceRE `(?s)<!--.*?-->` " " -}}
+{{- $text = $text | replaceRE `<[^>]+>` " " | htmlUnescape -}}
+{{- $text = $text | replaceRE `☙` "" | replaceRE `[\s\x{00a0}]+` " " | strings.TrimSpace -}}
+{{- $limit := int (site.Params.listExcerptLength | default 200) -}}
+{{- if gt (strings.RuneCount $text) $limit -}}
+  {{- $text = printf "%s…" (strings.Substr $text 0 $limit | strings.TrimSpace) -}}
+{{- end -}}
+{{- return $text -}}
